@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Fira Code";
+  src: url(../public/fonts/FiraCode-VariableFont_wght.ttf);
+}
+
+:root {
+  --bg-color: #011627;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--bg-color);
+}
+
+body,
+input,
+button,
+textarea {
+  font-family: "Fira Code", sans-serif;
+}
