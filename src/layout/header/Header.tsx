@@ -2,19 +2,21 @@ import { FC, useState } from "react";
 import "./Header.scss";
 import menuIcon from "../../assets/icons/menu.svg";
 import closeIcon from "../../assets/icons/close.svg";
+import TypeWriter from "../../components/TypeWriter";
 
 const Header: FC = () => {
   const [isMenuClicked, setIsMenuCLicked] = useState(false);
 
   const name = "huy-phan";
-  
+
   return (
     <header>
-      <span>{name}</span>
-      <div className="header-icons">
+      <TypeWriter text={name} speed={100}></TypeWriter>
+      <div className=""></div>
+      <div className="header__icons">
         {!isMenuClicked && (
           <img
-            className="header-icons__menu"
+            className="header__icons--menu"
             onClick={() => setIsMenuCLicked(true)}
             src={menuIcon}
             alt="Menu"
@@ -23,7 +25,7 @@ const Header: FC = () => {
         )}
         {isMenuClicked && (
           <img
-            className="header-icons__close"
+            className="header__icons--close"
             onClick={() => setIsMenuCLicked(false)}
             src={closeIcon}
             alt="Menu"

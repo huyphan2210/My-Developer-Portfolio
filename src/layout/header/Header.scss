@@ -6,10 +6,12 @@ header {
   color: var(--text-color-1);
   outline: solid 1px var(--stroke-color);
 
-  .header-icons {
-    &__menu,
-    &__close {
-      width: 2rem;
+  .header__icons {
+    width: 2rem;
+
+    &--menu,
+    &--close {
+      width: 100%;
       aspect-ratio: 1;
 
       &:hover {
@@ -20,7 +22,7 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
-  .header-icons {
+  .header__icons {
     display: none;
   }
 }
