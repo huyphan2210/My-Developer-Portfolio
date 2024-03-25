@@ -3,8 +3,9 @@ import { useState, useEffect, FC } from "react";
 interface TypeWriterProps {
   text: string;
   speed: number;
+  setIsDone?: React.Dispatch<React.SetStateAction<boolean>>;
 }
-const TypeWriter: FC<TypeWriterProps> = ({ text, speed }) => {
+const TypeWriter: FC<TypeWriterProps> = ({ text, speed, setIsDone }) => {
   const [displayText, setDisplayText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
@@ -17,21 +18,12 @@ const TypeWriter: FC<TypeWriterProps> = ({ text, speed }) => {
       } else {
         clearInterval(interval);
         setIsTyping(false);
+        if (setIsDone) setIsDone(true);
       }
     }, speed);
 
     return () => clearInterval(interval);
   }, [currentIndex, text, speed]);
-
-  useEffect(() => {
-    if (!isTyping) return;
-
-    const cursorInterval = setInterval(() => {
-      setIsTyping(true);
-    }, 500);
-
-    return () => clearInterval(cursorInterval);
-  }, [isTyping]);
 
   return (
     <span>
