@@ -8,7 +8,6 @@ const TypeWriter: FC<TypeWriterProps> = ({ text, speed }) => {
   const [displayText, setDisplayText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
-  const [isDone, setIsDone] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -18,7 +17,6 @@ const TypeWriter: FC<TypeWriterProps> = ({ text, speed }) => {
       } else {
         clearInterval(interval);
         setIsTyping(false);
-        setIsDone(true);
       }
     }, speed);
 
