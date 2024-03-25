@@ -7,6 +7,8 @@
   --bg-color: #011627;
 
   --text-color-1: #607B96;
+  --green: #43D9AD;
+  --purple: #4D5BCE;
 
   --stroke-color: #1E2D3D;
 }
@@ -15,7 +17,16 @@ body {
   min-height: 100vh;
   margin: 0;
   background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
 
 body,
 input,

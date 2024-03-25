@@ -1,3 +1,33 @@
-hgroup {
-  color: #E5E9F0;
+.home-page {
+  position: relative;
+  flex-grow: 1;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background: linear-gradient(to right, var(--green), var(--purple));
+  }
+
+  &__author {
+    color: #e5e9f0;
+    &__label {
+      font-size: 1.125rem;
+    }
+
+    &__name {
+      font-size: 3.875rem;
+      margin-block: 1rem;
+      font-weight: 400;
+    }
+
+    &__title {
+      color: var(--green);
+      font-size: 1.25rem;
+    }
+  }
 }
