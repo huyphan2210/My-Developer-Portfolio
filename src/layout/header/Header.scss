@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  color: var(--text-color-1);
+  outline: solid 1px var(--stroke-color);
+
+  .header-icons {
+    &__menu,
+    &__close {
+      width: 2rem;
+      aspect-ratio: 1;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-icons {
+    display: none;
+  }
+}
