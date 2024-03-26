@@ -5,17 +5,43 @@ header {
   padding: 1rem;
   color: var(--text-color-1);
   outline: solid 1px var(--stroke-color);
+  position: relative;
 
-  .header__icons {
-    width: 2rem;
+  .header {
+    &__home-link {
+      color: var(--text-color-1);
+      text-decoration: none;
+    }
 
-    &--menu,
-    &--close {
-      width: 100%;
-      aspect-ratio: 1;
+    &__menu {
+      &--desktop {
+        display: none;
+      }
 
-      &:hover {
-        cursor: pointer;
+      &--mobile {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 100%);
+        background-color: var(--bg-color);
+        z-index: 1;
+      }
+    }
+
+    &__icons {
+      width: 2rem;
+      display: grid;
+      place-items: center;
+  
+      &--menu,
+      &--close {
+        width: 100%;
+        aspect-ratio: 1;
+  
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
   }

@@ -2,7 +2,8 @@ import { FC, useState } from "react";
 import "./Header.scss";
 import menuIcon from "../../assets/icons/menu.svg";
 import closeIcon from "../../assets/icons/close.svg";
-import TypeWriter from "../../components/TypeWriter";
+import Navigations from "./components/Navigation/Navigations";
+import RouteURLs from "../../RouteUrls";
 
 const Header: FC = () => {
   const [isMenuClicked, setIsMenuCLicked] = useState(false);
@@ -11,8 +12,14 @@ const Header: FC = () => {
 
   return (
     <header>
-      <TypeWriter text={name} speed={100}></TypeWriter>
-      <div className=""></div>
+      <a className="header__home-link" href={RouteURLs.HOME}>
+        {name}
+      </a>
+      {isMenuClicked && (
+        <div className="header__menu--mobile">
+          <Navigations />
+        </div>
+      )}
       <div className="header__icons">
         {!isMenuClicked && (
           <img
