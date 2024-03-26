@@ -6,16 +6,17 @@ import About from "../../pages/about/About";
 import Projects from "../../pages/projects/Projects";
 import Contact from "../../pages/contact/Contact";
 import NotFound from "../../pages/not-found/NotFound";
+import RouteURLs from "../../RouteUrls";
 
 const Main: FC = () => {
   return (
     <main>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          <Route path={RouteURLs.HOME} element={<HomePage />}></Route>
+          <Route path={RouteURLs.ABOUT} element={<About />}></Route>
+          <Route path={RouteURLs.PROJECTS} element={<Projects />}></Route>
+          <Route path={RouteURLs.CONTACT} element={<Contact />}></Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
