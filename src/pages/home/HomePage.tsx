@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import "./HomePage.scss";
 import TypeWriter from "../../components/TypeWriter";
 import ShiningBackground from "./components/ShiningBackground/ShiningBackground";
@@ -24,6 +24,8 @@ const HomePage: FC = () => {
     isEqualDone: false,
   });
 
+  const [windowSize, setWindowSize] = useState(window.innerWidth);
+
   const speed = 40;
 
   const setIsDone = (key: keyof State) => {
@@ -32,6 +34,17 @@ const HomePage: FC = () => {
       [key]: true,
     }));
   };
+
+  useEffect(() => {
+    window.addEventListener("resize", () => setWindowSize(window.innerWidth));
+
+    // Cleanup function to remove the event listener
+    return () => {
+      window.removeEventListener("resize", () =>
+        setWindowSize(window.innerWidth)
+      );
+    };
+  }, []);
 
   return (
     <section className="home-page">
@@ -119,7 +132,7 @@ const HomePage: FC = () => {
             )}
           </p>
         </div>
-        {window.innerWidth < 1024 && <ShiningBackground />}
+        {windowSize < 1024 && <ShiningBackground />}
       </div>
       <div className="home-page__img">
         <ShiningBackground />
