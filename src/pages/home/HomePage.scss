@@ -43,16 +43,37 @@
       }
     }
   }
+
+  &__img {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .home-page {
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
     &__author {
+      min-width: 30rem;
+      flex-grow: unset;
       &__info {
+        position: static;
         &__title {
           color: var(--purple);
         }
       }
+
+      &__github {
+        position: static;
+      }
+    }
+
+    &__img {
+      display: block;
+      position: relative;
+      min-width: 30rem;
+      text-align: center;
     }
   }
 }

@@ -24,7 +24,7 @@ const HomePage: FC = () => {
     isEqualDone: false,
   });
 
-  const speed = 50;
+  const speed = 40;
 
   const setIsDone = (key: keyof State) => {
     setState((prevState) => ({
@@ -119,6 +119,9 @@ const HomePage: FC = () => {
             )}
           </p>
         </div>
+        {window.innerWidth < 1024 && <ShiningBackground />}
+      </div>
+      <div className="home-page__img">
         <ShiningBackground />
       </div>
     </section>
