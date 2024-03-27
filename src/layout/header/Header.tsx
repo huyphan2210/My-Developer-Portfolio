@@ -4,20 +4,24 @@ import menuIcon from "../../assets/icons/menu.svg";
 import closeIcon from "../../assets/icons/close.svg";
 import Navigations from "./components/Navigation/Navigations";
 import RouteURLs from "../../RouteUrls";
+import SocialLinks from "../../components/SocialLinks/SocialLinks";
 
 const Header: FC = () => {
   const [isMenuClicked, setIsMenuCLicked] = useState(false);
-
   const name = "huy-phan";
 
   return (
-    <header>
+    <header className="header">
       <a className="header__home-link" href={RouteURLs.HOME}>
         {name}
       </a>
+      <div className="header__menu--desktop">
+        <Navigations isMobile={false} />
+      </div>
       {isMenuClicked && (
         <div className="header__menu--mobile">
-          <Navigations />
+          <Navigations isMobile />
+          <SocialLinks />
         </div>
       )}
       <div className="header__icons">
