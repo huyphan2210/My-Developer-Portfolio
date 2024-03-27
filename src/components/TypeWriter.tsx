@@ -3,9 +3,10 @@ import { useState, useEffect, FC } from "react";
 interface TypeWriterProps {
   text: string;
   speed: number;
+  color?: string;
   setIsDone?: React.Dispatch<React.SetStateAction<boolean>>;
 }
-const TypeWriter: FC<TypeWriterProps> = ({ text, speed, setIsDone }) => {
+const TypeWriter: FC<TypeWriterProps> = ({ text, speed, color, setIsDone }) => {
   const [displayText, setDisplayText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
@@ -26,7 +27,7 @@ const TypeWriter: FC<TypeWriterProps> = ({ text, speed, setIsDone }) => {
   }, [currentIndex, text, speed]);
 
   return (
-    <span>
+    <span style={color ? { color: color } : {}}>
       {displayText}
       {isTyping && "|"}
     </span>
