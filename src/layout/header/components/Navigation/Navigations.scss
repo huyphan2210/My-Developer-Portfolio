@@ -18,3 +18,49 @@
     }
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .navigations {
+    &__list {
+      display: flex;
+      position: relative;
+
+      &__link {
+        padding: 1rem;
+        border-right: solid 1px var(--stroke-color);
+        min-width: 7rem;
+        text-align: center;
+        a {
+          transition: .3s;
+          color: inherit;
+        }
+
+        &.home,
+        &.contact {
+          border-left: solid 1px var(--stroke-color);
+        }
+
+        &.contact {
+          position: absolute;
+          top: 0;
+          right: 0;
+          height: calc(100% - 2rem);
+        }
+
+        &:hover {
+         border-bottom: solid 1px var(--purple);
+          a {
+            color: white;
+          }
+        }
+
+        &.selected {
+          border-bottom: solid 2px var(--orange);
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
