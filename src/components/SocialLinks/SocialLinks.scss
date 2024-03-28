@@ -24,9 +24,49 @@
         display: grid;
         place-items: center;
         border-left: solid 1px var(--stroke-color);
+        &:nth-child(3) {
+          display: none;
+        }
 
         a {
           width: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .social-links {
+    justify-content: flex-start;
+    position: relative;
+    &__icons {
+      ul {
+        li:nth-child(1) {
+          border-right: solid 1px var(--stroke-color);
+        }
+  
+        li:nth-child(2) {
+          display: none;
+        }
+  
+        li:nth-child(3) {
+          display: flex;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: unset;
+           a {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 1rem;
+            color: var(--text-color-1);
+            width: unset;
+            img {
+              width: 2rem;
+            }
+           }
         }
       }
     }

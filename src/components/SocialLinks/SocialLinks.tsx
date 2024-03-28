@@ -2,13 +2,12 @@ import { FC } from "react";
 import "./SocialLinks.scss";
 import githubIcon from "../../assets/icons/github.svg";
 import linkedInIcon from "../../assets/icons/linkedIn.svg";
-import TypeWriter from "../TypeWriter";
 
 const SocialLinks: FC = () => {
   return (
     <div className="social-links">
       <div className="social-links__find-me">
-        <TypeWriter text="find me in:" speed={50} />
+        <span>find me in:</span>
       </div>
       <nav className="social-links__icons">
         <ul>
@@ -22,6 +21,12 @@ const SocialLinks: FC = () => {
           </li>
           <li>
             <a href="https://github.com/huyphan2210" target="_blank">
+              <img src={githubIcon} alt="Github" loading="lazy" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/huyphan2210" target="_blank">
+              <span>@huyphan</span>
               <img src={githubIcon} alt="Github" loading="lazy" />
             </a>
           </li>

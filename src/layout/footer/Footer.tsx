@@ -6,7 +6,13 @@ import RouteURLs from "../../RouteUrls";
 const Footer: FC = () => {
   const currentPath = window.location.pathname;
   return (
-    <footer style={currentPath === RouteURLs.HOME ? { display: "none" } : {}}>
+    <footer
+      style={
+        currentPath === RouteURLs.HOME && window.innerWidth < 1024
+          ? { display: "none" }
+          : {}
+      }
+    >
       <SocialLinks />
     </footer>
   );
