@@ -1,0 +1,24 @@
+[[redirects]]
+  from = "/"
+  to = "/dist/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/dist/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/projects"
+  to = "/dist/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/dist/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/not-found"
+  to = "/dist/index.html"
+  status = 200
