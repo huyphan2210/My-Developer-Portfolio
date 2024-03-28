@@ -2,7 +2,7 @@ import { FC, useEffect, useState, useRef } from "react";
 import "./HomePage.scss";
 import TypeWriter from "../../components/TypeWriter";
 import ShiningBackground from "./components/ShiningBackground/ShiningBackground";
-import codeImg from "../../assets/img/code.png";
+// import codeImg from "../../assets/img/code.png";
 
 interface State {
   isLabelDone: boolean;
