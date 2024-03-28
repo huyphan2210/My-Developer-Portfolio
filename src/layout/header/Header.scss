@@ -7,9 +7,11 @@
   outline: solid 1px var(--stroke-color);
   position: relative;
 
-  &__home-link {
-    color: inherit;
-    text-decoration: none;
+  &__current-location {
+    &__home-link {
+      color: inherit;
+      text-decoration: none;
+    }
   }
 
   &__menu {
@@ -53,9 +55,12 @@
     justify-content: unset;
     padding: 0;
 
-    &__home-link {
-      padding-left: 1rem;
-      padding-right: 10rem;
+    &__current-location {
+      &__home-link {
+        padding-left: 1rem;
+        padding-right: 10rem;
+        min-width: 9rem;
+      }
     }
 
     &__menu {
