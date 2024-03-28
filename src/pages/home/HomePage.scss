@@ -53,10 +53,16 @@
   .home-page {
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     gap: 10rem;
     &__author {
-      min-width: 30rem;
+      min-height: 20rem;
+      width: 25vw;
+      max-width: 30rem;
       flex-grow: unset;
+      display: grid;
+      grid-template-columns: 100%;
+      row-gap: 2rem;
       &__info {
         position: static;
         &__title {
@@ -72,8 +78,13 @@
     &__img {
       display: block;
       position: relative;
-      min-width: 30rem;
+      width: 25vw;
+      max-width: 30rem;
       text-align: center;
+      img {
+        width: 100%;
+      }
     }
   }
 }
+
