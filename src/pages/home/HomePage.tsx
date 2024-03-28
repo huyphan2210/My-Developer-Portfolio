@@ -38,13 +38,13 @@ const HomePage: FC = () => {
     }));
   };
 
-  const [listOfCode, setListOfCode] = useState([
-    <img src={codeImg} alt="code" loading="lazy" />,
-    <img src={codeImg} alt="code" loading="lazy" />,
-    <img src={codeImg} alt="code" loading="lazy" />,
-    <img src={codeImg} alt="code" loading="lazy" />,
-    <img src={codeImg} alt="code" loading="lazy" />,
-  ]);
+  // const [listOfCode, setListOfCode] = useState([
+  //   <img src={codeImg} alt="code" loading="lazy" />,
+  //   <img src={codeImg} alt="code" loading="lazy" />,
+  //   <img src={codeImg} alt="code" loading="lazy" />,
+  //   <img src={codeImg} alt="code" loading="lazy" />,
+  //   <img src={codeImg} alt="code" loading="lazy" />,
+  // ]);
 
   useEffect(() => {
     window.addEventListener("resize", () => setWindowSize(window.innerWidth));
@@ -57,26 +57,26 @@ const HomePage: FC = () => {
     };
   }, []);
 
-  useEffect(() => {
-    if (codeRef.current && state.isEqualDone) {
-      // const interval = setInterval(() => {
-      //   const codes = codeRef.current!.getElementsByTagName("img");
-      //   setListOfCode((prev) => [
-      //     <img src={codeImg} alt="code" loading="lazy" />,
-      //     ...prev,
-      //   ]);
-      //   for (let i = 0; i < codes.length; i++) {
-      //     codes[i].style.transform = "translateY(100%)";
-      //   }
-      //   setListOfCode((prev) => {
-      //     prev.pop();
-      //     return prev;
-      //   });
-      // }, 1000);
+  // useEffect(() => {
+  //   if (codeRef.current && state.isEqualDone) {
+  //     const interval = setInterval(() => {
+  //       const codes = codeRef.current!.getElementsByTagName("img");
+  //       setListOfCode((prev) => [
+  //         <img src={codeImg} alt="code" loading="lazy" />,
+  //         ...prev,
+  //       ]);
+  //       for (let i = 0; i < codes.length; i++) {
+  //         codes[i].style.transform = "translateY(100%)";
+  //       }
+  //       setListOfCode((prev) => {
+  //         prev.pop();
+  //         return prev;
+  //       });
+  //     }, 1000);
 
-      // return () => clearInterval(interval);
-    }
-  }, [state.isEqualDone, listOfCode]);
+  //     return () => clearInterval(interval);
+  //   }
+  // }, [state.isEqualDone, listOfCode]);
 
   return (
     <section className="home-page">
@@ -167,7 +167,7 @@ const HomePage: FC = () => {
         {windowSize < 1024 && <ShiningBackground />}
       </div>
       <div className="home-page__img" ref={codeRef}>
-        {listOfCode.map((code) => code)}
+        {/* {listOfCode.map((code) => code)} */}
         <ShiningBackground />
       </div>
     </section>
