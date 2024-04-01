@@ -50,6 +50,13 @@
       h4 {
         color: white;
       }
+
+      &__places {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
     }
   }
 }

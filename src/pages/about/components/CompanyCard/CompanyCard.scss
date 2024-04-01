@@ -1,0 +1,27 @@
+.company-card {
+  background-color: var(--bg-color);
+  border-radius: 2rem;
+  opacity: 0;
+  transition: 2s;
+
+  &__header {
+    margin-bottom: 1rem;
+    h3 {
+      margin-block: 0;
+      color: var(--text-color-2);
+      font-size: 1rem;
+    }
+
+    &__date {
+      color: var(--text-color-1);
+      font-size: 0.75rem;
+    }
+  }
+  &__body {
+    img {
+      width: 100%;
+      aspect-ratio: 2;
+      border-radius: 2rem;
+    }
+  }
+}
