@@ -46,7 +46,8 @@
       font-size: 1rem;
     }
 
-    &__career {
+    &__career, &__tech-stack {
+      margin-bottom: 2rem;
       h4 {
         color: white;
       }

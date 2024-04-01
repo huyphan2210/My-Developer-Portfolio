@@ -10,6 +10,7 @@ interface AboutMobileProps {
   greetings: string;
   professionParagraph: string;
   careerParagraph: string;
+  techStackParagraph: string;
   companies: CompanyCardProps[];
 }
 
@@ -17,13 +18,16 @@ const AboutMobile: FC<AboutMobileProps> = ({
   greetings,
   professionParagraph,
   careerParagraph,
+  techStackParagraph,
   companies,
 }) => {
   const professionRef = useRef<HTMLDivElement>(null);
   const authorMobileRef = useRef<HTMLImageElement>(null);
   const careerRef = useRef<HTMLDivElement>(null);
+  const techStackRef = useRef<HTMLDivElement>(null);
 
   const isCareerInView = useElementInView(careerRef);
+  const isTechStackInView = useElementInView(techStackRef);
 
   const speed = 25;
 
@@ -38,7 +42,7 @@ const AboutMobile: FC<AboutMobileProps> = ({
     <section className="about-page--mobile">
       <section className="about-page--mobile__personal">
         <h3 className="about-page--mobile__personal__header">
-          <TypeWriter text="// personal-info" speed={speed} />
+          <TypeWriter text="// Personal-info" speed={speed} />
         </h3>
         <div
           className="about-page--mobile__personal__info"
@@ -50,31 +54,61 @@ const AboutMobile: FC<AboutMobileProps> = ({
       </section>
       <section className="about-page--mobile__profession" ref={professionRef}>
         <h3 className="about-page--mobile__profession__header">
-          <TypeWriter text="// profession" speed={speed} />
+          <TypeWriter text="// Profession" speed={speed} />
         </h3>
         <p style={{ opacity: 1 }}>{professionParagraph}</p>
         <div className="about-page--mobile__profession__career" ref={careerRef}>
           <h4>
-            {isCareerInView && <TypeWriter text="/// career" speed={speed} />}
+            {isCareerInView && <TypeWriter text="/// Career" speed={speed} />}
           </h4>
+          <p style={isCareerInView ? { opacity: 1 } : {}}>{careerParagraph}</p>
+          <div className="about-page--mobile__profession__career__places">
+            {companies.map(
+              (
+                { companyName, companyImg, companyURLs, startDate, endDate },
+                index
+              ) => (
+                <CompanyCard
+                  key={index + companyName}
+                  companyName={companyName}
+                  companyImg={companyImg}
+                  companyURLs={companyURLs}
+                  startDate={startDate}
+                  endDate={endDate}
+                />
+              )
+            )}
+          </div>
         </div>
-        <p style={isCareerInView ? { opacity: 1 } : {}}>{careerParagraph}</p>
-        <div className="about-page--mobile__profession__career__places">
-          {companies.map(
-            (
-              { companyName, companyImg, companyURLs, startDate, endDate },
-              index
-            ) => (
-              <CompanyCard
-                key={index + companyName}
-                companyName={companyName}
-                companyImg={companyImg}
-                companyURLs={companyURLs}
-                startDate={startDate}
-                endDate={endDate}
-              />
-            )
-          )}
+        <div
+          className="about-page--mobile__profession__tech-stack"
+          ref={techStackRef}
+        >
+          <h4>
+            {isTechStackInView && (
+              <TypeWriter text="/// Tech stack" speed={speed} />
+            )}
+          </h4>
+          <p style={isTechStackInView ? { opacity: 1 } : {}}>
+            {techStackParagraph}
+          </p>
+          <div className="about-page--mobile__profession__tech-stack__places">
+            {companies.map(
+              (
+                { companyName, companyImg, companyURLs, startDate, endDate },
+                index
+              ) => (
+                <CompanyCard
+                  key={index + companyName}
+                  companyName={companyName}
+                  companyImg={companyImg}
+                  companyURLs={companyURLs}
+                  startDate={startDate}
+                  endDate={endDate}
+                />
+              )
+            )}
+          </div>
         </div>
       </section>
     </section>
