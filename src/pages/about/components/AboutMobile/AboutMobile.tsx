@@ -1,10 +1,10 @@
-import { FC, useEffect, useRef, useState } from "react";
+import { FC, useEffect, useRef } from "react";
 import "./AboutMobile.scss";
-import Utilities from "../../../../utilities";
 import TypeWriter from "../../../../components/TypeWriter";
 import CompanyCard, { CompanyCardProps } from "../CompanyCard/CompanyCard";
 
 import authorMobileImg from "../../../../assets/img/author-mobile.png";
+import useElementInView from "../../../../hooks/useElementInView";
 
 interface AboutMobileProps {
   greetings: string;
@@ -23,7 +23,7 @@ const AboutMobile: FC<AboutMobileProps> = ({
   const authorMobileRef = useRef<HTMLImageElement>(null);
   const careerRef = useRef<HTMLDivElement>(null);
 
-  const [isCareerInView, setIsCareerInView] = useState(false);
+  const isCareerInView = useElementInView(careerRef);
 
   const speed = 25;
 
@@ -32,22 +32,6 @@ const AboutMobile: FC<AboutMobileProps> = ({
       authorMobileRef.current.style.opacity = "1";
       professionRef.current.style.opacity = "1";
     }
-  }, []);
-
-  useEffect(() => {
-    const checkInView = () => {
-      if (careerRef.current) {
-        setIsCareerInView(Utilities.isTopOfElementInView(careerRef.current));
-      }
-    };
-
-    // Attach scroll event listener when the component mounts
-    window.addEventListener("scroll", checkInView);
-
-    // Detach scroll event listener when the component unmounts
-    return () => {
-      window.removeEventListener("scroll", checkInView);
-    };
   }, []);
 
   return (

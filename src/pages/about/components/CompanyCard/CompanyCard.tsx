@@ -1,7 +1,7 @@
-import { FC, useEffect, useRef, useState } from "react";
+import { FC, useRef } from "react";
 import "./CompanyCard.scss";
-import Utilities from "../../../../utilities";
 import TypeWriter from "../../../../components/TypeWriter";
+import useElementInView from "../../../../hooks/useElementInView";
 
 export interface CompanyCardProps {
   companyName: string;
@@ -26,23 +26,7 @@ const CompanyCard: FC<CompanyCardProps> = ({
   endDate,
 }) => {
   const companyCardRef = useRef<HTMLDivElement>(null);
-  const [isInView, setIsInView] = useState(false);
-
-  useEffect(() => {
-    const checkInView = () => {
-      if (companyCardRef.current) {
-        setIsInView(Utilities.isTopOfElementInView(companyCardRef.current));
-      }
-    };
-
-    // Attach scroll event listener when the component mounts
-    window.addEventListener("scroll", checkInView);
-
-    // Detach scroll event listener when the component unmounts
-    return () => {
-      window.removeEventListener("scroll", checkInView);
-    };
-  }, []);
+  const isInView = useElementInView(companyCardRef);
 
   return (
     <article
