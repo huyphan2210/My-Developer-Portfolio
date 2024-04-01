@@ -1,16 +1,21 @@
-import { FC } from "react";
+import { FC, useEffect, useState } from "react";
 import "./About.scss";
-import TypeWriter from "../../components/TypeWriter";
+import AboutMobile from "./components/AboutMobile/AboutMobile";
 
 const About: FC = () => {
-  const paragraph = `Hi there! I'm Huy Phan, a passionate web developer born and raised in the beautiful country of Vietnam. With over ${
-    new Date().getFullYear() - 2022
-  } years of hands-on experience in the field, I've had the opportunity to work on various web development projects, honing my skills and expertise along the way.`;
-  return (
-    <section className="about-page">
-      <TypeWriter text={paragraph} color="var(--text-color-1)" speed={25} />
-    </section>
-  );
+  const [windowSize, setWindowSize] = useState(window.innerWidth);
+  useEffect(() => {
+    window.addEventListener("resize", () => setWindowSize(window.innerWidth));
+
+    // Cleanup function to remove the event listener
+    return () => {
+      window.removeEventListener("resize", () =>
+        setWindowSize(window.innerWidth)
+      );
+    };
+  }, []);
+
+  return windowSize < 1024 ? <AboutMobile /> : <></>;
 };
 
 export default About;

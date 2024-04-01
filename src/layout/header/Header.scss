@@ -5,7 +5,10 @@
   padding: 1rem;
   color: var(--text-color-1);
   outline: solid 1px var(--stroke-color);
-  position: relative;
+  position: fixed;
+  z-index: 2;
+  width: calc(100% - 2rem);
+  background-color: var(--bg-color);
 
   &__current-location {
     &__home-link {
