@@ -5,6 +5,12 @@ import CompanyCard, { CompanyCardProps } from "../CompanyCard/CompanyCard";
 
 import authorMobileImg from "../../../../assets/img/author-mobile.png";
 import useElementInView from "../../../../hooks/useElementInView";
+import Image from "../Image/Image";
+
+export interface TechStack {
+  name: string;
+  icon: string;
+}
 
 interface AboutMobileProps {
   greetings: string;
@@ -12,6 +18,7 @@ interface AboutMobileProps {
   careerParagraph: string;
   techStackParagraph: string;
   companies: CompanyCardProps[];
+  techStack: TechStack[];
 }
 
 const AboutMobile: FC<AboutMobileProps> = ({
@@ -19,6 +26,7 @@ const AboutMobile: FC<AboutMobileProps> = ({
   professionParagraph,
   careerParagraph,
   techStackParagraph,
+  techStack,
   companies,
 }) => {
   const professionRef = useRef<HTMLDivElement>(null);
@@ -92,22 +100,17 @@ const AboutMobile: FC<AboutMobileProps> = ({
           <p style={isTechStackInView ? { opacity: 1 } : {}}>
             {techStackParagraph}
           </p>
-          <div className="about-page--mobile__profession__tech-stack__places">
-            {companies.map(
-              (
-                { companyName, companyImg, companyURLs, startDate, endDate },
-                index
-              ) => (
-                <CompanyCard
-                  key={index + companyName}
-                  companyName={companyName}
-                  companyImg={companyImg}
-                  companyURLs={companyURLs}
-                  startDate={startDate}
-                  endDate={endDate}
-                />
-              )
-            )}
+          <div className="about-page--mobile__profession__tech-stack__tech">
+            {techStack.map(({ name, icon }, index) => (
+              <Image
+                key={index}
+                src={icon}
+                originalStyle={{ transform: "translate(0, -100%)", opacity: 0 }}
+                inViewStyle={{ transform: "translate(0)", opacity: 1 }}
+                className=""
+                name={name}
+              />
+            ))}
           </div>
         </div>
       </section>

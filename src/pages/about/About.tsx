@@ -1,9 +1,19 @@
 import { FC, useEffect, useState } from "react";
 import "./About.scss";
-import AboutMobile from "./components/AboutMobile/AboutMobile";
+import AboutMobile, { TechStack } from "./components/AboutMobile/AboutMobile";
 import { CompanyCardProps } from "./components/CompanyCard/CompanyCard";
+
 import netcompanyImg from "../../assets/img/company/netcompany.png";
 import tpsImg from "../../assets/img/company/tps.png";
+import angularIcon from "../../assets/icons/tech-stack/angular.svg";
+import cssIcon from "../../assets/icons/tech-stack/css.svg";
+import htmlIcon from "../../assets/icons/tech-stack/html.svg";
+import javascriptIcon from "../../assets/icons/tech-stack/javascript.svg";
+import nodeIcon from "../../assets/icons/tech-stack/nodejs.svg";
+import reactIcon from "../../assets/icons/tech-stack/react.svg";
+import vueIcon from "../../assets/icons/tech-stack/vue.svg";
+import typescriptIcon from "../../assets/icons/tech-stack/typescript.svg";
+import dotnetIcon from "../../assets/icons/tech-stack/dotnet-core.svg";
 
 const greetings = `Hi there! I'm Huy Phan, a passionate web developer born and raised in the beautiful country of Vietnam. With over ${
   new Date().getFullYear() - 2022
@@ -28,6 +38,45 @@ const companies: CompanyCardProps[] = [
   },
 ];
 
+const techStack: TechStack[] = [
+  {
+    name: "HTML",
+    icon: htmlIcon,
+  },
+  {
+    name: "CSS",
+    icon: cssIcon,
+  },
+  {
+    name: "JavaScript",
+    icon: javascriptIcon,
+  },
+  {
+    name: "TypeScript",
+    icon: typescriptIcon,
+  },
+  {
+    name: "Node.js",
+    icon: nodeIcon,
+  },
+  {
+    name: ".NET",
+    icon: dotnetIcon,
+  },
+  {
+    name: "React",
+    icon: reactIcon,
+  },
+  {
+    name: "Vue",
+    icon: vueIcon,
+  },
+  {
+    name: "Angular",
+    icon: angularIcon,
+  },
+];
+
 const About: FC = () => {
   const [windowSize, setWindowSize] = useState(window.innerWidth);
 
@@ -48,6 +97,8 @@ const About: FC = () => {
       professionParagraph={professionParagraph}
       careerParagraph={careerParagraph}
       companies={companies}
+      techStackParagraph=""
+      techStack={techStack}
     />
   ) : (
     <></>
