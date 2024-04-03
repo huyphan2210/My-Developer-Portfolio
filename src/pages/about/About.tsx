@@ -14,6 +14,7 @@ import reactIcon from "../../assets/icons/tech-stack/react.svg";
 import vueIcon from "../../assets/icons/tech-stack/vue.svg";
 import typescriptIcon from "../../assets/icons/tech-stack/typescript.svg";
 import dotnetIcon from "../../assets/icons/tech-stack/dotnet-core.svg";
+import AboutDesktop from "./components/AboutDesktop/AboutDesktop";
 
 const greetings = `Hi there! I'm Huy Phan, a passionate web developer born and raised in the beautiful country of Vietnam. With over ${
   new Date().getFullYear() - 2022
@@ -101,7 +102,7 @@ const About: FC = () => {
       techStack={techStack}
     />
   ) : (
-    <></>
+    <AboutDesktop />
   );
 };
 

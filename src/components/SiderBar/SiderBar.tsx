@@ -1,8 +1,12 @@
 import { FC } from "react";
 import "./SideBar.scss";
 
-const SideBar: FC = () => {
-  return <></>;
+interface SideBarProps {
+  children: React.ReactNode;
+}
+
+const SideBar: FC<SideBarProps> = ({ children }) => {
+  return <section className="side-bar">{children}</section>;
 };
 
 export default SideBar;
