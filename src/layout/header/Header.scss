@@ -58,12 +58,13 @@
     justify-content: unset;
     padding: 0;
     width: 100%;
+    position: static;
 
     &__current-location {
       &__home-link {
-        padding-left: 1rem;
-        padding-right: 10rem;
-        min-width: 9rem;
+        padding-inline: 1rem;
+        width: 18rem;
+        display: block;
       }
     }
 
