@@ -40,23 +40,28 @@
   .social-links {
     justify-content: flex-start;
     position: relative;
+
+    &__find-me {
+      width: calc(18rem - 65px);
+    }
+
     &__icons {
       ul {
         li:nth-child(1) {
           border-right: solid 1px var(--stroke-color);
         }
-  
+
         li:nth-child(2) {
           display: none;
         }
-  
+
         li:nth-child(3) {
           display: flex;
           position: absolute;
           bottom: 0;
           right: 0;
           width: unset;
-           a {
+          a {
             display: flex;
             align-items: center;
             justify-content: end;
@@ -66,7 +71,7 @@
             img {
               width: 2rem;
             }
-           }
+          }
         }
       }
     }
