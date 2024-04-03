@@ -102,7 +102,14 @@ const About: FC = () => {
       techStack={techStack}
     />
   ) : (
-    <AboutDesktop />
+    <AboutDesktop
+      greetings={greetings}
+      professionParagraph={professionParagraph}
+      careerParagraph={careerParagraph}
+      companies={companies}
+      techStackParagraph=""
+      techStack={techStack}
+    />
   );
 };
 

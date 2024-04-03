@@ -11,6 +11,7 @@ interface SideBarForAboutPageProps {
 const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
   const [isRootOpened, setIsRootOpened] = useState(false);
   const [isProfessionOpened, setIsProfessionOpened] = useState(false);
+
   const handleToggle = (e: SyntheticEvent<HTMLDetailsElement, Event>) => {
     const isOpened = e.currentTarget.hasAttribute("open");
     if (!isOpened) {
@@ -18,6 +19,7 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
     }
     setIsRootOpened(isOpened);
   };
+
   const handleProfessionToggle = (
     e: SyntheticEvent<HTMLDetailsElement, Event>
   ) => {
@@ -31,24 +33,28 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
   const speed = 25;
   return (
     <SideBar>
-      <details className="side-bar--about" open onToggle={handleToggle}>
-        <summary className="side-bar--about__root">
-          <TypeWriter text="About me" speed={speed} />
+      <details
+        className="side-bar--about__personal"
+        open
+        onToggle={handleToggle}
+      >
+        <summary className="side-bar--about__personal__root">
+          <TypeWriter text="Personal Info" speed={speed} />
         </summary>
-        <details className="side-bar--about__leave">
+        <details className="side-bar--about__personal__leave">
           <summary>
-            {isRootOpened && <TypeWriter text="Personal Info" speed={speed} />}
+            {isRootOpened && <TypeWriter text="Bio" speed={speed} />}
           </summary>
         </details>
         <details
-          className="side-bar--about__leave"
+          className="side-bar--about__personal__leave"
           onToggle={handleProfessionToggle}
         >
           <summary>
             {isRootOpened && <TypeWriter text="Profession" speed={speed} />}
           </summary>
           <details
-            className="side-bar--about__leave__leave"
+            className="side-bar--about__personal__leave__leave"
             onToggle={() => aboutStore.setTab(AboutTab.Career)}
           >
             <summary>
@@ -56,7 +62,7 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
             </summary>
           </details>
           <details
-            className="side-bar--about__leave__leave"
+            className="side-bar--about__personal__leave__leave"
             onToggle={() => aboutStore.setTab(AboutTab.TechStack)}
           >
             <summary>
@@ -66,6 +72,12 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
             </summary>
           </details>
         </details>
+      </details>
+      <details className="side-bar--about__contact" open>
+        {" "}
+        <summary className="side-bar--about__contact__root">
+          <TypeWriter text="Contact" speed={speed} />
+        </summary>
       </details>
     </SideBar>
   );

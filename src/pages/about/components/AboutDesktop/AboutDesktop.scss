@@ -1,4 +1,8 @@
 .about {
   flex-grow: 1;
   display: flex;
+
+  &__content {
+    flex-grow: 1;
+  }
 }

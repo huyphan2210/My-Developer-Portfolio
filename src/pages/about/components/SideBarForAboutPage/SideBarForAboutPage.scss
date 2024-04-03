@@ -1,3 +1,8 @@
 .side-bar--about {
- 
+  &__personal, &__contact {
+    &__root {
+      padding: 1rem;
+      border: solid 1px var(--stroke-color);
+    }
+  }
 }
