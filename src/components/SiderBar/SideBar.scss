@@ -9,5 +9,33 @@
     width: 18rem;
     border-right: solid var(--stroke-color) 1px;
     color: var(--text-color-1);
+
+    details {
+      details,
+      p,
+      span {
+        padding-left: 1rem;
+      }
+
+      summary {
+        transition: 1s;
+        margin-bottom: 1rem;
+        &:hover {
+          cursor: pointer;
+          color: white;
+        }
+      }
+    }
+
+    details[open] {
+      color: white;
+      details {
+        color: var(--text-color-1);
+      }
+
+      details[open] {
+        color: inherit;
+      }
+    }
   }
 }
