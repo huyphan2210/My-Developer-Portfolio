@@ -38,6 +38,9 @@ export default class AboutStore {
     const tabIndex = this.openTabs.indexOf(tab);
     if (tabIndex > -1) {
       this.openTabs.splice(tabIndex, 1);
+      if (this.currentTab !== tab && this.previousTab === tab) {
+        this.previousTab = this.openTabs.find((tab) => tab !== this.currentTab);
+      }
     }
 
     if (this.currentTab === tab) {
