@@ -1,8 +1,9 @@
 import { FC, SyntheticEvent, useState } from "react";
 import "./SideBarForAboutPage.scss";
-import SideBar from "../../../../components/SiderBar/SiderBar";
-import TypeWriter from "../../../../components/TypeWriter";
-import AboutStore, { AboutTab } from "../../../../store/AboutStore";
+import SideBar from "../../../../../components/SiderBar/SiderBar";
+import TypeWriter from "../../../../../components/TypeWriter";
+import AboutStore, { AboutTab } from "../../../../../store/AboutStore";
+import { observer } from "mobx-react";
 
 interface SideBarForAboutPageProps {
   aboutStore: AboutStore;
@@ -14,9 +15,6 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
 
   const handleToggle = (e: SyntheticEvent<HTMLDetailsElement, Event>) => {
     const isOpened = e.currentTarget.hasAttribute("open");
-    if (!isOpened) {
-      aboutStore.setTab(AboutTab.Personal);
-    }
     setIsRootOpened(isOpened);
   };
 
@@ -24,9 +22,6 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
     e: SyntheticEvent<HTMLDetailsElement, Event>
   ) => {
     const isOpened = e.currentTarget.hasAttribute("open");
-    if (!isOpened) {
-      aboutStore.setTab(AboutTab.Personal);
-    }
     setIsProfessionOpened(isOpened);
   };
 
@@ -55,7 +50,7 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
           </summary>
           <details
             className="side-bar--about__personal__leave__leave"
-            onToggle={() => aboutStore.setTab(AboutTab.Career)}
+            onToggle={() => aboutStore.pushTab(AboutTab.Career)}
           >
             <summary>
               {isProfessionOpened && <TypeWriter text="Career" speed={speed} />}
@@ -63,7 +58,7 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
           </details>
           <details
             className="side-bar--about__personal__leave__leave"
-            onToggle={() => aboutStore.setTab(AboutTab.TechStack)}
+            onToggle={() => aboutStore.pushTab(AboutTab.TechStack)}
           >
             <summary>
               {isProfessionOpened && (
@@ -83,4 +78,4 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
   );
 };
 
-export default SideBarForAboutPage;
+export default observer(SideBarForAboutPage);

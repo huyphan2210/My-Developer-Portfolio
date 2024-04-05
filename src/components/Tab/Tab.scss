@@ -1,0 +1,27 @@
+.tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  min-width: 7rem;
+  border-right: solid 1px var(--stroke-color);
+  transition: .3s;
+
+  span {
+    margin-right: 1rem;
+  }
+
+  img {
+    width: .6rem;
+  }
+
+  &:hover {
+    cursor: pointer;
+    color: white;
+  }
+
+  &.active {
+    background-color: var(--active-tab-color);
+    color: white;
+  }
+}

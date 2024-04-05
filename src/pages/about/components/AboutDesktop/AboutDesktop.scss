@@ -4,5 +4,10 @@
 
   &__content {
     flex-grow: 1;
+    &__tabs {
+      color: var(--text-color-1);
+      display: flex;
+      border-bottom: solid 1px var(--stroke-color);
+    }
   }
 }
