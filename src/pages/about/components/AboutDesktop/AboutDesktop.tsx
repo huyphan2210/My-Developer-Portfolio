@@ -12,6 +12,7 @@ import BioTab from "./Tabs/BioTab";
 import CareerTab from "./Tabs/CareerTab";
 import TechStackTab from "./Tabs/TechStackTab";
 import TypeWriter from "../../../../components/TypeWriter";
+import authorImg from "../../../../assets/img/author.png";
 
 export interface AboutTabProps {
   aboutStore: AboutStore;
@@ -56,9 +57,12 @@ const AboutDesktop: FC<AboutDesktopProps> = ({
         </div>
         <div className="about__content__page">
           {aboutStore.currentTab === AboutTab.Bio && (
-            <p>
-              <TypeWriter text={greetings} speed={speed} />
-            </p>
+            <div className="about__content__page--bio">
+              <p>
+                <TypeWriter text={greetings} speed={speed} />
+              </p>
+              <img src={authorImg} alt="Author" loading="lazy" />
+            </div>
           )}
           {aboutStore.currentTab === AboutTab.Career && (
             <TypeWriter text={careerParagraph} speed={speed} />
