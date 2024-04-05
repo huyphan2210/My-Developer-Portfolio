@@ -28,11 +28,11 @@ interface AboutDesktopProps {
 
 const AboutDesktop: FC<AboutDesktopProps> = ({
   greetings,
-  professionParagraph,
+  // professionParagraph,
   careerParagraph,
   techStackParagraph,
-  companies,
-  techStack,
+  // companies,
+  // techStack,
 }) => {
   const tabsRef = useRef<HTMLDivElement>(null);
   const aboutStore = useAboutStore();
