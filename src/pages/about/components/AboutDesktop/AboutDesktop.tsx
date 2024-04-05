@@ -11,6 +11,7 @@ import { TechStack } from "../AboutMobile/AboutMobile";
 import BioTab from "./Tabs/BioTab";
 import CareerTab from "./Tabs/CareerTab";
 import TechStackTab from "./Tabs/TechStackTab";
+import TypeWriter from "../../../../components/TypeWriter";
 
 export interface AboutTabProps {
   aboutStore: AboutStore;
@@ -35,6 +36,7 @@ const AboutDesktop: FC<AboutDesktopProps> = ({
 }) => {
   const tabsRef = useRef<HTMLDivElement>(null);
   const aboutStore = useAboutStore();
+  const speed = 10;
 
   return (
     <section className="about">
@@ -52,7 +54,19 @@ const AboutDesktop: FC<AboutDesktopProps> = ({
             }
           })}
         </div>
-        <div className="about__content__page"></div>
+        <div className="about__content__page">
+          {aboutStore.currentTab === AboutTab.Bio && (
+            <p>
+              <TypeWriter text={greetings} speed={speed} />
+            </p>
+          )}
+          {aboutStore.currentTab === AboutTab.Career && (
+            <TypeWriter text={careerParagraph} speed={speed} />
+          )}
+          {aboutStore.currentTab === AboutTab.TechStack && (
+            <TypeWriter text={techStackParagraph} speed={speed} />
+          )}
+        </div>
       </section>
     </section>
   );

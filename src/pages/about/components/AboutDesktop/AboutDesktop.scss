@@ -5,9 +5,15 @@
   &__content {
     flex-grow: 1;
     &__tabs {
+      min-height: 3.3rem;
       color: var(--text-color-1);
       display: flex;
       border-bottom: solid 1px var(--stroke-color);
+    }
+
+    &__page {
+      padding: 1rem;
+      color: var(--text-color-1);
     }
   }
 }
