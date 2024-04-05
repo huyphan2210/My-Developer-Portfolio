@@ -1,9 +1,11 @@
 import { FC, SyntheticEvent, useState } from "react";
+import { observer } from "mobx-react";
 import "./SideBarForAboutPage.scss";
 import SideBar from "../../../../../components/SiderBar/SiderBar";
 import TypeWriter from "../../../../../components/TypeWriter";
 import AboutStore, { AboutTab } from "../../../../../store/AboutStore";
-import { observer } from "mobx-react";
+import emailIcon from "../../../../../assets/icons/email.svg";
+import phoneIcon from "../../../../../assets/icons/phone.svg";
 
 interface SideBarForAboutPageProps {
   aboutStore: AboutStore;
@@ -12,6 +14,7 @@ interface SideBarForAboutPageProps {
 const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
   const [isRootOpened, setIsRootOpened] = useState(false);
   const [isProfessionOpened, setIsProfessionOpened] = useState(false);
+  const [isContactOpened, setIsContactOpened] = useState(false);
 
   const handleToggle = (e: SyntheticEvent<HTMLDetailsElement, Event>) => {
     const isOpened = e.currentTarget.hasAttribute("open");
@@ -25,7 +28,16 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
     setIsProfessionOpened(isOpened);
   };
 
+  const handleContactToggle = (
+    e: SyntheticEvent<HTMLDetailsElement, Event>
+  ) => {
+    const isOpened = e.currentTarget.hasAttribute("open");
+    setIsContactOpened(isOpened);
+  };
+
   const speed = 25;
+  const myEmail = "huy.phan@outlook.com";
+  const myPhone = "+84387578517";
   return (
     <SideBar>
       <details
@@ -79,11 +91,27 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
           </p>
         </details>
       </details>
-      <details className="side-bar--about__contact" open>
+      <details
+        className="side-bar--about__contact"
+        open
+        onToggle={handleContactToggle}
+      >
         {" "}
         <summary className="side-bar--about__contact__root">
           <TypeWriter text="Contact" speed={speed} />
         </summary>
+        <button
+          onClick={() => {
+            window.location.href = "mailto:" + myEmail;
+          }}
+        >
+          <img src={emailIcon} loading="lazy" alt="Email Icon" />
+          {isContactOpened && <TypeWriter text={myEmail} speed={speed} />}
+        </button>
+        <button>
+          <img src={phoneIcon} loading="lazy" alt="Email Icon" />
+          {isContactOpened && <TypeWriter text={myPhone} speed={speed} />}
+        </button>
       </details>
     </SideBar>
   );
