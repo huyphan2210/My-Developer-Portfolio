@@ -1,4 +1,4 @@
-import { FC, MouseEventHandler } from "react";
+import { FC, MouseEventHandler, useEffect, useRef } from "react";
 import "./Tab.scss";
 import closeIcon from "../../assets/icons/close.svg";
 
@@ -9,11 +9,27 @@ interface TabProps {
   onClose: MouseEventHandler<HTMLImageElement>;
 }
 
-const Tab: FC<TabProps> = ({ content, isActive, onClick, onClose }) => (
-  <div className={isActive ? "tab active" : "tab"} onClick={onClick}>
-    <span>{content}</span>
-    <img src={closeIcon} loading="lazy" alt="Close Icon" onClick={onClose} />
-  </div>
-);
+const Tab: FC<TabProps> = ({ content, isActive, onClick, onClose }) => {
+  const tabRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (tabRef.current) {
+      setTimeout(() => {
+        tabRef.current!.style.opacity = "1";
+      }, 0);
+    }
+  }, []);
+
+  return (
+    <div
+      className={isActive ? "tab active" : "tab"}
+      onClick={onClick}
+      ref={tabRef}
+    >
+      <span>{content}</span>
+      <img src={closeIcon} loading="lazy" alt="Close Icon" onClick={onClose} />
+    </div>
+  );
+};
 
 export default Tab;

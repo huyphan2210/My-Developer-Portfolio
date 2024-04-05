@@ -36,11 +36,16 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
         <summary className="side-bar--about__personal__root">
           <TypeWriter text="Personal Info" speed={speed} />
         </summary>
-        <details className="side-bar--about__personal__leave">
-          <summary>
-            {isRootOpened && <TypeWriter text="Bio" speed={speed} />}
-          </summary>
-        </details>
+        <p
+          className={
+            aboutStore.currentTab !== AboutTab.Bio
+              ? "side-bar--about__personal__leave"
+              : "side-bar--about__personal__leave active"
+          }
+          onClick={() => aboutStore.pushTab(AboutTab.Bio)}
+        >
+          {isRootOpened && <TypeWriter text={AboutTab.Bio} speed={speed} />}
+        </p>
         <details
           className="side-bar--about__personal__leave"
           onToggle={handleProfessionToggle}
@@ -48,24 +53,30 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
           <summary>
             {isRootOpened && <TypeWriter text="Profession" speed={speed} />}
           </summary>
-          <details
-            className="side-bar--about__personal__leave__leave"
-            onToggle={() => aboutStore.pushTab(AboutTab.Career)}
+          <p
+            className={
+              aboutStore.currentTab !== AboutTab.Career
+                ? "side-bar--about__personal__leave__leave"
+                : "side-bar--about__personal__leave__leave active"
+            }
+            onClick={() => aboutStore.pushTab(AboutTab.Career)}
           >
-            <summary>
-              {isProfessionOpened && <TypeWriter text="Career" speed={speed} />}
-            </summary>
-          </details>
-          <details
-            className="side-bar--about__personal__leave__leave"
-            onToggle={() => aboutStore.pushTab(AboutTab.TechStack)}
+            {isProfessionOpened && (
+              <TypeWriter text={AboutTab.Career} speed={speed} />
+            )}
+          </p>
+          <p
+            className={
+              aboutStore.currentTab !== AboutTab.TechStack
+                ? "side-bar--about__personal__leave__leave"
+                : "side-bar--about__personal__leave__leave active"
+            }
+            onClick={() => aboutStore.pushTab(AboutTab.TechStack)}
           >
-            <summary>
-              {isProfessionOpened && (
-                <TypeWriter text="Tech stack" speed={speed} />
-              )}
-            </summary>
-          </details>
+            {isProfessionOpened && (
+              <TypeWriter text={AboutTab.TechStack} speed={speed} />
+            )}
+          </p>
         </details>
       </details>
       <details className="side-bar--about__contact" open>

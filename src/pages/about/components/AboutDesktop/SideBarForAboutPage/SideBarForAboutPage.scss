@@ -1,8 +1,21 @@
 .side-bar--about {
-  &__personal, &__contact {
+  &__personal,
+  &__contact {
     &__root {
       padding: 1rem;
       outline: solid 1px var(--stroke-color);
     }
+
+    &__leave {
+      padding-left: 2rem;
+
+      &__leave {
+        padding-left: 1rem;
+      }
+    }
   }
+}
+
+.active {
+  color: white;
 }

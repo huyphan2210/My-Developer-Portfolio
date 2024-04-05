@@ -19,7 +19,9 @@ export default class AboutStore {
     });
   }
 
-  currentTab: AboutTab = AboutTab.Bio;
+  previousTab?: AboutTab;
+
+  currentTab?: AboutTab = AboutTab.Bio;
 
   openTabs: AboutTab[] = [AboutTab.Bio];
 
@@ -37,10 +39,19 @@ export default class AboutStore {
     if (tabIndex > -1) {
       this.openTabs.splice(tabIndex, 1);
     }
+
+    if (this.currentTab === tab) {
+      if (this.openTabs.length > 0) {
+        this.currentTab = this.previousTab;
+      } else {
+        this.currentTab = undefined;
+      }
+    }
   }
 
   setCurrentTab(tab: AboutTab) {
     if (this.openTabs.indexOf(tab) > -1) {
+      this.previousTab = this.currentTab;
       this.currentTab = tab;
     }
   }

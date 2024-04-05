@@ -10,14 +10,12 @@
     color: var(--text-color-1);
 
     details {
-      details,
-      p,
-      span {
+      details {
         padding-left: 1rem;
       }
 
       summary {
-        transition: .3s;
+        transition: 0.3s;
         &:hover {
           cursor: pointer;
           color: white;
@@ -37,6 +35,20 @@
 
       details[open] {
         color: inherit;
+      }
+
+      p {
+        color: var(--text-color-1);
+        transition: .3s;
+
+        &.active {
+          color: white;
+        }
+
+        &:hover {
+          color: white;
+          cursor: pointer;
+        }
       }
     }
   }
