@@ -60,6 +60,7 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
         </p>
         <details
           className="side-bar--about__personal__leave"
+          open
           onToggle={handleProfessionToggle}
         >
           <summary>

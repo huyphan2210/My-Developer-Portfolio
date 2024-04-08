@@ -1,4 +1,4 @@
-import { FC, useRef } from "react";
+import { FC, useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
 import "./AboutDesktop.scss";
 import AboutStore, {
@@ -12,7 +12,7 @@ import BioTab from "./Tabs/BioTab";
 import CareerTab from "./Tabs/CareerTab";
 import TechStackTab from "./Tabs/TechStackTab";
 import TypeWriter from "../../../../components/TypeWriter";
-import authorImg from "../../../../assets/img/author.png";
+import Bio from "./Bio/Bio";
 
 export interface AboutTabProps {
   aboutStore: AboutStore;
@@ -20,6 +20,8 @@ export interface AboutTabProps {
 
 interface AboutDesktopProps {
   greetings: string;
+  greetings2: string;
+  greetings3: string;
   professionParagraph: string;
   careerParagraph: string;
   techStackParagraph: string;
@@ -29,6 +31,8 @@ interface AboutDesktopProps {
 
 const AboutDesktop: FC<AboutDesktopProps> = ({
   greetings,
+  greetings2,
+  greetings3,
   // professionParagraph,
   careerParagraph,
   techStackParagraph,
@@ -44,25 +48,25 @@ const AboutDesktop: FC<AboutDesktopProps> = ({
       <SideBarForAboutPage aboutStore={aboutStore} />
       <section className="about__content">
         <div className="about__content__tabs" ref={tabsRef}>
-          {aboutStore.openTabs.map((tab) => {
+          {aboutStore.openTabs.map((tab, index) => {
             switch (tab) {
               case AboutTab.Bio:
-                return <BioTab aboutStore={aboutStore} />;
+                return <BioTab key={index + AboutTab.Bio} aboutStore={aboutStore} />;
               case AboutTab.Career:
-                return <CareerTab aboutStore={aboutStore} />;
+                return <CareerTab key={index + AboutTab.Career} aboutStore={aboutStore} />;
               case AboutTab.TechStack:
-                return <TechStackTab aboutStore={aboutStore} />;
+                return <TechStackTab key={index + AboutTab.TechStack} aboutStore={aboutStore} />;
             }
           })}
         </div>
         <div className="about__content__page">
-          {aboutStore.currentTab === AboutTab.Bio && (
-            <div className="about__content__page--bio">
-              <p>
-                <TypeWriter text={greetings} speed={speed} />
-              </p>
-              <img src={authorImg} alt="Author" loading="lazy" />
-            </div>
+          {aboutStore.openTabs.includes(AboutTab.Bio) && (
+            <Bio
+              aboutStore={aboutStore}
+              greetings={greetings}
+              greetings2={greetings2}
+              greetings3={greetings3}
+            />
           )}
           {aboutStore.currentTab === AboutTab.Career && (
             <TypeWriter text={careerParagraph} speed={speed} />

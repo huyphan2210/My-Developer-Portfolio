@@ -16,9 +16,13 @@ import typescriptIcon from "../../assets/icons/tech-stack/typescript.svg";
 import dotnetIcon from "../../assets/icons/tech-stack/dotnet-core.svg";
 import AboutDesktop from "./components/AboutDesktop/AboutDesktop";
 
-const greetings = `Hi there! I'm Huy Phan, a passionate web developer born and raised in the beautiful country of Vietnam. With over ${
+const greetings = `Hi there! I'm Huy Phan, a software developer who's been navigating the coding world for over ${
   new Date().getFullYear() - 2022
-} years of hands-on experience in the field, I've had the opportunity to work on various web development projects, honing my skills and expertise along the way.`;
+} years now. I'm particularly interested in full-stack development, with a penchant for languages like JavaScript, TypeScript, HTML, CSS, and .NET (C#).`;
+const greetings2 =
+  "Beyond coding, I find joy in giving back to the tech community by sharing insights about my project experiences on LinkedIn. My primary goal remains unchanged: to continue learning and growing as a developer while making a positive impact through my work.";
+const greetings3 =
+  "When I step away from the screen, you'll often find me immersed in novels, grooving to Jazz/Soul music, or exploring the streets of Ho Chi Minh City on my bike or on foot.";
 const professionParagraph =
   "As a developer, I approach my work with humility, recognizing my role in the broader web development community. I aim to create digital solutions that prioritize functionality and user-friendliness. While my contributions may appear modest, I take pride in my dedication to continuous improvement and making the web a more accessible and enjoyable space for all.";
 const careerParagraph = "Here are the places I've worked with:";
@@ -95,6 +99,8 @@ const About: FC = () => {
   return windowSize < 1024 ? (
     <AboutMobile
       greetings={greetings}
+      greetings2={greetings2}
+      greetings3={greetings3}
       professionParagraph={professionParagraph}
       careerParagraph={careerParagraph}
       companies={companies}
@@ -104,6 +110,8 @@ const About: FC = () => {
   ) : (
     <AboutDesktop
       greetings={greetings}
+      greetings2={greetings2}
+      greetings3={greetings3}
       professionParagraph={professionParagraph}
       careerParagraph={careerParagraph}
       companies={companies}

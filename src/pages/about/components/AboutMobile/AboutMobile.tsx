@@ -14,6 +14,8 @@ export interface TechStack {
 
 interface AboutMobileProps {
   greetings: string;
+  greetings2: string;
+  greetings3: string;
   professionParagraph: string;
   careerParagraph: string;
   techStackParagraph: string;
@@ -23,6 +25,8 @@ interface AboutMobileProps {
 
 const AboutMobile: FC<AboutMobileProps> = ({
   greetings,
+  greetings2,
+  greetings3,
   professionParagraph,
   careerParagraph,
   techStackParagraph,
@@ -57,7 +61,11 @@ const AboutMobile: FC<AboutMobileProps> = ({
           ref={authorMobileRef}
         >
           <img src={authorMobileImg} alt="Author" loading="lazy" />
-          <p style={{ opacity: 1 }}>{greetings}</p>
+          <p style={{ opacity: 1 }}>
+            {greetings} <br />
+            <br /> {greetings2} <br />
+            <br /> {greetings3}
+          </p>
         </div>
       </section>
       <section className="about-page--mobile__profession" ref={professionRef}>

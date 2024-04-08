@@ -23,9 +23,12 @@
         display: grid;
         grid-template-columns: repeat(2, 50%);
         place-items: center;
-
         p {
           line-height: 1.5;
+        }
+
+        img {
+          max-width: 60%;
         }
       }
     }
