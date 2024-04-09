@@ -17,11 +17,48 @@
       font-size: 0.75rem;
     }
   }
+
   &__body {
     img {
       width: 100%;
       aspect-ratio: 2;
       border-radius: 2rem;
+    }
+  }
+
+  &__footer {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .company-card {
+    max-width: 360px;
+    background-color: var(--card-bg);
+    padding: 1rem;
+    width: calc(50% - 3rem);
+    transition: 0.3s;
+    align-self: stretch;
+
+    &__header {
+      &__date {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        display: block;
+      }
+    }
+
+    &__footer {
+      display: block;
+      line-height: 1.5;
+      margin-bottom: 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.01);
+      // outline: var(--purple) solid 0.5rem;
+      background-color: white;
     }
   }
 }

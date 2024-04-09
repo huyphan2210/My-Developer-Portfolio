@@ -17,20 +17,10 @@
     &__page {
       padding: 1rem;
       color: var(--text-color-1);
+      display: flex;
+      transition: 0s;
+      overflow-y: auto;
       flex-grow: 1;
-
-      &--bio {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        place-items: center;
-        p {
-          line-height: 1.5;
-        }
-
-        img {
-          max-width: 60%;
-        }
-      }
     }
   }
 }

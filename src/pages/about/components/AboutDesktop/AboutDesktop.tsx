@@ -1,4 +1,4 @@
-import { FC, useEffect, useRef, useState } from "react";
+import { FC, useRef } from "react";
 import { observer } from "mobx-react";
 import "./AboutDesktop.scss";
 import AboutStore, {
@@ -11,8 +11,9 @@ import { TechStack } from "../AboutMobile/AboutMobile";
 import BioTab from "./Tabs/BioTab";
 import CareerTab from "./Tabs/CareerTab";
 import TechStackTab from "./Tabs/TechStackTab";
-import TypeWriter from "../../../../components/TypeWriter";
 import Bio from "./Bio/Bio";
+import Career from "./Profession/Career/Career";
+import TechStackPage from "./Profession/TechStack/TechStack";
 
 export interface AboutTabProps {
   aboutStore: AboutStore;
@@ -33,15 +34,14 @@ const AboutDesktop: FC<AboutDesktopProps> = ({
   greetings,
   greetings2,
   greetings3,
-  // professionParagraph,
+  professionParagraph,
   careerParagraph,
-  techStackParagraph,
-  // companies,
-  // techStack,
+  // techStackParagraph,
+  companies,
+  techStack,
 }) => {
   const tabsRef = useRef<HTMLDivElement>(null);
   const aboutStore = useAboutStore();
-  const speed = 10;
 
   return (
     <section className="about">
@@ -51,11 +51,23 @@ const AboutDesktop: FC<AboutDesktopProps> = ({
           {aboutStore.openTabs.map((tab, index) => {
             switch (tab) {
               case AboutTab.Bio:
-                return <BioTab key={index + AboutTab.Bio} aboutStore={aboutStore} />;
+                return (
+                  <BioTab key={index + AboutTab.Bio} aboutStore={aboutStore} />
+                );
               case AboutTab.Career:
-                return <CareerTab key={index + AboutTab.Career} aboutStore={aboutStore} />;
+                return (
+                  <CareerTab
+                    key={index + AboutTab.Career}
+                    aboutStore={aboutStore}
+                  />
+                );
               case AboutTab.TechStack:
-                return <TechStackTab key={index + AboutTab.TechStack} aboutStore={aboutStore} />;
+                return (
+                  <TechStackTab
+                    key={index + AboutTab.TechStack}
+                    aboutStore={aboutStore}
+                  />
+                );
             }
           })}
         </div>
@@ -68,11 +80,16 @@ const AboutDesktop: FC<AboutDesktopProps> = ({
               greetings3={greetings3}
             />
           )}
-          {aboutStore.currentTab === AboutTab.Career && (
-            <TypeWriter text={careerParagraph} speed={speed} />
+          {aboutStore.openTabs.includes(AboutTab.Career) && (
+            <Career
+              aboutStore={aboutStore}
+              professionParagraph={professionParagraph}
+              careerParagraph={careerParagraph}
+              companies={companies}
+            />
           )}
-          {aboutStore.currentTab === AboutTab.TechStack && (
-            <TypeWriter text={techStackParagraph} speed={speed} />
+          {aboutStore.openTabs.includes(AboutTab.TechStack) && (
+            <TechStackPage aboutStore={aboutStore} techStack={techStack} />
           )}
         </div>
       </section>

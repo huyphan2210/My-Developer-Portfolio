@@ -8,6 +8,7 @@ interface ImageProps {
   inViewStyle: CSSProperties;
   className: string;
   name: string;
+  isFromDesktop?: boolean;
 }
 
 const Image: FC<ImageProps> = ({
@@ -16,9 +17,12 @@ const Image: FC<ImageProps> = ({
   inViewStyle,
   className,
   name,
+  isFromDesktop,
 }) => {
   const imageRef = useRef<HTMLImageElement>(null);
-  const isImageInView = useElementInView(imageRef);
+  const isImageInView = isFromDesktop
+    ? isFromDesktop
+    : useElementInView(imageRef);
 
   return (
     <div className="image-wrapper" ref={imageRef}>
@@ -32,6 +36,10 @@ const Image: FC<ImageProps> = ({
       <p style={isImageInView ? inViewStyle : originalStyle}>{name}</p>
     </div>
   );
+};
+
+Image.defaultProps = {
+  isFromDesktop: false,
 };
 
 export default Image;

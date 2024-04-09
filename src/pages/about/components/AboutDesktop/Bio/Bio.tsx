@@ -1,7 +1,9 @@
-import { FC, useEffect, useState } from "react";
+import { FC, useEffect, useRef, useState } from "react";
+import "./Bio.scss";
 import AboutStore, { AboutTab } from "../../../../../store/AboutStore";
 import TypeWriter from "../../../../../components/TypeWriter";
 import authorImg from "../../../../../assets/img/author.png";
+import { observer } from "mobx-react";
 
 interface BioProps {
   aboutStore: AboutStore;
@@ -18,12 +20,17 @@ const Bio: FC<BioProps> = ({
 }) => {
   const [isGreetingsDone, setIsGreetingsDone] = useState(false);
   const [isGreetings2Done, setIsGreetings2Done] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
   const speed = 10;
 
   useEffect(() => {
     if (aboutStore.currentTab === AboutTab.Bio) {
       setIsGreetingsDone(false);
       setIsGreetings2Done(false);
+
+      if (imgRef.current) {
+        imgRef.current.style.opacity = "1";
+      }
     }
   }, [aboutStore.openTabs]);
   return (
@@ -52,9 +59,9 @@ const Bio: FC<BioProps> = ({
         <br />
         {isGreetings2Done && <TypeWriter text={greetings3} speed={speed} />}
       </p>
-      <img src={authorImg} alt="Author" loading="lazy" />
+      <img src={authorImg} alt="Author" loading="lazy" ref={imgRef} />
     </div>
   );
 };
 
-export default Bio;
+export default observer(Bio);

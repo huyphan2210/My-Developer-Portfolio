@@ -7,8 +7,10 @@ export interface CompanyCardProps {
   companyName: string;
   companyImg: string;
   companyURLs: string;
+  companySummary?: string;
   startDate: Date;
   endDate?: Date;
+  isFromDesktop?: boolean;
 }
 
 const formattedDate = (date: Date) =>
@@ -22,11 +24,13 @@ const CompanyCard: FC<CompanyCardProps> = ({
   companyName,
   companyImg,
   companyURLs,
+  companySummary,
   startDate,
   endDate,
+  isFromDesktop,
 }) => {
   const companyCardRef = useRef<HTMLDivElement>(null);
-  const isInView = useElementInView(companyCardRef);
+  const isInView = !isFromDesktop ? useElementInView(companyCardRef) : true;
 
   return (
     <article
@@ -45,18 +49,26 @@ const CompanyCard: FC<CompanyCardProps> = ({
         </h3>
         <span className="company-card__header__date">
           {formattedDate(startDate)} -{" "}
-          {endDate ? formattedDate(endDate) : "Present"}
+          {endDate ? (
+            formattedDate(endDate)
+          ) : (
+            <span style={{ color: "var(--green)" }}>Present</span>
+          )}
         </span>
       </hgroup>
       <div className="company-card__body">
         <img src={companyImg} alt={companyName} loading="lazy" />
       </div>
+      {companySummary && (
+        <p className="company-card__footer">{companySummary}</p>
+      )}
     </article>
   );
 };
 
 CompanyCard.defaultProps = {
   endDate: undefined,
+  companySummary: undefined,
 };
 
 export default CompanyCard;

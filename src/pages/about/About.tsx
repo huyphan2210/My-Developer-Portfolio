@@ -2,6 +2,7 @@ import { FC, useEffect, useState } from "react";
 import "./About.scss";
 import AboutMobile, { TechStack } from "./components/AboutMobile/AboutMobile";
 import { CompanyCardProps } from "./components/CompanyCard/CompanyCard";
+import AboutDesktop from "./components/AboutDesktop/AboutDesktop";
 
 import netcompanyImg from "../../assets/img/company/netcompany.png";
 import tpsImg from "../../assets/img/company/tps.png";
@@ -14,7 +15,7 @@ import reactIcon from "../../assets/icons/tech-stack/react.svg";
 import vueIcon from "../../assets/icons/tech-stack/vue.svg";
 import typescriptIcon from "../../assets/icons/tech-stack/typescript.svg";
 import dotnetIcon from "../../assets/icons/tech-stack/dotnet-core.svg";
-import AboutDesktop from "./components/AboutDesktop/AboutDesktop";
+import csharpIcon from "../../assets/icons/tech-stack/csharp.svg";
 
 const greetings = `Hi there! I'm Huy Phan, a software developer who's been navigating the coding world for over ${
   new Date().getFullYear() - 2022
@@ -24,20 +25,25 @@ const greetings2 =
 const greetings3 =
   "When I step away from the screen, you'll often find me immersed in novels, grooving to Jazz/Soul music, or exploring the streets of Ho Chi Minh City on my bike or on foot.";
 const professionParagraph =
-  "As a developer, I approach my work with humility, recognizing my role in the broader web development community. I aim to create digital solutions that prioritize functionality and user-friendliness. While my contributions may appear modest, I take pride in my dedication to continuous improvement and making the web a more accessible and enjoyable space for all.";
-const careerParagraph = "Here are the places I've worked with:";
+  "As a software developer, I genuinely enjoy my career. I find satisfaction in solving problems, bringing ideas to life through code, and constantly learning and growing in this ever-evolving field. Being part of the tech community and contributing to meaningful projects brings me fulfillment and excitement every day.";
+const careerParagraph =
+  "Here's a list of the places where I've had the pleasure to work:";
 
 const companies: CompanyCardProps[] = [
   {
     companyName: "Netcompany",
     companyImg: netcompanyImg,
     companyURLs: "https://netcompany.com/",
+    companySummary:
+      "Netcompany is a Danish IT services company founded in 2000. They specialize in developing and maintaining IT solutions for public and private sector clients. With a focus on employee satisfaction and professional development, Netcompany has expanded across Europe and garnered recognition for their work, particularly in the public sector. They offer a range of services including consulting, software development, and system integration, working with technologies such as Microsoft, Oracle, and SAP platforms.",
     startDate: new Date("04-03-2023"),
   },
   {
     companyName: "TPS Software",
     companyImg: tpsImg,
     companyURLs: "https://tpssoft.com/",
+    companySummary:
+      "TPS Software is a software development company based in Vietnam, offering services in custom software development, mobile app development, and IT consulting. They cater to clients worldwide across diverse industries and possess expertise in technologies such as Java, .NET, Python, and others.",
     startDate: new Date("01-13-2022"),
     endDate: new Date("12-12-2022"),
   },
@@ -59,6 +65,10 @@ const techStack: TechStack[] = [
   {
     name: "TypeScript",
     icon: typescriptIcon,
+  },
+  {
+    name: "C#",
+    icon: csharpIcon,
   },
   {
     name: "Node.js",
