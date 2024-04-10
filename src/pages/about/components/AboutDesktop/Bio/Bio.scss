@@ -8,7 +8,7 @@
   }
 
   img {
-    max-width: 60%;
+    width: clamp(10rem, 15vw, 20rem);
     opacity: 0;
   }
 }

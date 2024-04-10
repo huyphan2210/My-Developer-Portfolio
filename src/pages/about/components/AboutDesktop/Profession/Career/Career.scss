@@ -6,6 +6,7 @@
   &__intro {
     line-height: 1.5;
     min-height: 20%;
+    margin-top: 0;
   }
 
   &__companies {
@@ -16,5 +17,6 @@
     flex-grow: 1;
     transition: 1s;
     opacity: 0;
+    padding-block: 1rem;
   }
 }

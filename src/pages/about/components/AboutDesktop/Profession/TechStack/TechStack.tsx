@@ -19,16 +19,14 @@ const TechStackPage: FC<TechStackProps> = ({ techStack, aboutStore }) => {
         const imageWrappers = techStackRef.current.getElementsByClassName(
           "image-wrapper"
         ) as HTMLCollectionOf<HTMLDivElement>;
-        for (let i = 0; i < imageWrappers.length; i++) {
-          imageWrappers[i].style.animation = "slideIn 1s forwards";
-        }
-      } else {
-        const imageWrappers = techStackRef.current.getElementsByClassName(
-          "image-wrapper"
-        ) as HTMLCollectionOf<HTMLDivElement>;
-        for (let i = 0; i < imageWrappers.length; i++) {
-          imageWrappers[i].style.animation = "";
-        }
+        setTimeout(() => {
+          for (let i = 0; i < imageWrappers.length; i++) {
+            if (!imageWrappers[i].style.transform) {
+              imageWrappers[i].style.transform = "translateY(0)";
+              imageWrappers[i].style.opacity = "1";
+            }
+          }
+        }, 0);
       }
     }
   }, [aboutStore.openTabs]);

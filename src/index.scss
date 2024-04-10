@@ -7,15 +7,15 @@
   --bg-color: #011627;
   --active-tab-color: hsl(205, 89%, 20%);
   --card-bg: #011221;
-  --text-color-1: #607B96;
-  --text-color-2: #5565E8;
+  --text-color-1: #607b96;
+  --text-color-2: #5565e8;
 
-  --green: #43D9AD;
-  --purple: #4D5BCE;
-  --orange: #FEA55F;
-  --orange-2: #E99287;
+  --green: #43d9ad;
+  --purple: #4d5bce;
+  --orange: #fea55f;
+  --orange-2: #e99287;
 
-  --stroke-color: #1E2D3D;
+  --stroke-color: #1e2d3d;
 }
 
 body {
@@ -24,6 +24,7 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 #root {
@@ -32,10 +33,26 @@ body {
   flex-grow: 1;
 }
 
-
 body,
 input,
 button,
 textarea {
   font-family: "Fira Code", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0.2rem;
+  &-track {
+    background: var(--bg-color);
+  }
+
+  &-thumb {
+    background: var(--active-tab-color);
+  }
+}
+
+@media screen and (min-height: 1024px) {
+  body {
+    height: 100vh;
+  }
 }
