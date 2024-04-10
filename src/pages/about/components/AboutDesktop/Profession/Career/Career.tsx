@@ -33,7 +33,7 @@ const Career: FC<CareerProps> = ({
     <div
       className="about__content__page--career"
       style={{
-        display: aboutStore.currentTab === AboutTab.Career ? "flex" : "none",
+        display: aboutStore.currentTab === AboutTab.Career ? "block" : "none",
       }}
     >
       <p className="about__content__page--career__intro">
