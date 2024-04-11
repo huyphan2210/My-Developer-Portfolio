@@ -1,11 +1,12 @@
 .project {
   flex-grow: 1;
   display: flex;
-  padding: 1rem;
-
+  height: 100%;
   &__content {
     display: grid;
-    row-gap: 2rem;
+    gap: 2rem;
+    padding-inline: 1rem;
+    margin-block: 1rem;
 
     img {
       width: 100%;
@@ -13,12 +14,19 @@
   }
 }
 
+@media screen and (min-width: 480px) {
+  .project {
+    &__content {
+      grid-template-columns: repeat(2, calc((100% - 2rem) / 2));
+    }
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .project {
-    overflow-y: auto;
     &__content {
-      grid-template-columns: repeat(2, 45%);
-      column-gap: 10%;
+      overflow-y: auto;
+      grid-template-columns: repeat(2, calc((100% - 2rem) / 2));
     }
   }
 }
@@ -26,8 +34,7 @@
 @media screen and (min-width: 1440px) {
   .project {
     &__content {
-      grid-template-columns: repeat(3, 30%);
-      column-gap: 5%;
+      grid-template-columns: repeat(3, calc((100% - 4rem) / 3));
     }
   }
 }

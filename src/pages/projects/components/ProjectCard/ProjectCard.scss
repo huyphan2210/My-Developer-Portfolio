@@ -1,0 +1,29 @@
+.project-card {
+  border-radius: 2rem;
+  border: solid 1px var(--stroke-color);
+  aspect-ratio: 1;
+  transition: opacity 2s, background-color 0.3s, transform 0.3s;
+  opacity: 0;
+
+  &:hover {
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1.05);
+  }
+
+  &__header {
+    img {
+      border-radius: 2rem 2rem 0 0;
+    }
+  }
+
+  &__body {
+    padding: 1rem;
+    h3 {
+      font-weight: normal;
+      color: var(--text-color-1);
+      font-size: 1rem;
+      margin-block: 0;
+    }
+  }
+}
