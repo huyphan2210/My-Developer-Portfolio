@@ -1,0 +1,33 @@
+.project {
+  flex-grow: 1;
+  display: flex;
+  padding: 1rem;
+
+  &__content {
+    display: grid;
+    row-gap: 2rem;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .project {
+    overflow-y: auto;
+    &__content {
+      grid-template-columns: repeat(2, 45%);
+      column-gap: 10%;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .project {
+    &__content {
+      grid-template-columns: repeat(3, 30%);
+      column-gap: 5%;
+    }
+  }
+}

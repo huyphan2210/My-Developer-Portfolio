@@ -1,0 +1,2436 @@
+{
+  "data": [
+    {
+      "id": "5ca5f0ef1e82137ec91a50fa",
+      "brief": "Your challenge is to build out this landing page from the designs provided in the starter code.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2019-04-04T11:56:31.586Z",
+      "description": "A perfect challenge for beginners, this project will get you working with a two column layout.",
+      "difficulty": 1,
+      "figmaURL": "designs/huddle-landing-page-with-single-introductory-section-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554379169/Challenges/m8aueljlhfwzve7zxpy7.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554379169/Challenges/yjly0l5ohx3f2kz6bbvg.jpg",
+          "_id": "5ca5f1a11e82137ec91a50fc"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554379169/Challenges/c7mkk5qtwdx23srnjzus.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554379169/Challenges/i2c2mvyvdaoixis0yc2r.jpg",
+          "_id": "5ca5f1a11e82137ec91a50fb"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554378991/Challenges/aaykth21moiquxkubywu.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/huddle-landing-page-with-single-introductory-section-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/huddle-landing-page-with-single-introductory-section/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Huddle landing page with a single introductory section",
+      "type": "free"
+    },
+    {
+      "id": "5ca5f5981e82137ec91a5100",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2019-04-04T12:16:24.201Z",
+      "description": "This challenge is perfect if you're wanting to practice your layout skills. If you're starting to get a bit more confident laying out a web page, give this project a go.",
+      "difficulty": 2,
+      "figmaURL": "designs/huddle-landing-page-with-alternating-feature-blocks-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554380253/Challenges/wn3pttg6nwgymod2iqxy.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554380254/Challenges/twtp2gsjsqshh3eyk4xu.jpg",
+          "_id": "5ca5f5dd1e82137ec91a5102"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554380253/Challenges/efl9yt2c7gpgn2ezgeo7.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554380254/Challenges/aear4yjsovzdnxa3wpy4.jpg",
+          "_id": "5ca5f5dd1e82137ec91a5101"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554380184/Challenges/y6pmwmuyxhqn0jxwgxxj.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/huddle-landing-page-with-alternating-feature-blocks-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/huddle-landing-page-with-alternating-feature-blocks/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Huddle landing page with alternating feature blocks",
+      "type": "free"
+    },
+    {
+      "id": "5cadd051fec04111f7b848da",
+      "brief": "Your challenge is to build out this Coming Soon page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n- Receive an error message when the `form` is submitted if:\n  - The `input` field is empty\n  - The email address is not formatted correctly\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2019-04-10T11:15:29.804Z",
+      "description": "This challenge is great for beginners and offers a chance to practice basic client-side form validation.",
+      "difficulty": 1,
+      "figmaURL": "designs/ping-single-column-coming-soon-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554895678/Challenges/i30yb3bo5vfag44bojox.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554895678/Challenges/tvzmm442kkjocmihbpiq.jpg",
+          "_id": "5cadd33efec04111f7b848dc"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554895678/Challenges/rfmjusjafgosuo7ohgkr.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554895678/Challenges/rc3vtukef9kk37msrvxi.jpg",
+          "_id": "5cadd33efec04111f7b848db"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1554894929/Challenges/qjiprcu1e19yvujjrflv.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/ping-single-column-coming-soon-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/ping-coming-soon-page/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "ping-single-column-coming-soon-page-5cadd051fec04111f7b848da",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Ping single column coming soon page",
+      "type": "free"
+    },
+    {
+      "id": "5cc9bccd6c4c91111378ecb9",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2019-05-01T15:35:41.693Z",
+      "description": "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states.",
+      "difficulty": 2,
+      "figmaURL": "designs/clipboard-landing-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1556725335/Challenges/xiydlw7ggmnfnldlflit.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1556725335/Challenges/t1shleo9aako7yuryeu1.jpg",
+          "_id": "5cc9be576c4c91111378ecbb"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1556725335/Challenges/voykxa1c0o8esyknz1jf.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1556725335/Challenges/ovgljbgufkfdkxyyp3qs.jpg",
+          "_id": "5cc9be576c4c91111378ecba"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1556724941/Challenges/nem2gkhh4jptjzjb0y2y.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/clipboard-landing-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/clipboard-landing-page/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "clipboard-landing-page-5cc9bccd6c4c91111378ecb9",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Clipboard landing page",
+      "type": "free"
+    },
+    {
+      "id": "5ce41129d0ff452fec5abbbc",
+      "brief": "Your challenge is to build out this pricing component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2019-05-21T14:54:33.884Z",
+      "description": "In this challenge, you will build out the pricing component to the designs provided. This is perfect for beginners and people who want to complete a smaller challenge.",
+      "difficulty": 1,
+      "figmaURL": "designs/single-price-grid-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1558450848/Challenges/ouvhkqeq9dhokut9payi.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1558450849/Challenges/etoajz7nokwmphl1jonw.jpg",
+          "_id": "5ce412a0d0ff452fec5abbbe"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1558450848/Challenges/nfk3yghpo5uphglxuzv1.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1558450850/Challenges/cjwzdseazcmvcd0g2tsx.jpg",
+          "_id": "5ce412a0d0ff452fec5abbbd"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1558450474/Challenges/i6wu7n5sthrxgfpfibvx.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/single-price-grid-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/single-price-grid-component/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "single-price-grid-component-5ce41129d0ff452fec5abbbc",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Single price grid component",
+      "type": "free"
+    },
+    {
+      "id": "5cf91bd49edda32581d28fd1",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n- Receive an error message when the `form` is submitted if:\n  - Any `input` field is empty\n  - The email address is not formatted correctly\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2019-06-06T13:57:40.994Z",
+      "description": "Practice building out a sign-up form complete with client-side validation using JavaScript.",
+      "difficulty": 1,
+      "figmaURL": "designs/intro-component-with-sign-up-form-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1559829910/Challenges/mnmpkjsbvur3xvrydf66.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1559829911/Challenges/cbyamvcsyhwlvnlelr5n.jpg",
+          "_id": "5cf91d969edda32581d28fd3"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1559829910/Challenges/tl9ullre22nsowpqrffh.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1559829911/Challenges/vzn30noy2a879mjtcjgx.jpg",
+          "_id": "5cf91d969edda32581d28fd2"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1559829461/Challenges/ficuxtmo5kmd5bb8lmws.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/intro-component-with-sign-up-form-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/intro-component-with-signup-form/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "intro-component-with-signup-form-5cf91bd49edda32581d28fd1",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Intro component with sign-up form",
+      "type": "free"
+    },
+    {
+      "id": "5d289097500fcb331a67d80e",
+      "brief": "Your challenge is to build out this intro component and get it looking as close to the design as possible. The background pattern is also not provided as an asset, so you'll need to create and position it using code.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nThe only JavaScript required is for the mobile navigation toggle. However, you could also try doing this without JS.\n\nYour users should be able to: \n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2019-07-12T13:52:24.565Z",
+      "description": "Some interesting layout and code challenges are baked into this design. Perfect if you're a beginner who is starting to get a bit more confident with your layouts.",
+      "difficulty": 2,
+      "figmaURL": "designs/project-tracking-intro-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1562939543/Challenges/quaxtotuavno8ieuobbx.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1562939543/Challenges/oe6ltkbcgxph4lsyyfic.jpg",
+          "_id": "5d289097500fcb331a67d80f"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1562939634/Challenges/cjepxjhbnxwy4vccppg3.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1562939635/Challenges/y4bp8llpazgcfmomy9fq.jpg",
+          "_id": "5d2890f2500fcb331a67d810"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1562939544/Challenges/bfsviv4bu5yxoxxhwbeq.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/project-tracking-intro-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/project-tracking-intro-component/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "project-tracking-intro-component-5d289097500fcb331a67d80e",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Project tracking intro component",
+      "type": "free"
+    },
+    {
+      "id": "5d46b47f8db8a7063f9331a0",
+      "brief": "Your challenge is to build out this coming soon page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n- Receive an error message when the `form` is submitted if:\n  - The `input` field is empty\n  - The email address is not formatted correctly\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2019-08-04T10:33:36.160Z",
+      "description": "This layout looks simple enough, but there are some interesting details to it that will test your CSS skills. You'll also get to practice basic form validation.",
+      "difficulty": 1,
+      "figmaURL": "designs/base-apparel-coming-soon-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1564914815/Challenges/oxwdbpj64r1au0gp1frc.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1564914815/Challenges/ae67ohzys48frbejvyce.jpg",
+          "_id": "5d46b47f8db8a7063f9331a2"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1564914815/Challenges/nmzsekfvee2avkiut1en.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1564914815/Challenges/orfu3ybrkeyzhe8q9k76.jpg",
+          "_id": "5d46b47f8db8a7063f9331a1"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1564914816/Challenges/tjmihf4uv326gkkz7mbk.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/base-apparel-coming-soon-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/base-apparel-coming-coon/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Base Apparel coming soon page",
+      "type": "free"
+    },
+    {
+      "id": "5da86cdaf5809005ee43ad07",
+      "brief": "Your challenge is to build out this feature section and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- View the optimal layout for the site depending on their device's screen size\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2019-10-17T13:30:03.661Z",
+      "description": "A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts.",
+      "difficulty": 1,
+      "figmaURL": "designs/four-card-feature-section-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1571319002/Challenges/wbsdema37uawkvkp9lab.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1571319220/Challenges/czhvpqpwrao3iao7f1cs.jpg",
+          "_id": "5da86cdaf5809005ee43ad09"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1571319002/Challenges/jk5jh9vpiutsjd7rfzga.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1571319220/Challenges/c1dszuwsuovywjupixlu.jpg",
+          "_id": "5da86cdaf5809005ee43ad08"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1571319003/Challenges/a3b5gbgtfbtiqrdawpwp.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/four-card-feature-section-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/four-card-feature-section/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "four-card-feature-section-weK1eFYK",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Four card feature section",
+      "type": "free"
+    },
+    {
+      "id": "5de12af32cd7d0476389c20c",
+      "brief": "Your challenge is to build out this pricing component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- Control the toggle with both their mouse/trackpad and their keyboard\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n- **Bonus**: Complete the challenge with just HTML and CSS\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2019-11-29T14:28:03.594Z",
+      "description": "This challenge will get you thinking about building an accessible custom toggle control and also test your layout skills.",
+      "difficulty": 2,
+      "figmaURL": "designs/pricing-component-with-toggle-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1575037821/Challenges/pzkdrqu0lizrk8qgmiti.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1575037823/Challenges/d3zuxyz7uggvmjtk895p.jpg",
+          "_id": "5de12b7d2cd7d0476389c210"
+        },
+        {
+          "title": "Active States",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1575037821/Challenges/sjeytvmi1ak5x1g8gqzl.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1575037822/Challenges/y6r5ojf6yrqbmetzm3xw.jpg",
+          "_id": "5de12b7d2cd7d0476389c20f"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1575037821/Challenges/bhcvkc97ewptq2gafnhz.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1575037822/Challenges/hzkxlubqwtyisgtgomat.jpg",
+          "_id": "5de12b7d2cd7d0476389c20e"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1575037683/Challenges/sjsrx7m77v6pxswdm0mx.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/pricing-component-with-toggle-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/pricing-component-with-toggle/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "pricing-component-with-toggle-8vPwRMIC",
+      "screenshotHeight": 850,
+      "submitted": true,
+      "title": "Pricing component with toggle",
+      "type": "free"
+    },
+    {
+      "id": "5e1ca8a93a39d33ef164011f",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nThe only JavaScript required is for the mobile navigation toggle. However, you could also try doing this without JS.\n\nYour users should be able to: \n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-01-13T17:28:09.562Z",
+      "description": "Test your layout skills with this HTML & CSS only landing page. This challenge is perfect if you're starting to get confident in laying out web pages.",
+      "difficulty": 2,
+      "figmaURL": "designs/insure-landing-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1578936685/Challenges/sp3gewqjnhazsoovtqjm.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1578936686/Challenges/lljwpk1d1bsitc3jsibr.jpg",
+          "_id": "5e1ca96d3a39d33ef1640129"
+        },
+        {
+          "title": "Active States",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1578936685/Challenges/m8wzxjmn0jhqgvq42rhy.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1578936686/Challenges/sftrpzinbsysrwoyxmnb.jpg",
+          "_id": "5e1ca96d3a39d33ef1640128"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1578936685/Challenges/xb3ftvft1ugsnkjv9g7p.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1578936686/Challenges/uplfxgcuzsb4d5bvaf8n.jpg",
+          "_id": "5e1ca96d3a39d33ef1640127"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1578936489/Challenges/wmd0ftb9v4qsmladsdzv.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/insure-landing-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/insure-landing-page/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "insure-landing-page-uTU68JV8",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Insure landing page",
+      "type": "free"
+    },
+    {
+      "id": "5e3af0a9777de80c37fb80f1",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- See all testimonials in a horizontal slider\n- Receive an error message when the newsletter sign-up `form` is submitted if:\n  - The `input` field is empty\n  - The email address is not formatted correctly\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-02-05T16:43:21.726Z",
+      "description": "This challenge will be a great test for your responsive skills. There are lots of small details and slight content shifts for different screen sizes.",
+      "difficulty": 3,
+      "figmaURL": "designs/manage-landing-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921397/Challenges/qkpgcsmter7tah2sjdij.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921398/Challenges/zsudsuxylxq1bnhww45p.jpg",
+          "_id": "5e3af235777de80c37fb80fe"
+        },
+        {
+          "title": "Active States",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921397/Challenges/xihpurhitfpt5mycko8z.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921398/Challenges/nbvz4ni7mil85jwdljiq.jpg",
+          "_id": "5e3af235777de80c37fb80fd"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921398/Challenges/jxvqmmhh6qfcoeoxmfie.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921398/Challenges/hpy91hm5bcn1lvyff2c7.jpg",
+          "_id": "5e3af235777de80c37fb80fc"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921001/Challenges/dnn0oqu9q1r6dpq2lmr8.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/manage-landing-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/manage-landing-page/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "manage-landing-page-SLXqC6P5",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Manage landing page",
+      "type": "free"
+    },
+    {
+      "id": "5e612f96e7779b5603d68243",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible. \n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nThe only JavaScript required is for the mobile navigation toggle. However, you could also try doing this without JS.\n\nYour users should be able to:\n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-03-05T16:57:59.123Z",
+      "description": "This challenge will provide a nice test for your layout skills. If you're ready to move up from Junior challenges, this one is a great next step.",
+      "difficulty": 3,
+      "figmaURL": "designs/easybank-landing-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1583427671/Challenges/yezt1f56cfp2njnakpbo.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1583427671/Challenges/r57dwegyobrqigxhsj36.jpg",
+          "_id": "5e613057e7779b5603d68245"
+        },
+        {
+          "title": "Active States",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1583427798/Challenges/jtqypy0ztylqekoayywv.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1583427799/Challenges/vaumoyeeeyk93ohy7vbr.jpg",
+          "_id": "5e6130d6e7779b5603d6824c"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1583427798/Challenges/eo0otvv6dh4xxdzw5sxv.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1583427799/Challenges/c2k8wnfrx39c2ch3olcr.jpg",
+          "_id": "5e6130d6e7779b5603d6824b"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1583427479/Challenges/o4iyywkwjc31epcmsmyo.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/easybank-landing-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/easybank-landing-page/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "easybank-landing-page-WaUhkoDN",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Easybank landing page",
+      "type": "free"
+    },
+    {
+      "id": "5e8602bfb8379b189fc4de54",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nThe only JavaScript required is for the color theme toggle.\n\nYour users should be able to:\n\n- Toggle color theme to their preference\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-04-02T15:20:32.281Z",
+      "description": "This challenge will be a perfect chance to practice your Grid skills. The color theme switcher also adds a nice additional test.",
+      "difficulty": 2,
+      "figmaURL": "designs/social-media-dashboard-with-theme-switcher-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1585840948/Challenges/ftdvklbtn6y7ydjxjjuj.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1585840948/Challenges/q54sj6blz6155goee4jd.jpg",
+          "_id": "5e860333b8379b189fc4de56"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1585840948/Challenges/iwqqeasudxd1i331actz.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1585840948/Challenges/weyfpjqqal2rgkmfbcrr.jpg",
+          "_id": "5e860333b8379b189fc4de55"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1585840832/Challenges/litdnhptrj3uurnnzj0m.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/social-media-dashboard-with-theme-switcher-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/social-media-dashboard-with-theme-switcher/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "social-media-dashboard-with-theme-switcher-6oY8ozp_H",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Social media dashboard with theme switcher",
+      "type": "free"
+    },
+    {
+      "id": "5ebd5f69774e926342cf07e3",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nThe only JavaScript required is for switching the slides.\n\nYour users should be able to:\n\n- Navigate the slider using either their mouse/trackpad or keyboard\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-05-14T15:10:33.601Z",
+      "description": "This challenge will be a nice test if you're new to JavaScript. It's also a great opportunity to play around with content animations and transitions.",
+      "difficulty": 2,
+      "figmaURL": "designs/coding-bootcamp-testimonials-slider-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1589469306/Challenges/dejjtjv4akklm3c4vrb1.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1589469306/Challenges/boizahiijgdyynt18v9d.jpg",
+          "_id": "5ebd6079774e926342cf07ec"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1589469306/Challenges/eomtiws12ry7zqfad6by.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1589469306/Challenges/x7y4cjsxcecyimu9oi8k.jpg",
+          "_id": "5ebd6079774e926342cf07eb"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1589469033/Challenges/ajxwviujv7lrjghuhdxs.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/coding-bootcamp-testimonials-slider-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/coding-bootcamp-testimonials-slider/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "coding-bootcamp-testimonials-slider-4FNyLA8JL",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Coding bootcamp testimonials slider",
+      "type": "free"
+    },
+    {
+      "id": "5ed53e8dcc418419539bb192",
+      "brief": "Your challenge is to build out this data storage component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- View the optimal layout for the site depending on their device's screen size\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-06-01T17:44:45.114Z",
+      "description": "This component has some interesting CSS challenges in the design. If you're looking to test your CSS skills, this will be a great project for you!",
+      "difficulty": 2,
+      "figmaURL": "designs/fylo-data-storage-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1591033776/Challenges/beiy7t7hcpdkhgc6ueho.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1591033555/Challenges/uja7och1qxswpbietazs.jpg",
+          "_id": "5ed53ed3cc418419539bb194"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1591033776/Challenges/qmogdxs9irrv5umyhwqi.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1591033555/Challenges/li0btx0ammsabarbye5x.jpg",
+          "_id": "5ed53ed3cc418419539bb193"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1591033485/Challenges/jve24exh4iwonznfndfc.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/fylo-data-storage-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/fylo-data-storage-component/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "fylo-data-storage-component-1dZPRbV5n",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Fylo data storage component",
+      "type": "free"
+    },
+    {
+      "id": "5ef648201c754d1ccdfcd3f0",
+      "brief": "Your challenge is to build out this article preview component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nThe only JavaScript you'll need for this challenge is to initiate the share options when someone clicks the share icon.\n\nYour users should be able to: \n\n- See the social media share links when they click the share icon\n- View the optimal layout for each page depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-06-26T19:10:24.984Z",
+      "description": "Practice your layout skills with this article preview component. There's lots of fun to be had playing around with animations for the sharing icons as well.",
+      "difficulty": 1,
+      "figmaURL": "designs/article-preview-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1593198709/Challenges/xqhq3ggsxbtkv4o3av6j.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1593198709/Challenges/xjpdhdjod58zbaaw0fmo.jpg",
+          "_id": "5ef648741c754d1ccdfcd3f3"
+        },
+        {
+          "title": "Active State",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1593198709/Challenges/rmwfx7w39rpqoxeaepmn.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1593198709/Challenges/ec51mrtfqdthryivq4nk.jpg",
+          "_id": "5ef648741c754d1ccdfcd3f4"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1593198774/Challenges/ciavqdc7y9fpcwhmutph.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1593198775/Challenges/u3mryatw2vqo8rh14qg3.jpg",
+          "_id": "5ef648b61c754d1ccdfcd3ff"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1593198625/Challenges/tm7zwaa7fprabjbwbemt.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/article-preview-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/article-preview-component/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "article-preview-component-dYBN_pYFT",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Article preview component",
+      "type": "free"
+    },
+    {
+      "id": "5f0dff6f2f69a2067c033b28",
+      "brief": "Your challenge is to build out this feature illustration using HTML & CSS and get it looking as close to the design as possible.\n\nThe only assets we provide in this challenge are the image of the person in the app UI and the 3 images of the dog. You need to create everything else using HTML & CSS!\n\nYour users should be able to:\n\n- View the optimal layout for the component depending on their device's screen size\n- **Bonus**: See the chat interface animate on the initial load\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-07-14T18:54:39.600Z",
+      "description": "In this challenge, you'll be building out the entire app illustration from scratch. This will seriously test your CSS skills. So give it a go if you feel confident!",
+      "difficulty": 3,
+      "figmaURL": "designs/chat-app-css-illustration-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1594753005/Challenges/tdenrz6vmcjolwsgjy3r.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1594753006/Challenges/q5mhmif1tc0d9lpfaapz.jpg",
+          "_id": "5f0dffed2f69a2067c033b2a"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1594753005/Challenges/gtclhykow5vgvzqhlvnn.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1594753005/Challenges/ztpcfu5vub7vozqqnje3.jpg",
+          "_id": "5f0dffed2f69a2067c033b2b"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1594752879/Challenges/xi4n6u5jtftsy9sbukd1.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/chat-app-css-illustration-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/chat-app-css-illustration/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the starter files",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you like",
+        "Start coding!"
+      ],
+      "slug": "chat-app-css-illustration-O5auMkFqY",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Chat app CSS illustration",
+      "type": "free"
+    },
+    {
+      "id": "5f48f8b954fa6a407dce9359",
+      "brief": "Your challenge is to build out this IP Address Tracker app and get it looking as close to the design as possible. To get the IP Address locations, you'll be using the [IP Geolocation API by IPify](https://geo.ipify.org/). To generate the map, we recommend using [LeafletJS](https://leafletjs.com/).\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- See their own IP Address on the map on the initial page load\n- Search for any IP addresses or domains and see the key information and location\n- View the optimal layout for each page depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-08-28T12:29:45.569Z",
+      "description": "In this challenge, you'll be using two separate APIs together to create an IP Address Tracking app.",
+      "difficulty": 3,
+      "figmaURL": "designs/ip-address-tracker-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1598711973/Challenges/ld4kxbjoxpqpjenak8w6.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1598711973/Challenges/p6khgutnfr78zbs9kje7.jpg",
+          "_id": "5f48f8d954fa6a407dce935a"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1598712094/Challenges/agtwcl5w9grwxc2wxq4s.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1598712094/Challenges/uitbvuyjrnifyp6q3zuf.jpg",
+          "_id": "5f48f94b54fa6a407dce935d"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1598711974/Challenges/zfgce1seaqfllpuktpai.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS", "API"],
+      "sketchURL": "designs/ip-address-tracker-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/ip-address-tracker/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the starter files",
+        "Register for a FREE account for the [IP Geolocation API by IPify](https://geo.ipify.org/)",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you like",
+        "Start coding!"
+      ],
+      "slug": "ip-address-tracker-I8-0yYAH0",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "IP Address Tracker",
+      "type": "free"
+    },
+    {
+      "id": "5f58b70b911b62234993f18b",
+      "brief": "Your challenge is to build out this social proof section and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- View the optimal layout for the site depending on their device's screen size\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-09-09T11:05:47.514Z",
+      "description": "This project will test your layout skills. If you're starting to get confident with Flexbox or Grid, this will provide a nice challenge!",
+      "difficulty": 1,
+      "figmaURL": "designs/social-proof-section-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196090/Challenges/rqjrs5fhup3ufygdjigk.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196091/Challenges/d8yg0q2to2lmdgpjtpo0.jpg",
+          "_id": "5f58b733911b62234993f18c"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196090/Challenges/palsgfpryhmquq47jdo8.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196854/Challenges/tlkowcepmgqv4j7j62t9.jpg",
+          "_id": "5f58b75a911b62234993f18e"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196092/Challenges/bnjpxmx9fudsmerfj6eo.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/social-proof-section-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/social-proof-section/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "social-proof-section-6e0qTv_bA",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Social proof section",
+      "type": "free"
+    },
+    {
+      "id": "5f6ded4070aa013252de8b44",
+      "brief": "Your challenge is to build out this e-commerce homepage and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Navigate the slider using either their mouse/trackpad or keyboard\n- View the optimal layout for the site depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-09-25T13:14:40.603Z",
+      "description": "This small homepage challenge packs a big punch to test your layout skills. There's also a slider in there to add a JS layer for extra practice.",
+      "difficulty": 3,
+      "figmaURL": "designs/room-homepage-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196944/Challenges/pjoks3mpy5tdpsopoepc.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196944/Challenges/ky6ht7ip4ptxw6b4hmaz.jpg",
+          "_id": "5f6ded5d70aa013252de8b46"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196944/Challenges/jnvvk9xalgmnfkyclyev.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196944/Challenges/qiux4wvwbnpcrf0hi7fp.jpg",
+          "_id": "5f6ded8170aa013252de8b49"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196945/Challenges/m1v21ubdjc2n75bl8p7n.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/room-homepage-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/room-homepage/archive/master.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "room-homepage-BtdBY_ENq",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Room homepage",
+      "type": "free"
+    },
+    {
+      "id": "5f802b8198b5a01770139a30",
+      "brief": "Your challenge is to build out this FAQ accordion card and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Hide/Show the answer to a question when the question is clicked\n- View the optimal layout for the component depending on their device's screen size\n- See hover states for all interactive elements on the page\n- **Bonus**: Complete the challenge without using JavaScript\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-10-09T09:21:05.232Z",
+      "description": "In this challenge, you'll be building out an FAQ accordion. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in!",
+      "difficulty": 1,
+      "figmaURL": "designs/faq-accordion-card-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1602235390/Challenges/y4zn9ukalew5zbnodrjs.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1602235390/Challenges/ymtblmv8bbnpazgrfrx6.jpg",
+          "_id": "5f802bfe98b5a01770139a35"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1602235457/Challenges/ird5rpi2iicascfikil8.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1602235458/Challenges/t52usxbwtznc2zrmuhnq.jpg",
+          "_id": "5f802c4198b5a01770139a39"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1602235265/Challenges/ua4zwoxu3i9avrzrusre.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project then see if the time taken matches up to your estimate"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/faq-accordion-card-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/faq-accordion-card/archive/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "faq-accordion-card-XlyjD0Oam",
+      "screenshotHeight": 768,
+      "submitted": false,
+      "title": "FAQ accordion card",
+      "type": "free"
+    },
+    {
+      "id": "5f91b9471ec0ad07352294f2",
+      "brief": "Your challenge is to build out this testimonials grid section and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- View the optimal layout for the site depending on their device's screen size\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-10-22T16:54:31.350Z",
+      "description": "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
+      "difficulty": 2,
+      "figmaURL": "designs/testimonials-grid-section-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1603385724/Challenges/h05k6b7pqcylnhsw8pqs.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1603385725/Challenges/uctyehbyqpp90valvmwn.jpg",
+          "_id": "5f91b97c1ec0ad07352294f3"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1603385838/Challenges/tmr3zjtypswhmqaylwgi.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1603385839/Challenges/dzrtw7rkgp2hyilxobkk.jpg",
+          "_id": "5f91b9ee1ec0ad07352294f9"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1603385671/Challenges/hlfgqwj3chzij3t5erjv.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/testimonials-grid-section-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/testimonials-grid-section/archive/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "testimonials-grid-section-Nnw6J7Un7",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Testimonials grid section",
+      "type": "free"
+    },
+    {
+      "id": "5fad759bfd76eb32119d4b53",
+      "brief": "Your challenge is to build out this profile card component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-11-12T17:49:15.386Z",
+      "description": "This is a perfect challenge to test your layout skills. The card layout doesn't shift, so it's also great for those that haven't dived into responsive websites yet!",
+      "difficulty": 1,
+      "figmaURL": "designs/profile-card-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1605203461/Challenges/tsdyz2ccordcztyrn8m0.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1605203462/Challenges/udlaqeyuqehspxb2zi9h.jpg",
+          "_id": "5fad7605fd76eb32119d4b54"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1605203461/Challenges/taohpe4czjstmjytl8zv.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1605203462/Challenges/jcf9kqgo9ffhhl2qoczt.jpg",
+          "_id": "5fad7605fd76eb32119d4b55"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1605203355/Challenges/dia0o9uigiiz4gebiqps.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/profile-card-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/profile-card-component/archive/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "profile-card-component-cfArpWshJ",
+      "screenshotHeight": 720,
+      "submitted": true,
+      "title": "Profile card component",
+      "type": "free"
+    },
+    {
+      "id": "5fd24739e0d1d5647ae47fac",
+      "brief": "Your challenge is to build out this countdown timer and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- See hover states for all interactive elements on the page\n- See a live countdown timer that ticks down every second\n- **Bonus**: When a number changes, make the card flip from the middle\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-12-10T16:05:13.416Z",
+      "description": "This will be a fun one! Your challenge is to build this countdown timer. There are lots of small CSS tests in the design as well. So it should keep you busy!",
+      "difficulty": 3,
+      "figmaURL": "designs/launch-countdown-timer-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1607616391/Challenges/sgyggipeoqrv2inrkxja.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1607616391/Challenges/cqs8urpg9sr4ufvyiw7n.jpg",
+          "_id": "5fd24787e0d1d5647ae47fb4"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1607616391/Challenges/bm6zryj1hvggaesn2yhn.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1607616391/Challenges/eq6e9nvs1ny70gbpk2bq.jpg",
+          "_id": "5fd24787e0d1d5647ae47fb5"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1607616313/Challenges/yf5s8ekgwaft5w57ju6u.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/launch-countdown-timer-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/launch-countdown-timer/archive/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "launch-countdown-timer-N0XkGfyz-",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Launch countdown timer",
+      "type": "free"
+    },
+    {
+      "id": "5ff83b371e74fa1b8dcf0703",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible.\n\nThis challenge focuses mostly on HTML & CSS. There's a tiny bit of JS included for the mobile navigation toggle. But you could also choose to do this without JS!\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- View the optimal layout for the site depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-01-08T11:00:07.715Z",
+      "description": "This challenge is perfect if you're looking to test your CSS Grid chops. Even without Grid, this project will be a fun one to help you practice your layout skills!",
+      "difficulty": 2,
+      "figmaURL": "designs/loopstudios-landing-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1610103659/Challenges/kfaa5whc9ukiqp3tqseo.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1610103660/Challenges/cvtyalmaoldqbg3jivi1.jpg",
+          "_id": "5ff83b6b1e74fa1b8dcf0705"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1610103713/Challenges/fslc5umukphmgeiqr0hn.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1610103713/Challenges/tedkdgdjmu8jgysz8acd.jpg",
+          "_id": "5ff83ba11e74fa1b8dcf0707"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1610103607/Challenges/f00lkcojzyklnglc3ffr.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/loopstudios-landing-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/loopstudios-landing-page/archive/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "loopstudios-landing-page-N88J5Onjw",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Loopstudios landing page",
+      "type": "free"
+    },
+    {
+      "id": "600adff47931c226d23551f6",
+      "brief": "Your challenge is to build out this interactive pricing component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Use the slider and toggle to see prices for different page view numbers (details provided in the `README.md`)\n- View the optimal layout for the app depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-01-22T14:23:48.407Z",
+      "description": "In this project, you'll build out an interactive pricing component complete with custom range input slider and pricing toggle. A perfect way to test your JS skills!",
+      "difficulty": 2,
+      "figmaURL": "designs/interactive-pricing-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1611325475/Challenges/pnoljknuewnetbngzmto.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1611325476/Challenges/aqcjg4hbvhk2bsrt7ay4.jpg",
+          "_id": "600ae0237931c226d23551f8"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1611325559/Challenges/icovfrx6wzc4vp4jhguc.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1611325559/Challenges/ej8oyzjpupweej8e1ucy.jpg",
+          "_id": "600ae0777931c226d23551fb"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1611325428/Challenges/fp0qtspesm6i0miyqncg.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/interactive-pricing-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/interactive-pricing-component/archive/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "interactive-pricing-component-t0m8PIyY8",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Interactive pricing component",
+      "type": "free"
+    },
+    {
+      "id": "602662358b83d6282762df02",
+      "brief": "Your challenge is to build out this crowdfunding product page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Make a selection of which pledge to make\n- See an updated progress bar and total money raised based on their pledge total after confirming a pledge\n- See the number of total backers increment by one after confirming a pledge\n- Toggle whether or not the product is bookmarked\n- View the optimal layout depending on their device's screen size\n- See hover states for interactive elements\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-02-12T11:10:46.058Z",
+      "description": "This challenge will test both your layout and state management skills. As visitors make pledges, your goal is to keep track of the changes.",
+      "difficulty": 2,
+      "figmaURL": "designs/crowdfunding-product-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1613128397/Challenges/luxbxwbgw9q8cj3i8d7l.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1613128397/Challenges/ukfpicadtuxpgnf2n7a4.jpg",
+          "_id": "602662cc8b83d6282762df07"
+        },
+        {
+          "title": "Modal States",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1613128448/Challenges/t8zix0eoaq2rb68e6eu5.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1613128449/Challenges/fgjobf5wqags58fmoils.jpg",
+          "_id": "602663008b83d6282762df09"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1613128495/Challenges/lehwhaouxlu3goa2vwuy.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1613128496/Challenges/teylyqbsnegi0k3awih2.jpg",
+          "_id": "6026632f8b83d6282762df0d"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1613128246/Challenges/tbvaexdry87sqjmbzt5o.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/crowdfunding-product-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/crowdfunding-product-page/archive/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "crowdfunding-product-page-7uvcZe7ZR",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Crowdfunding product page",
+      "type": "free"
+    },
+    {
+      "id": "604a43c7d6bf4e49edd3d917",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nThis challenge mostly focuses on HTML & CSS. The only JavaScript required is for the mobile menu.\n\nYour users should be able to:\n\n- View the optimal layout for the site depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-03-11T16:22:31.408Z",
+      "description": "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu.",
+      "difficulty": 2,
+      "figmaURL": "designs/blogr-landing-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1615479875/Challenges/awqnouxukwefdkaqt5iq.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1615479876/Challenges/n4uf9zl8yiqiyfsxtn2o.jpg",
+          "_id": "604a4443d6bf4e49edd3d91e"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1615479911/Challenges/th5eozdywkv9090e7nks.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1615479912/Challenges/uh00kl55r1amokmjkums.jpg",
+          "_id": "604a4466d6bf4e49edd3d924"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1615479751/Challenges/wdor1bppurckam2nrhwn.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/blogr-landing-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/blogr-landing-page/archive/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "blogr-landing-page-EX2RLAApP",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Blogr landing page",
+      "type": "free"
+    },
+    {
+      "id": "6065efba65c0ff6e9bf5360f",
+      "brief": "Your challenge is to build out this 3-column preview card component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- View the optimal layout depending on their device's screen size\n- See hover states for interactive elements\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-04-01T16:07:22.524Z",
+      "description": "This challenge is perfect if you're just getting started. The shift between the layouts will be a nice test if you're new to building responsive projects.",
+      "difficulty": 1,
+      "figmaURL": "designs/3-column-preview-card-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1617293265/Challenges/ap7h50kkrdq7zclbokox.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1617293350/Challenges/ofrkupd8a9wh1wenvr8c.jpg",
+          "_id": "6065efd165c0ff6e9bf53613"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1617293393/Challenges/wgpurm7exoqq79zn7zaq.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1617293393/Challenges/jua3vpavrjnnhbmvo7er.jpg",
+          "_id": "6065f05065c0ff6e9bf53626"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1617293242/Challenges/juir90bwmmvlo86g9paz.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/3-column-preview-card-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/3-column-preview-card-component/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "3column-preview-card-component-pH92eAR2-",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "3-column preview card component",
+      "type": "free"
+    },
+    {
+      "id": "6078390f80d0ff7fd7954aad",
+      "brief": "Your challenge is to build out this card component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- View the optimal layout depending on their device's screen size\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-04-15T13:01:03.594Z",
+      "description": "This is a great small challenge to help get you used to building to a design. There's no JS in this project, so you'll be able to focus on your HTML & CSS skills.",
+      "difficulty": 1,
+      "figmaURL": "designs/stats-preview-card-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1618491772/Challenges/t26y9p3veejvbc9biv3f.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1618491773/Challenges/pnczwsvslfwimxcqjrwm.jpg",
+          "_id": "6078397c80d0ff7fd7954aaf"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1618491772/Challenges/zndkz1bimmoqwh7mzcmm.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1618491773/Challenges/uycl943plcprrj2fwc2x.jpg",
+          "_id": "6078397c80d0ff7fd7954ab0"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1618491663/Challenges/sucvvhutd4codsxpzvw7.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/stats-preview-card-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/stats-preview-card-component/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "stats-preview-card-component-8JqbgoU62",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Stats preview card component",
+      "type": "free"
+    },
+    {
+      "id": "60c0d3c5905837382196aa15",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible.\n\nThis challenge focuses mostly on HTML & CSS. There's a tiny bit of JS included for the mobile navigation toggle. But you could also choose to do this without JS!\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- View the optimal layout for the site depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-06-09T14:44:21.528Z",
+      "description": "This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.",
+      "difficulty": 2,
+      "figmaURL": "designs/sunnyside-agency-landing-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1623250115/Challenges/wqzotbyfysz9pbfk9jus.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1623250117/Challenges/lvj0udxz21q6bicxkysz.jpg",
+          "_id": "60c0d4c1905837382196aa1e"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1623250269/Challenges/pc2lqrbbho37ouwzvcas.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1623250271/Challenges/foi57flodeewqzruuyuh.jpg",
+          "_id": "60c0d55c905837382196aa27"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1623249861/Challenges/pigotdvhcch2b3wp9uuc.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/sunnyside-agency-landing-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/sunnyside-agency-landing-page/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "sunnyside-agency-landing-page-7yVs3B6ef",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Sunnyside agency landing page",
+      "type": "free"
+    },
+    {
+      "id": "60e7057d0a8c9661bfe3805b",
+      "brief": "Your challenge is to build out this tip calculator app and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Calculate the correct tip and total cost of the bill per person\n- View the optimal layout for the app depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-07-08T14:02:37.412Z",
+      "description": "This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!",
+      "difficulty": 2,
+      "figmaURL": "designs/tip-calculator-app-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1625753687/Challenges/so0b0hpmowz5ujjwbhkp.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1625753687/Challenges/wfczmy0nrltpwqyaovg6.jpg",
+          "_id": "60e708560a8c9661bfe38084"
+        },
+        {
+          "title": "Active States",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1625753687/Challenges/iwvcd36gb1gndhrgztyg.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1625753687/Challenges/ovspqmm8l3fufcj3l2lf.jpg",
+          "_id": "60e708560a8c9661bfe38085"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1625753687/Challenges/cgndvvaluqifif1ypxhf.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1625753687/Challenges/uny4cufbs1jc4bluhjsh.jpg",
+          "_id": "60e708560a8c9661bfe38086"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1625752957/Challenges/hxkpctp6cd1meeytfdl2.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Practice working in a team by building with friends",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/tip-calculator-app-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/tip-calculator-app/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "tip-calculator-app-ugJNGbJUX",
+      "screenshotHeight": 1024,
+      "submitted": true,
+      "title": "Tip calculator app",
+      "type": "free"
+    },
+    {
+      "id": "610bc9c450c6191f790975e3",
+      "brief": "Your challenge is to build out this order summary card component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- See hover states for interactive elements\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-08-05T11:21:40.897Z",
+      "description": "A perfect project for newbies who are starting to build confidence with layouts!",
+      "difficulty": 1,
+      "figmaURL": "designs/order-summary-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1628162588/Challenges/gh4wbxnbnf9wqezb0b6y.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1628162588/Challenges/ztpxtbfhkp1af0guaylg.jpg",
+          "_id": "610bca1c50c6191f790975e9"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1628187714/Challenges/ztdrvzpbcjytdo892pxx.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1628162637/Challenges/pjrjfg9xfetnh9gsl6oh.jpg",
+          "_id": "610bca4c50c6191f790975ec"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1628162501/Challenges/ouobx6tvyduidzio7wr7.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/order-summary-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/order-summary-component/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "order-summary-component-QlPmajDUj",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Order summary component",
+      "type": "free"
+    },
+    {
+      "id": "613b34360fb19b3c8d0a9b64",
+      "brief": "Your challenge is to build out this dashboard and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nIf you would like to practice working with JSON data, we provide a local `data.json` file for the activities. This means you'll be able to pull the data from there instead of using the content in the `.html` file.\n\nYour users should be able to:\n\n- Switch between viewing Daily, Weekly, and Monthly stats\n- View the optimal layout for the site depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-09-10T10:32:22.965Z",
+      "description": "A perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch, we provide a JSON data file to practice working with data.",
+      "difficulty": 2,
+      "figmaURL": "designs/time-tracking-dashboard-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1631270211/Challenges/dgmrkrfyzvyzwuwl7vac.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1631270212/Challenges/va9khukabo1wlmpzsbgi.jpg",
+          "_id": "613b35430fb19b3c8d0a9b6a"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1631270299/Challenges/do2gkuxv9ljtbccsvv7k.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1631270568/Challenges/euyopt3w3hpjtezkfr4x.jpg",
+          "_id": "613b359a0fb19b3c8d0a9b72"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1631270258/Challenges/j1ocp59n25odoftocgpi.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/time-tracking-dashboard-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/time-tracking-dashboard/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "time-tracking-dashboard-UIQ7167Jw",
+      "screenshotHeight": 1024,
+      "submitted": true,
+      "title": "Time tracking dashboard",
+      "type": "free"
+    },
+    {
+      "id": "615f0dc50f48541b10545eda",
+      "brief": "Your challenge is to build out this e-commerce product page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Open a lightbox gallery by clicking on the large product image\n- Switch the large product image by clicking on the small thumbnail images\n- Add items to the cart\n- View the cart and remove items from it\n- View the optimal layout for the site depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-10-07T15:09:57.266Z",
+      "description": "In this challenge, you'll build a beautiful product page. We'll be putting your JS skills to the test with a lightbox product gallery and cart functionality!",
+      "difficulty": 3,
+      "figmaURL": "designs/ecommerce-product-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1633619531/Challenges/uehz7kwoo7gesfebbqi8.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1633619532/Challenges/bognvsqd34ueowkompeh.jpg",
+          "_id": "615f0e4b0f48541b1054648f"
+        },
+        {
+          "title": "Lightbox design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1633619579/Challenges/jvjhl89ypvsv3bwns99u.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1633619579/Challenges/ida8fduvu39hbrvkyzrb.jpg",
+          "_id": "615f0e7b0f48541b10546691"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1633619636/Challenges/ybtjzutfxmkmbaqgcysz.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1633619637/Challenges/xzdfu7kxg91ra3qntnou.jpg",
+          "_id": "615f0eb40f48541b10546932"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1633619397/Challenges/fhzpdnabrek50hvhftnl.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/ecommerce-product-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/ecommerce-product-page/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "ecommerce-product-page-UPsZ9MJp6",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "E-commerce product page",
+      "type": "free"
+    },
+    {
+      "id": "61697105ef6660213e71d644",
+      "brief": "Your challenge is to build out this multi-page space tourism website and get it looking as close to the design as possible.\n\n**This project is a collaboration between us, Scrimba, and Kevin Powell. If you'd like to see how Kevin would tackle the project, you can [follow along on Scrimba's free course](https://scrimba.com/learn/spacetravel).**\n\nIf you're working through it yourself, please use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nIf you choose to use a JS-heavy approach, we provide a local `data.json` file for the different page data. This means you'll be able to pull the data from there instead of using the separate `.html` files.\n\nYour users should be able to:\n\n- View each page and be able to toggle between the tabs to see new information\n- View the optimal layout for each of the website's pages depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-10-15T12:16:05.595Z",
+      "description": "This project is a fun collaboration with Scrimba and Kevin Powell! If you like, you can follow along and watch Kevin complete the project on Scrimba. Lots to learn!",
+      "difficulty": 3,
+      "figmaURL": "designs/space-tourism-website-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634565176/Challenges/x8skdsukkmwiwxejthio.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634565177/Challenges/wudjsbv8g93aarlhvbud.jpg",
+          "_id": "616d7c3821896c35e0425c44"
+        },
+        {
+          "title": "Inner page - destination",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634565245/Challenges/ked7tofbhsjariwvtdar.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634565245/Challenges/otxqfcwb0xld91krqbl6.jpg",
+          "_id": "616d7c7c21896c35e0425e62"
+        },
+        {
+          "title": "Inner page - crew",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634565290/Challenges/ibsdrpfjuxoaqopqmrdo.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634565290/Challenges/pwidi1rirf5j3dkym6p2.jpg",
+          "_id": "616d7caa21896c35e0425f70"
+        },
+        {
+          "title": "Inner page - technology",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634565359/Challenges/ej22bxlz3aspkscujomq.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634565360/Challenges/oushwkvcii8mm954xdlj.jpg",
+          "_id": "616d7cef21896c35e0426167"
+        },
+        {
+          "title": "Tablet design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634565432/Challenges/k2zwhn210d0xpntepgxo.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634565433/Challenges/tzty2khverirn4n0rj8t.jpg",
+          "_id": "616d7d3821896c35e04263a2"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634565475/Challenges/utfcwjgwmfwu5rfsazoo.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634565476/Challenges/j47uwi69sruvjfqtbhji.jpg",
+          "_id": "616d7d6321896c35e04264e9"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1634300165/Challenges/bbbbk7sghmqsg4zhqdo6.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Use a JavaScript framework/library to practice building using components",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/space-tourism-website-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/space-tourism-website/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Download the design file, we provide both [Sketch](https://www.sketch.com/) and [Figma](https://www.figma.com/) versions of the design",
+        "Get colors, fonts, etc from the design system in the design file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "space-tourism-multipage-website-gRWj1URZ3",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Space tourism multi-page website",
+      "type": "free-plus"
+    },
+    {
+      "id": "6196880a3cb8666eb705c489",
+      "brief": "Your challenge is to build out this preview card component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- View the optimal layout depending on their device's screen size\n- See hover states for interactive elements\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-11-18T17:06:18.384Z",
+      "description": "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with.",
+      "difficulty": 1,
+      "figmaURL": "designs/nft-preview-card-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1637582314/Challenges/sr9i7z9p1tfb2m40pigu.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1637582314/Challenges/lphlhinp8axkoadq4jq7.jpg",
+          "_id": "619688563cb8666eb705c792"
+        },
+        {
+          "title": "Active states",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1637599339/Challenges/uxzkrpwxgfot78recppq.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1637599339/Challenges/gk2cib7zmsvsn9kgqmsw.jpg",
+          "_id": "619688863cb8666eb705c949"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1637599339/Challenges/tsriztcjqnobsyt6z9do.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1637599339/Challenges/eer3i8da4ium6kvg8clx.jpg",
+          "_id": "619bc86a3cb8666eb73181fe"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1637582292/Challenges/rinokvkluq95madbvtmk.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/nft-preview-card-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/nft-preview-card-component/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "nft-preview-card-component-SbdUL_w0U",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "NFT preview card component",
+      "type": "free"
+    },
+    {
+      "id": "61bcd669145c1239bc732d0d",
+      "brief": "Your challenge is to build out this interactive comments section and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nWe provide the data in a local `data.json` file, so use that to populate the content on the first load. If you want to take it up a notch, feel free to build this as a full-stack CRUD application!\n\nYour users should be able to:\n\n- Create, Read, Update, and Delete comments and replies\n- Upvote and downvote comments\n- View the optimal layout for the app depending on the device's screen size\n- See hover states for all interactive elements on the page\n- **Bonus**: If you're building a purely front-end project, use `localStorage` to save the current state in the browser that persists when the browser is refreshed\n- **Bonus**: Build this project as a full-stack application\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2021-12-17T18:26:49.292Z",
+      "description": "This is project will put your JavaScript skills to the test. We provide a JSON file to pull the data, but it's also a perfect project to build as a full-stack CRUD app!",
+      "difficulty": 3,
+      "figmaURL": "designs/interactive-comments-section-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765915/Challenges/v9wskl4mnbt5gbxm4o2r.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765916/Challenges/l3cxamx1e6vpngqjtdyt.jpg",
+          "_id": "61bcd79b145c1239bc7338dd"
+        },
+        {
+          "title": "Active states",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765948/Challenges/f6smfomwzl5k6shzigde.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765949/Challenges/vvcsdtjqyfzgvj4vvcwl.jpg",
+          "_id": "61bcd7bc145c1239bc7339dc"
+        },
+        {
+          "title": "Modal design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765982/Challenges/v1uz9gtx87tugn3sxmkc.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765982/Challenges/nqlhifst3uv1hb8tkibd.jpg",
+          "_id": "61bcd7dd145c1239bc733b71"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639766021/Challenges/y1ifmitonxj1hzrqcdbr.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639766022/Challenges/fwkvt3bnvjw3hwplviwc.jpg",
+          "_id": "61bcd804145c1239bc733c97"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765609/Challenges/i8zblmqsbqixz1tbhc0v.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Use a JavaScript framework/library to practice building using components",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/interactive-comments-section-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/interactive-comments-section/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "interactive-comments-section-iG1RugEG9",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Interactive comments section",
+      "type": "free"
+    },
+    {
+      "id": "61e953584cc2653b1e5ca5b6",
+      "brief": "Your challenge is to build out this QR code component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2022-01-20T12:19:36.828Z",
+      "description": "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
+      "difficulty": 1,
+      "figmaURL": "designs/qr-code-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1642681473/Challenges/cybxdhr4wewlscvco9dd.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1642681473/Challenges/lzfaukzhigbavv5sc26b.jpg",
+          "_id": "61e954814cc2653b1e5caeb1"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1642681547/Challenges/cib3votwl9kmqxduuahz.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1642681547/Challenges/iukeubiskdrj479qikjr.jpg",
+          "_id": "61e954ca4cc2653b1e5cb09b"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1642681176/Challenges/qh97gysgjrzqyqlig2al.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/qr-code-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/qr-code-component/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "qr-code-component-iux_sIO_H",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "QR code component",
+      "type": "free-plus"
+    },
+    {
+      "id": "620e5024145c6a78f0f5a6db",
+      "brief": "Your challenge is to build out this advice generator app using the [Advice Slip API](https://api.adviceslip.com) and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- View the optimal layout for the app depending on their device's screen size\n- See hover states for all interactive elements on the page\n- Generate a new piece of advice by clicking the dice icon\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2022-02-17T13:39:48.574Z",
+      "description": "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice.",
+      "difficulty": 2,
+      "figmaURL": "designs/advice-generator-app-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1645105312/Challenges/l0nkljeqewyxuw0vedhd.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1645105312/Challenges/syo43ktrlu3huqaqye2c.jpg",
+          "_id": "620e50a0145c6a78f0f5ae77"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1645105340/Challenges/dp9hsmsabywcuqqegcxz.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1645105341/Challenges/ij9dasqbsbccx0iulwvp.jpg",
+          "_id": "620e50bc145c6a78f0f5afe1"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1645105188/Challenges/sfl8uqvq75wnnr559ksp.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS", "API"],
+      "sketchURL": "designs/advice-generator-app-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/advice-generator-app/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "advice-generator-app-QdUG-13db",
+      "screenshotHeight": 810,
+      "submitted": true,
+      "title": "Advice generator app",
+      "type": "free"
+    },
+    {
+      "id": "6234774f8a1c690472e9379a",
+      "brief": "Your challenge is to build out this interactive rating component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Select and submit a number rating\n- See the \"Thank you\" card state after submitting a rating\n- See hover and focus states for all interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2022-03-18T12:13:03.365Z",
+      "description": "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!",
+      "difficulty": 1,
+      "figmaURL": "designs/interactive-rating-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605679/Challenges/dm3s8oqtz0mwcaygqjhy.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605683/Challenges/mow7ca07z3qa0ffbwc2p.jpg",
+          "_id": "623477af8a1c690472e93f87"
+        },
+        {
+          "title": "Active states",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605679/Challenges/nvitmyjwm3b9ki67h79z.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605683/Challenges/nrdvf0264kflzhl8jcac.jpg",
+          "_id": "623477af8a1c690472e93f88"
+        },
+        {
+          "title": "Submitted state",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605797/Challenges/cy0g0zyhkdjpzim0pahz.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605798/Challenges/yt1xu50zkf8czlur8gvd.jpg",
+          "_id": "623478258a1c690472e948c1"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605797/Challenges/azuwlqhmt3ty3h0cfnnr.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605798/Challenges/advyzlrcdoijsxrrnfht.jpg",
+          "_id": "623478258a1c690472e948c2"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605583/Challenges/hxx2bhmtmeelt0a98zos.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/interactive-rating-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/interactive-rating-component/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "interactive-rating-component-koxpeBUmI",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Interactive rating component",
+      "type": "free"
+    },
+    {
+      "id": "62580064f223eb5a993d4c37",
+      "brief": "Your challenge is to build out this intro section with dropdown navigation and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- View the relevant dropdown menus on desktop and mobile when interacting with the navigation links\n- View the optimal layout for the content depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2022-04-14T11:07:16.588Z",
+      "description": "This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges.",
+      "difficulty": 2,
+      "figmaURL": "designs/intro-section-with-dropdown-navigation-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1649934549/Challenges/zp74vhrxan0bpg43z2uu.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1649934549/Challenges/yoglpvvo0vggjf9ekjey.jpg",
+          "_id": "625800d5f223eb5a993d4ec5"
+        },
+        {
+          "title": "Active states",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1649934549/Challenges/x35fo4g0mcmxbl9ht02l.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1649934550/Challenges/pmszsjnfupepcohsbty9.jpg",
+          "_id": "625800d5f223eb5a993d4ec6"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1650881897/Challenges/kjo17v5edphajeppxyix.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1649934549/Challenges/x4moicebbpnxh2drqr5t.jpg",
+          "_id": "625800d5f223eb5a993d4ec7"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1649934436/Challenges/rlaxdjplmeul4qe1qvh6.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is important for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/intro-section-with-dropdown-navigation-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/intro-section-with-dropdown-navigation/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "intro-section-with-dropdown-navigation-ryaPetHE5",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Intro section with dropdown navigation",
+      "type": "free"
+    },
+    {
+      "id": "6287a2643ccea740c71c2ae4",
+      "brief": "Your challenge is to build out this bar chart component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nWe provide the data for the chart in a local `data.json` file. So you can use that to add the bars dynamically if you choose.\n\nYour users should be able to:\n\n- View the bar chart and hover over the individual bars to see the correct amounts for each day\n- See the current day's bar highlighted in a different colour to the other bars\n- View the optimal layout for the content depending on their device's screen size\n- See hover states for all interactive elements on the page\n- **Bonus**: See dynamically generated bars based on the data provided in the local JSON file\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you set it up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2022-05-20T14:15:00.708Z",
+      "description": "In this challenge, you'll create a bar chart component from scratch. We provide a local JSON file, so you can add the chart data dynamically if you choose.",
+      "difficulty": 2,
+      "figmaURL": "designs/expenses-chart-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1653056138/Challenges/qqz8vfg0jzmrtk2liteo.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1653056138/Challenges/pbyfftwogzle4h5mhlb6.jpg",
+          "_id": "6287a28a3ccea740c71c2cd9"
+        },
+        {
+          "title": "Active states",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1653056138/Challenges/cmjc6wpj1xxrc3e4ceqi.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1653056138/Challenges/cwqwvrtpzial9kr5rlub.jpg",
+          "_id": "6287a28a3ccea740c71c2cda"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1653056173/Challenges/bwtotgnznub7yxdifn4t.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1653056174/Challenges/yx6kfjn9kamoqrt9qfs5.jpg",
+          "_id": "6287a2ad3ccea740c71c2efa"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1653056100/Challenges/xhxtaym7uzypzb37rpcc.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Use a JavaScript framework/library to practice building using components",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/expenses-chart-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/expenses-chart-component/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "expenses-chart-component-e7yJBUdjwt",
+      "screenshotHeight": 1024,
+      "submitted": true,
+      "title": "Expenses chart component",
+      "type": "free"
+    },
+    {
+      "id": "62b57bb338517877b3cde3d6",
+      "brief": "Your challenge is to build out this product preview card component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- View the optimal layout depending on their device's screen size\n- See hover and focus states for interactive elements\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2022-06-24T08:54:11.852Z",
+      "description": "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.",
+      "difficulty": 1,
+      "figmaURL": "designs/product-preview-card-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1658144705/Challenges/d0bm3lh8bp36gyi3jiop.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1658144705/Challenges/fvv3coes3vm7ndnw6tml.jpg",
+          "_id": "62b57fa138517877b3ce1814"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1658144705/Challenges/hucevwcqqe5otwbbfaqv.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1658144705/Challenges/i92pu1jsyjvdrv06rgbn.jpg",
+          "_id": "62b57fcb38517877b3ce1a69"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1658144706/Challenges/lftjtn81b7brs2icc898.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/product-preview-card-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/product-preview-card-component/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "product-preview-card-component-GO7UmttRfa",
+      "screenshotHeight": 800,
+      "submitted": true,
+      "title": "Product preview card component",
+      "type": "free"
+    },
+    {
+      "id": "62ebf18d83876a172e55ded5",
+      "brief": "Your challenge is to build out this interactive card details form and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- Fill in the form and see the card details update in real time\n- Receive error messages when the form is submitted if:\n  - Any input field is empty\n  - The card number, expiry date, or CVC fields are in the wrong format\n- View the optimal layout depending on their device's screen size\n- See hover, active, and focus states for interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2022-08-04T16:19:25.135Z",
+      "description": "This fun project will be an excellent way to practice DOM manipulation and form validation while also putting your HTML and CSS skills to the test.",
+      "difficulty": 2,
+      "figmaURL": "designs/interactive-card-details-form-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659630257/Challenges/o5wnlelbwhhjcmbjnq62.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659630257/Challenges/lpjh2nrqlvjzitl4hlhx.jpg",
+          "_id": "62ebf2b183876a172e55f023"
+        },
+        {
+          "title": "Active states",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659630257/Challenges/pdajdev52qxk93tgzssn.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659630257/Challenges/ygesuk3joop9bl8sn3p8.jpg",
+          "_id": "62ebf2b183876a172e55f024"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659630289/Challenges/hy1blsajrol3vn471bd7.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659630290/Challenges/dufoxw5d9n0xoolulcb8.jpg",
+          "_id": "62ebf2d183876a172e55f23d"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659629965/Challenges/u57dcsnhvoalnixjt6kb.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/interactive-card-details-form-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/interactive-card-details-form/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "interactive-card-details-form-XpS8cKZDWw",
+      "screenshotHeight": 900,
+      "submitted": true,
+      "title": "Interactive card details form",
+      "type": "free"
+    },
+    {
+      "id": "632334fce4e1966b12655f06",
+      "brief": "Your challenge is to build out this notifications page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Distinguish between \"unread\" and \"read\" notifications\n- Select \"Mark all as read\" to toggle the visual state of the unread notifications and set the number of unread messages to zero\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2022-09-15T14:21:49.019Z",
+      "description": "This project will be a brilliant test of your HTML, CSS, and basic JavaScript skills. You'll use JS to toggle the visual state of the notifications.",
+      "difficulty": 2,
+      "figmaURL": "designs/notifications-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1663251781/Challenges/hkmsdxxteijprjdzskhg.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1663251784/Challenges/ouo4noiahpnxrrr0ds8o.jpg",
+          "_id": "63233545e4e1966b12656693"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1663251781/Challenges/zglfeij1tdtqrbufdzur.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1663251784/Challenges/it69nmszi3nz6p7xezsc.jpg",
+          "_id": "63233545e4e1966b12656694"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1663251709/Challenges/wgwtjhvnsjnax4k6rdqw.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/notifications-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/notifications-page/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "notifications-page-DqK5QAmKbC",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "Notifications page",
+      "type": "free"
+    },
+    {
+      "id": "6352b04a773b8f1329608747",
+      "brief": "Your challenge is to build out this news website homepage and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2022-10-21T14:44:26.626Z",
+      "description": "This news homepage will be an excellent opportunity to practice your CSS Grid skills. There will be lots of tricky decisions to make and plenty of learning opportunities!",
+      "difficulty": 2,
+      "figmaURL": "designs/news-homepage-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1666363596/Challenges/ydwlkxtdt2ocf5lfr8gf.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1666363597/Challenges/parjyu2ejag4sdrmbk2e.jpg",
+          "_id": "6352b0cc773b8f1329608fca"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1666363596/Challenges/lmhe7mhdyxzxomuhzuhu.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1666363597/Challenges/wlz5dywbxgygxlsrvw8h.jpg",
+          "_id": "6352b0cc773b8f1329608fcb"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1666363466/Challenges/abbzt6kmkawmpbj7evxx.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/news-homepage-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/news-homepage/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "news-homepage-H6SWTa1MFl",
+      "screenshotHeight": null,
+      "submitted": true,
+      "title": "News homepage",
+      "type": "free"
+    },
+    {
+      "id": "63efab4a11f8f536f2d40984",
+      "brief": "Your challenge is building out this results summary component and getting it as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nWe provide the data for the results in a local `data.json` file. So you can use that to add the results and total score dynamically if you choose.\n\nYour users should be able to:\n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n- **Bonus**: Use the local JSON data to dynamically populate the content\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you set it up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2023-02-17T16:28:58.797Z",
+      "description": "This challenge has something for everyone. It’s a HTML and CSS only project, but we’ve also provided a JSON file of the test results for anyone wanting to practice JS.",
+      "difficulty": 1,
+      "figmaURL": "designs/results-summary-component-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1676651420/Challenges/aqbssn4qnnb7jwp9kbw2.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1676651421/Challenges/xals0mqfmph6kcspsezk.jpg",
+          "_id": "63efab9c11f8f536f2d40ea1"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1676651420/Challenges/itfowh1sglktuzfi7vj6.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1676651421/Challenges/np8gcjsljpn4zlzqdusd.jpg",
+          "_id": "63efab9c11f8f536f2d40ea2"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1676651338/Challenges/b03akozsxsouireonkkd.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/results-summary-component-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/results-summary-component/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "results-summary-component-CE_K6s0maV",
+      "screenshotHeight": 1080,
+      "submitted": true,
+      "title": "Results summary component",
+      "type": "free"
+    },
+    {
+      "id": "6425b8adaa082d10e4efd7d0",
+      "brief": "Your challenge is to build out this age calculator app and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\n- View an age in years, months, and days after submitting a valid date through the form\n- Receive validation errors if:\n  - Any field is empty when the form is submitted\n  - The day number is not between 1-31\n  - The month number is not between 1-12\n  - The date is in the future\n  - The date is invalid, e.g. 31/04/1991 (there are 30 days in April)\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n- **Bonus**: See the age numbers animate to their final number when the form is submitted\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2023-03-30T16:28:29.612Z",
+      "description": "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!",
+      "difficulty": 2,
+      "figmaURL": "designs/age-calculator-app-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1680193823/Challenges/jmzygkuazktqtg2akkkx.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1680193823/Challenges/edhwnh0nvy7vyhejeccf.jpg",
+          "_id": "6425b91eaa082d10e4efde04"
+        },
+        {
+          "title": "Error states",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1680193823/Challenges/baw6ztzca9symmjhtn9f.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1680193823/Challenges/yzbxqmjqz0rshhaxerwb.jpg",
+          "_id": "6425b91eaa082d10e4efde05"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1680193823/Challenges/fohilsqyqdwusqtyli0u.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1680193823/Challenges/cgw08h6powt1zmotfx3q.jpg",
+          "_id": "6425b91eaa082d10e4efde06"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1680193709/Challenges/mwjogovjjnkz6f6yzdkp.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/age-calculator-app-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/age-calculator-app/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "age-calculator-app-dF9DFFpj-Q",
+      "screenshotHeight": 960,
+      "submitted": true,
+      "title": "Age calculator app",
+      "type": "free"
+    },
+    {
+      "id": "6470a48d66765b4fc3e55d93",
+      "brief": "Your challenge is to build out this newsletter form and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Add their email and submit the form\n- See a success message with their email after successfully submitting the form\n- See form validation messages if:\n  - The field is left empty\n  - The email address is not formatted correctly\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2023-05-26T12:22:37.812Z",
+      "description": "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
+      "difficulty": 2,
+      "figmaURL": "designs/newsletter-sign-up-with-success-message-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103837/Challenges/q7yvs5yvgchjhjs2znay.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103838/Challenges/rnhx0ccfuqrdx3udhhr8.jpg",
+          "_id": "6470a4dd66765b4fc3e56791"
+        },
+        {
+          "title": "Error state",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103968/Challenges/yyvcyxhsecranxulr4xr.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103968/Challenges/oyutcn434w63q3vhs38z.jpg",
+          "_id": "6470a55f66765b4fc3e57555"
+        },
+        {
+          "title": "Success state",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103968/Challenges/ocgsmpiblhjgre6rluvh.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103968/Challenges/ar4f8wjb3zi0mrirpcve.jpg",
+          "_id": "6470a55f66765b4fc3e57556"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685104000/Challenges/tsjo19txyztupqmgyp8l.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685104000/Challenges/s1nccdhto3gigyx7p4c2.jpg",
+          "_id": "6470a57f66765b4fc3e5788c"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103757/Challenges/zimchyd6aujs5y4h5wxd.jpg",
+      "ideas": [
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/newsletter-sign-up-with-success-message-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/newsletter-sign-up-with-success-message/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "newsletter-signup-form-with-success-message-3FC1AZbNrv",
+      "screenshotHeight": 1080,
+      "submitted": true,
+      "title": "Newsletter sign-up form with success message",
+      "type": "free"
+    },
+    {
+      "id": "6568a0829a87f7fded54b105",
+      "brief": "Your challenge is to build out this FAQ accordion and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- Hide/Show the answer to a question when the question is clicked\n- Navigate the questions and hide/show answers using keyboard navigation alone\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2023-11-30T14:47:30.086Z",
+      "description": "In this challenge, you'll build an FAQ accordion. This is an extremely common front-end pattern, so it's an excellent opportunity to get some practice in!",
+      "difficulty": 1,
+      "figmaURL": "designs/faq-accordion-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1701355692/Challenges/txnhbxbvi4zqxxcqmrwq.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1701355692/Challenges/wjhbnth49rytugjjmucl.jpg",
+          "_id": "6568a0ac9a87f7fded54b42b"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1701355692/Challenges/uveesnn1vtwqqyeustqm.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1701355692/Challenges/ehs7scbwl0p0m1zfbtf6.jpg",
+          "_id": "6568a0ac9a87f7fded54b42c"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1701355650/Challenges/nr04mhuzgpmuipedmqcc.jpg",
+      "ideas": [
+        "Research patterns for building an accessible accordion and try your hardest to make the accordion accessible",
+        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
+        "Train your eye for detail by getting your solution as close to the design as you can",
+        "Try estimating the time it will take for you to build the project, then see if the time taken matches up to your estimate"
+      ],
+      "languages": ["HTML", "CSS", "JS"],
+      "sketchURL": "designs/faq-accordion-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/faq-accordion/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g. Git)",
+        "Read the `README.md` file and have a look around the project",
+        "Get colors, fonts etc from the `style-guide.md` file",
+        "Set up your project/file architecture however you want",
+        "Start coding!"
+      ],
+      "slug": "faq-accordion-wyfFdeBwBz",
+      "screenshotHeight": 900,
+      "submitted": true,
+      "title": "FAQ accordion",
+      "type": "free"
+    },
+    {
+      "id": "658417922b215dbd272d5d32",
+      "brief": "Your challenge is to build out this blog preview card and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2023-12-21T10:46:42.157Z",
+      "description": "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.",
+      "difficulty": 1,
+      "figmaURL": "designs/blog-preview-card-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1703155661/Challenges/kaiwxzdh90xhbdwsstvl.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1703155661/Challenges/iyh3uk6keluskixx8pz6.jpg",
+          "_id": "658417cd2b215dbd272d5f6f"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1703155661/Challenges/uvzzhmmipmcaqzwtiapc.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1703155661/Challenges/kcukxpnovezbphfeaxg9.jpg",
+          "_id": "658417cd2b215dbd272d5f70"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1703155602/Challenges/cmab9xsatnq8m04w5ikl.jpg",
+      "ideas": [
+        "Train your eye for detail by getting your solution as close to the design as you can.",
+        "The font sizes in this project a slightly smaller in the mobile layout. Find a way to reduce font size for smaller screens without using media queries."
+      ],
+      "languages": ["HTML", "CSS"],
+      "sketchURL": "designs/blog-preview-card-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/blog-preview-card/archive/refs/heads/main.zip",
+      "steps": [
+        "Set up the project with version control (e.g., Git).",
+        "Read the `README.md` file and have a look around the project.",
+        "Get colors, fonts, etc, from the `style-guide.md` file.",
+        "Set up your project/file architecture however you want.",
+        "Start coding!"
+      ],
+      "slug": "blog-preview-card-ckPaj01IcS",
+      "screenshotHeight": 960,
+      "submitted": true,
+      "title": "Blog preview card",
+      "type": "free-plus"
+    }
+  ]
+}
