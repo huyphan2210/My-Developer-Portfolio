@@ -24,7 +24,6 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 
 #root {
@@ -54,5 +53,11 @@ textarea {
 @media screen and (min-height: 1024px) {
   body {
     height: 100vh;
+  }
+
+  @media screen and (min-aspect-ratio: 1) {
+    body {
+      overflow: hidden;
+    }
   }
 }
