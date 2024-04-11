@@ -4,32 +4,28 @@ const useElementInView = (elementRef: RefObject<Element>) => {
   const [isInView, setIsInView] = useState(false);
 
   useEffect(() => {
-    let prevScrollPos = window.scrollY;
-
-    const checkInView = () => {
-      const currentScrollPos = window.scrollY;
-      if (currentScrollPos > prevScrollPos && elementRef.current) {
-        const inView = isTopOfElementInView(elementRef.current);
-        if (inView) {
-          setIsInView(true);
-        }
-      }
-      prevScrollPos = currentScrollPos;
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5, // Trigger when at least half of the element is visible
     };
 
-    const isTopOfElementInView = (el: Element) => {
-      const rect = el.getBoundingClientRect();
-      return (
-        rect.top >= 0 &&
-        rect.top <=
-          (window.innerHeight || document.documentElement.clientHeight)
-      );
+    const callback = (entries: IntersectionObserverEntry[]) => {
+      entries.forEach((entry) => {
+        setIsInView(entry.isIntersecting);
+      });
     };
 
-    window.addEventListener("scroll", checkInView);
+    const observer = new IntersectionObserver(callback, options);
+
+    if (elementRef.current) {
+      observer.observe(elementRef.current);
+    }
 
     return () => {
-      window.removeEventListener("scroll", checkInView);
+      if (elementRef.current) {
+        observer.unobserve(elementRef.current);
+      }
     };
   }, [elementRef]);
 
