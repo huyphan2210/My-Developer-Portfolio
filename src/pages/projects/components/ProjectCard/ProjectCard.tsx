@@ -14,6 +14,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
     <article
       className="project-card"
       ref={cardRef}
+      onClick={() => window.open(project.liveURL, "_blank")}
       style={{ opacity: isInView ? 1 : 0 }}
     >
       <div className="project-card__header">

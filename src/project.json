@@ -41,7 +41,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "Huddle landing page with a single introductory section",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/huddle-landing-page-with-single-introductory-section",
+      "liveURL": "https://huyphan2210.github.io/huddle-landing-page-with-single-introductory-section/"
     },
     {
       "id": "5ca5f5981e82137ec91a5100",
@@ -70,7 +72,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS"],
+      "languages": ["HTML", "CSS", "TS", "React"],
       "sketchURL": "designs/huddle-landing-page-with-alternating-feature-blocks-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/huddle-landing-page-with-alternating-feature-blocks/archive/master.zip",
       "steps": [
@@ -84,7 +86,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Huddle landing page with alternating feature blocks",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/huddle-lading-page",
+      "liveURL": "https://huy-huddle-landing-page.netlify.app/"
     },
     {
       "id": "5cadd051fec04111f7b848da",
@@ -127,7 +131,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Ping single column coming soon page",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/ping-coming-soon-page",
+      "liveURL": "https://huyphan2210.github.io/ping-coming-soon-page/"
     },
     {
       "id": "5cc9bccd6c4c91111378ecb9",
@@ -156,7 +162,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS"],
+      "languages": ["HTML", "CSS", "TS", "React"],
       "sketchURL": "designs/clipboard-landing-page-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/clipboard-landing-page/archive/master.zip",
       "steps": [
@@ -170,7 +176,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Clipboard landing page",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/clipboard-landing-page",
+      "liveURL": "https://clipboard-landing-page-six-kappa.vercel.app/"
     },
     {
       "id": "5ce41129d0ff452fec5abbbc",
@@ -213,7 +221,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "Single price grid component",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/single-price-grid-component",
+      "liveURL": "https://huyphan2210.github.io/single-price-grid-component/"
     },
     {
       "id": "5cf91bd49edda32581d28fd1",
@@ -242,7 +252,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "Vue"],
       "sketchURL": "designs/intro-component-with-sign-up-form-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/intro-component-with-signup-form/archive/master.zip",
       "steps": [
@@ -256,93 +266,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "Intro component with sign-up form",
-      "type": "free"
-    },
-    {
-      "id": "5d289097500fcb331a67d80e",
-      "brief": "Your challenge is to build out this intro component and get it looking as close to the design as possible. The background pattern is also not provided as an asset, so you'll need to create and position it using code.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nThe only JavaScript required is for the mobile navigation toggle. However, you could also try doing this without JS.\n\nYour users should be able to: \n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
-      "createdAt": "2019-07-12T13:52:24.565Z",
-      "description": "Some interesting layout and code challenges are baked into this design. Perfect if you're a beginner who is starting to get a bit more confident with your layouts.",
-      "difficulty": 2,
-      "figmaURL": "designs/project-tracking-intro-component-figma.zip",
-      "gallery": [
-        {
-          "title": "Desktop Design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1562939543/Challenges/quaxtotuavno8ieuobbx.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1562939543/Challenges/oe6ltkbcgxph4lsyyfic.jpg",
-          "_id": "5d289097500fcb331a67d80f"
-        },
-        {
-          "title": "Mobile Design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1562939634/Challenges/cjepxjhbnxwy4vccppg3.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1562939635/Challenges/y4bp8llpazgcfmomy9fq.jpg",
-          "_id": "5d2890f2500fcb331a67d810"
-        }
-      ],
-      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1562939544/Challenges/bfsviv4bu5yxoxxhwbeq.jpg",
-      "ideas": [
-        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
-        "Train your eye for detail by getting your solution as close to the design as you can",
-        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
-      ],
-      "languages": ["HTML", "CSS", "JS"],
-      "sketchURL": "designs/project-tracking-intro-component-sketch.zip",
-      "starterURL": "https://github.com/frontendmentorio/project-tracking-intro-component/archive/master.zip",
-      "steps": [
-        "Set up the project with version control (e.g. Git)",
-        "Read the `README.md` file and have a look around the project",
-        "Get colors, fonts etc from the `style-guide.md` file",
-        "Set up your project/file architecture however you want",
-        "Start coding!"
-      ],
-      "slug": "project-tracking-intro-component-5d289097500fcb331a67d80e",
-      "screenshotHeight": 800,
-      "submitted": true,
-      "title": "Project tracking intro component",
-      "type": "free"
-    },
-    {
-      "id": "5d46b47f8db8a7063f9331a0",
-      "brief": "Your challenge is to build out this coming soon page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n- Receive an error message when the `form` is submitted if:\n  - The `input` field is empty\n  - The email address is not formatted correctly\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
-      "createdAt": "2019-08-04T10:33:36.160Z",
-      "description": "This layout looks simple enough, but there are some interesting details to it that will test your CSS skills. You'll also get to practice basic form validation.",
-      "difficulty": 1,
-      "figmaURL": "designs/base-apparel-coming-soon-page-figma.zip",
-      "gallery": [
-        {
-          "title": "Desktop Design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1564914815/Challenges/oxwdbpj64r1au0gp1frc.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1564914815/Challenges/ae67ohzys48frbejvyce.jpg",
-          "_id": "5d46b47f8db8a7063f9331a2"
-        },
-        {
-          "title": "Mobile Design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1564914815/Challenges/nmzsekfvee2avkiut1en.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1564914815/Challenges/orfu3ybrkeyzhe8q9k76.jpg",
-          "_id": "5d46b47f8db8a7063f9331a1"
-        }
-      ],
-      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1564914816/Challenges/tjmihf4uv326gkkz7mbk.jpg",
-      "ideas": [
-        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
-        "Train your eye for detail by getting your solution as close to the design as you can",
-        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
-      ],
-      "languages": ["HTML", "CSS", "JS"],
-      "sketchURL": "designs/base-apparel-coming-soon-page-sketch.zip",
-      "starterURL": "https://github.com/frontendmentorio/base-apparel-coming-coon/archive/master.zip",
-      "steps": [
-        "Set up the project with version control (e.g. Git)",
-        "Read the `README.md` file and have a look around the project",
-        "Get colors, fonts etc from the `style-guide.md` file",
-        "Set up your project/file architecture however you want",
-        "Start coding!"
-      ],
-      "slug": "base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0",
-      "screenshotHeight": 800,
-      "submitted": true,
-      "title": "Base Apparel coming soon page",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/intro-component-with-signup-form-vue",
+      "liveURL": "https://incomparable-jelly-e0f219.netlify.app/"
     },
     {
       "id": "5da86cdaf5809005ee43ad07",
@@ -385,7 +311,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Four card feature section",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/four-card-feature-section",
+      "liveURL": "https://huyphan2210.github.io/four-card-feature-section/"
     },
     {
       "id": "5de12af32cd7d0476389c20c",
@@ -420,7 +348,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "React"],
       "sketchURL": "designs/pricing-component-with-toggle-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/pricing-component-with-toggle/archive/master.zip",
       "steps": [
@@ -434,7 +362,9 @@
       "screenshotHeight": 850,
       "submitted": true,
       "title": "Pricing component with toggle",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/pricing-component-with-toggle",
+      "liveURL": "https://pricing-component-with-toggle-delta-six.vercel.app/"
     },
     {
       "id": "5e1ca8a93a39d33ef164011f",
@@ -469,7 +399,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "Vue"],
       "sketchURL": "designs/insure-landing-page-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/insure-landing-page/archive/master.zip",
       "steps": [
@@ -483,56 +413,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Insure landing page",
-      "type": "free"
-    },
-    {
-      "id": "5e3af0a9777de80c37fb80f1",
-      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- See all testimonials in a horizontal slider\n- Receive an error message when the newsletter sign-up `form` is submitted if:\n  - The `input` field is empty\n  - The email address is not formatted correctly\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
-      "createdAt": "2020-02-05T16:43:21.726Z",
-      "description": "This challenge will be a great test for your responsive skills. There are lots of small details and slight content shifts for different screen sizes.",
-      "difficulty": 3,
-      "figmaURL": "designs/manage-landing-page-figma.zip",
-      "gallery": [
-        {
-          "title": "Desktop Design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921397/Challenges/qkpgcsmter7tah2sjdij.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921398/Challenges/zsudsuxylxq1bnhww45p.jpg",
-          "_id": "5e3af235777de80c37fb80fe"
-        },
-        {
-          "title": "Active States",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921397/Challenges/xihpurhitfpt5mycko8z.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921398/Challenges/nbvz4ni7mil85jwdljiq.jpg",
-          "_id": "5e3af235777de80c37fb80fd"
-        },
-        {
-          "title": "Mobile Design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921398/Challenges/jxvqmmhh6qfcoeoxmfie.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921398/Challenges/hpy91hm5bcn1lvyff2c7.jpg",
-          "_id": "5e3af235777de80c37fb80fc"
-        }
-      ],
-      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1580921001/Challenges/dnn0oqu9q1r6dpq2lmr8.jpg",
-      "ideas": [
-        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
-        "Train your eye for detail by getting your solution as close to the design as you can",
-        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
-      ],
-      "languages": ["HTML", "CSS", "JS"],
-      "sketchURL": "designs/manage-landing-page-sketch.zip",
-      "starterURL": "https://github.com/frontendmentorio/manage-landing-page/archive/master.zip",
-      "steps": [
-        "Set up the project with version control (e.g. Git)",
-        "Read the `README.md` file and have a look around the project",
-        "Get colors, fonts etc from the `style-guide.md` file",
-        "Set up your project/file architecture however you want",
-        "Start coding!"
-      ],
-      "slug": "manage-landing-page-SLXqC6P5",
-      "screenshotHeight": null,
-      "submitted": true,
-      "title": "Manage landing page",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/insure-landing-page",
+      "liveURL": "https://huyphan-insure-landing-page.netlify.app/"
     },
     {
       "id": "5e612f96e7779b5603d68243",
@@ -567,7 +450,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "Angular"],
       "sketchURL": "designs/easybank-landing-page-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/easybank-landing-page/archive/master.zip",
       "steps": [
@@ -581,7 +464,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Easybank landing page",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/easybank-landing-page",
+      "liveURL": "https://easybank-landing-page-mu-vert.vercel.app/"
     },
     {
       "id": "5e8602bfb8379b189fc4de54",
@@ -610,7 +495,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "React"],
       "sketchURL": "designs/social-media-dashboard-with-theme-switcher-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/social-media-dashboard-with-theme-switcher/archive/master.zip",
       "steps": [
@@ -624,7 +509,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Social media dashboard with theme switcher",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/social-media-dashboard",
+      "liveURL": "https://huyphan-social-media-dashboard.netlify.app/"
     },
     {
       "id": "5ebd5f69774e926342cf07e3",
@@ -653,7 +540,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "React"],
       "sketchURL": "designs/coding-bootcamp-testimonials-slider-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/coding-bootcamp-testimonials-slider/archive/master.zip",
       "steps": [
@@ -667,7 +554,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "Coding bootcamp testimonials slider",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/coding-bootcamp-testimonials-slider",
+      "liveURL": "https://coding-bootcamp-testimonials-slider-mu-hazel.vercel.app/"
     },
     {
       "id": "5ed53e8dcc418419539bb192",
@@ -710,7 +599,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "Fylo data storage component",
-      "type": "free"
+      "type": "free",
+      "repository": "https://huyphan2210.github.io/fylo-data-storage-component-master/",
+      "liveURL": "https://github.com/huyphan2210/fylo-data-storage-component-master"
     },
     {
       "id": "5ef648201c754d1ccdfcd3f0",
@@ -759,7 +650,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "Article preview component",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/article-preview-component",
+      "liveURL": "https://huyphan2210.github.io/article-preview-component/"
     },
     {
       "id": "5f0dff6f2f69a2067c033b28",
@@ -788,7 +681,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS"],
+      "languages": ["HTML", "CSS", "Vue", "TS"],
       "sketchURL": "designs/chat-app-css-illustration-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/chat-app-css-illustration/archive/master.zip",
       "steps": [
@@ -802,7 +695,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "Chat app CSS illustration",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/chat-app-css",
+      "liveURL": "https://chat-app-css-one.vercel.app/"
     },
     {
       "id": "5f48f8b954fa6a407dce9359",
@@ -831,7 +726,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS", "API"],
+      "languages": ["HTML", "CSS", "TS", "Angular"],
       "sketchURL": "designs/ip-address-tracker-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/ip-address-tracker/archive/master.zip",
       "steps": [
@@ -846,7 +741,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "IP Address Tracker",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/ip-address-tracker-angular",
+      "liveURL": "https://ip-address-tracker-angular.vercel.app/"
     },
     {
       "id": "5f58b70b911b62234993f18b",
@@ -889,50 +786,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "Social proof section",
-      "type": "free"
-    },
-    {
-      "id": "5f6ded4070aa013252de8b44",
-      "brief": "Your challenge is to build out this e-commerce homepage and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Navigate the slider using either their mouse/trackpad or keyboard\n- View the optimal layout for the site depending on their device's screen size\n- See hover states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
-      "createdAt": "2020-09-25T13:14:40.603Z",
-      "description": "This small homepage challenge packs a big punch to test your layout skills. There's also a slider in there to add a JS layer for extra practice.",
-      "difficulty": 3,
-      "figmaURL": "designs/room-homepage-figma.zip",
-      "gallery": [
-        {
-          "title": "Desktop Design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196944/Challenges/pjoks3mpy5tdpsopoepc.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196944/Challenges/ky6ht7ip4ptxw6b4hmaz.jpg",
-          "_id": "5f6ded5d70aa013252de8b46"
-        },
-        {
-          "title": "Mobile Design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196944/Challenges/jnvvk9xalgmnfkyclyev.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196944/Challenges/qiux4wvwbnpcrf0hi7fp.jpg",
-          "_id": "5f6ded8170aa013252de8b49"
-        }
-      ],
-      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652196945/Challenges/m1v21ubdjc2n75bl8p7n.jpg",
-      "ideas": [
-        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
-        "Practice working in a team by building with friends",
-        "Train your eye for detail by getting your solution as close to the design as you can"
-      ],
-      "languages": ["HTML", "CSS", "JS"],
-      "sketchURL": "designs/room-homepage-sketch.zip",
-      "starterURL": "https://github.com/frontendmentorio/room-homepage/archive/master.zip",
-      "steps": [
-        "Set up the project with version control (e.g. Git)",
-        "Read the `README.md` file and have a look around the project",
-        "Get colors, fonts etc from the `style-guide.md` file",
-        "Set up your project/file architecture however you want",
-        "Start coding!"
-      ],
-      "slug": "room-homepage-BtdBY_ENq",
-      "screenshotHeight": null,
-      "submitted": true,
-      "title": "Room homepage",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/social-proof-section",
+      "liveURL": "https://huyphan2210.github.io/social-proof-section/"
     },
     {
       "id": "5f802b8198b5a01770139a30",
@@ -976,7 +832,9 @@
       "screenshotHeight": 768,
       "submitted": false,
       "title": "FAQ accordion card",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/faq-accordion-card",
+      "liveURL": "https://huyphan2210.github.io/faq-accordion-card/"
     },
     {
       "id": "5f91b9471ec0ad07352294f2",
@@ -1020,7 +878,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Testimonials grid section",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/testimonials-grid-section-main",
+      "liveURL": "https://huyphan2210.github.io/testimonials-grid-section-main/"
     },
     {
       "id": "5fad759bfd76eb32119d4b53",
@@ -1063,51 +923,9 @@
       "screenshotHeight": 720,
       "submitted": true,
       "title": "Profile card component",
-      "type": "free"
-    },
-    {
-      "id": "5fd24739e0d1d5647ae47fac",
-      "brief": "Your challenge is to build out this countdown timer and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- See hover states for all interactive elements on the page\n- See a live countdown timer that ticks down every second\n- **Bonus**: When a number changes, make the card flip from the middle\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
-      "createdAt": "2020-12-10T16:05:13.416Z",
-      "description": "This will be a fun one! Your challenge is to build this countdown timer. There are lots of small CSS tests in the design as well. So it should keep you busy!",
-      "difficulty": 3,
-      "figmaURL": "designs/launch-countdown-timer-figma.zip",
-      "gallery": [
-        {
-          "title": "Desktop Design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1607616391/Challenges/sgyggipeoqrv2inrkxja.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1607616391/Challenges/cqs8urpg9sr4ufvyiw7n.jpg",
-          "_id": "5fd24787e0d1d5647ae47fb4"
-        },
-        {
-          "title": "Mobile Design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1607616391/Challenges/bm6zryj1hvggaesn2yhn.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1607616391/Challenges/eq6e9nvs1ny70gbpk2bq.jpg",
-          "_id": "5fd24787e0d1d5647ae47fb5"
-        }
-      ],
-      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1607616313/Challenges/yf5s8ekgwaft5w57ju6u.jpg",
-      "ideas": [
-        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
-        "Practice working in a team by building with friends",
-        "Train your eye for detail by getting your solution as close to the design as you can",
-        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
-      ],
-      "languages": ["HTML", "CSS", "JS"],
-      "sketchURL": "designs/launch-countdown-timer-sketch.zip",
-      "starterURL": "https://github.com/frontendmentorio/launch-countdown-timer/archive/main.zip",
-      "steps": [
-        "Set up the project with version control (e.g. Git)",
-        "Read the `README.md` file and have a look around the project",
-        "Get colors, fonts etc from the `style-guide.md` file",
-        "Set up your project/file architecture however you want",
-        "Start coding!"
-      ],
-      "slug": "launch-countdown-timer-N0XkGfyz-",
-      "screenshotHeight": 800,
-      "submitted": true,
-      "title": "Launch countdown timer",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/profile-card-component",
+      "liveURL": "https://huyphan2210.github.io/profile-card-component/"
     },
     {
       "id": "5ff83b371e74fa1b8dcf0703",
@@ -1137,7 +955,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "React"],
       "sketchURL": "designs/loopstudios-landing-page-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/loopstudios-landing-page/archive/main.zip",
       "steps": [
@@ -1151,7 +969,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Loopstudios landing page",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/loopstudios-landing-page",
+      "liveURL": "https://huyphan-loopstudios-landing-page.netlify.app/"
     },
     {
       "id": "600adff47931c226d23551f6",
@@ -1181,7 +1001,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "Vue", "TS"],
       "sketchURL": "designs/interactive-pricing-component-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/interactive-pricing-component/archive/main.zip",
       "steps": [
@@ -1195,7 +1015,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Interactive pricing component",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/interactive-pricing-component",
+      "liveURL": "https://huyphan-interactive-pricing-component.netlify.app/"
     },
     {
       "id": "602662358b83d6282762df02",
@@ -1231,7 +1053,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "React"],
       "sketchURL": "designs/crowdfunding-product-page-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/crowdfunding-product-page/archive/main.zip",
       "steps": [
@@ -1245,7 +1067,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Crowdfunding product page",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/crowdfunding-product-page",
+      "liveURL": "https://huyphan-crowdfunding-page-react.netlify.app/"
     },
     {
       "id": "604a43c7d6bf4e49edd3d917",
@@ -1275,7 +1099,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "Svelte", "TS"],
       "sketchURL": "designs/blogr-landing-page-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/blogr-landing-page/archive/main.zip",
       "steps": [
@@ -1289,7 +1113,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Blogr landing page",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/blogr-landing-page-svelte",
+      "liveURL": "https://blogr-landing-page-svelte.vercel.app/"
     },
     {
       "id": "6065efba65c0ff6e9bf5360f",
@@ -1332,7 +1158,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "3-column preview card component",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/3-column-preview-card-component",
+      "liveURL": "https://huyphan2210.github.io/3-column-preview-card-component/"
     },
     {
       "id": "6078390f80d0ff7fd7954aad",
@@ -1376,7 +1204,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "Stats preview card component",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/stats-preview-card-component",
+      "liveURL": "https://huyphan2210.github.io/stats-preview-card-component/"
     },
     {
       "id": "60c0d3c5905837382196aa15",
@@ -1406,7 +1236,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "React"],
       "sketchURL": "designs/sunnyside-agency-landing-page-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/sunnyside-agency-landing-page/archive/refs/heads/main.zip",
       "steps": [
@@ -1420,7 +1250,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Sunnyside agency landing page",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/sunnyside-agency-landing-page-react",
+      "liveURL": "https://huyphan-sunnyside-agency-landing-page.netlify.app/"
     },
     {
       "id": "60e7057d0a8c9661bfe3805b",
@@ -1456,7 +1288,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "React"],
       "sketchURL": "designs/tip-calculator-app-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/tip-calculator-app/archive/refs/heads/main.zip",
       "steps": [
@@ -1470,7 +1302,9 @@
       "screenshotHeight": 1024,
       "submitted": true,
       "title": "Tip calculator app",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/tip-calculator-react",
+      "liveURL": "https://huyphan-tip-calculator.netlify.app/"
     },
     {
       "id": "610bc9c450c6191f790975e3",
@@ -1513,7 +1347,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Order summary component",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/order-summary-component",
+      "liveURL": "https://huyphan2210.github.io/order-summary-component/"
     },
     {
       "id": "613b34360fb19b3c8d0a9b64",
@@ -1542,7 +1378,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "React", "TS"],
       "sketchURL": "designs/time-tracking-dashboard-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/time-tracking-dashboard/archive/refs/heads/main.zip",
       "steps": [
@@ -1556,7 +1392,9 @@
       "screenshotHeight": 1024,
       "submitted": true,
       "title": "Time tracking dashboard",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/time-tracking-dashboard-react",
+      "liveURL": "https://huyphan-time-tracking-dashboard.netlify.app/"
     },
     {
       "id": "615f0dc50f48541b10545eda",
@@ -1591,7 +1429,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "Angular"],
       "sketchURL": "designs/ecommerce-product-page-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/ecommerce-product-page/archive/refs/heads/main.zip",
       "steps": [
@@ -1605,7 +1443,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "E-commerce product page",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/ecommerce-product-page",
+      "liveURL": "https://ecommerce-product-page-tau-one.vercel.app/"
     },
     {
       "id": "61697105ef6660213e71d644",
@@ -1659,7 +1499,7 @@
         "Use a JavaScript framework/library to practice building using components",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "Angular"],
       "sketchURL": "designs/space-tourism-website-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/space-tourism-website/archive/refs/heads/main.zip",
       "steps": [
@@ -1674,7 +1514,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Space tourism multi-page website",
-      "type": "free-plus"
+      "type": "free-plus",
+      "repository": "https://github.com/huyphan2210/space-tourism-website",
+      "liveURL": "https://space-tourism-website-tau-swart.vercel.app/"
     },
     {
       "id": "6196880a3cb8666eb705c489",
@@ -1723,63 +1565,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "NFT preview card component",
-      "type": "free"
-    },
-    {
-      "id": "61bcd669145c1239bc732d0d",
-      "brief": "Your challenge is to build out this interactive comments section and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nWe provide the data in a local `data.json` file, so use that to populate the content on the first load. If you want to take it up a notch, feel free to build this as a full-stack CRUD application!\n\nYour users should be able to:\n\n- Create, Read, Update, and Delete comments and replies\n- Upvote and downvote comments\n- View the optimal layout for the app depending on the device's screen size\n- See hover states for all interactive elements on the page\n- **Bonus**: If you're building a purely front-end project, use `localStorage` to save the current state in the browser that persists when the browser is refreshed\n- **Bonus**: Build this project as a full-stack application\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
-      "createdAt": "2021-12-17T18:26:49.292Z",
-      "description": "This is project will put your JavaScript skills to the test. We provide a JSON file to pull the data, but it's also a perfect project to build as a full-stack CRUD app!",
-      "difficulty": 3,
-      "figmaURL": "designs/interactive-comments-section-figma.zip",
-      "gallery": [
-        {
-          "title": "Desktop design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765915/Challenges/v9wskl4mnbt5gbxm4o2r.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765916/Challenges/l3cxamx1e6vpngqjtdyt.jpg",
-          "_id": "61bcd79b145c1239bc7338dd"
-        },
-        {
-          "title": "Active states",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765948/Challenges/f6smfomwzl5k6shzigde.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765949/Challenges/vvcsdtjqyfzgvj4vvcwl.jpg",
-          "_id": "61bcd7bc145c1239bc7339dc"
-        },
-        {
-          "title": "Modal design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765982/Challenges/v1uz9gtx87tugn3sxmkc.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765982/Challenges/nqlhifst3uv1hb8tkibd.jpg",
-          "_id": "61bcd7dd145c1239bc733b71"
-        },
-        {
-          "title": "Mobile design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639766021/Challenges/y1ifmitonxj1hzrqcdbr.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639766022/Challenges/fwkvt3bnvjw3hwplviwc.jpg",
-          "_id": "61bcd804145c1239bc733c97"
-        }
-      ],
-      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765609/Challenges/i8zblmqsbqixz1tbhc0v.jpg",
-      "ideas": [
-        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
-        "Train your eye for detail by getting your solution as close to the design as you can",
-        "Use a JavaScript framework/library to practice building using components",
-        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
-      ],
-      "languages": ["HTML", "CSS", "JS"],
-      "sketchURL": "designs/interactive-comments-section-sketch.zip",
-      "starterURL": "https://github.com/frontendmentorio/interactive-comments-section/archive/refs/heads/main.zip",
-      "steps": [
-        "Set up the project with version control (e.g. Git)",
-        "Read the `README.md` file and have a look around the project",
-        "Get colors, fonts etc from the `style-guide.md` file",
-        "Set up your project/file architecture however you want",
-        "Start coding!"
-      ],
-      "slug": "interactive-comments-section-iG1RugEG9",
-      "screenshotHeight": null,
-      "submitted": true,
-      "title": "Interactive comments section",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/nft-preview-card-component",
+      "liveURL": "https://huyphan2210.github.io/nft-preview-card-component/"
     },
     {
       "id": "61e953584cc2653b1e5ca5b6",
@@ -1822,7 +1610,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "QR code component",
-      "type": "free-plus"
+      "type": "free-plus",
+      "repository": "https://github.com/huyphan2210/qr-code-component",
+      "liveURL": "https://huyphan2210.github.io/qr-code-component/"
     },
     {
       "id": "620e5024145c6a78f0f5a6db",
@@ -1851,7 +1641,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked, but is important for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS", "API"],
+      "languages": ["HTML", "CSS", "TS", "React"],
       "sketchURL": "designs/advice-generator-app-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/advice-generator-app/archive/refs/heads/main.zip",
       "steps": [
@@ -1865,62 +1655,9 @@
       "screenshotHeight": 810,
       "submitted": true,
       "title": "Advice generator app",
-      "type": "free"
-    },
-    {
-      "id": "6234774f8a1c690472e9379a",
-      "brief": "Your challenge is to build out this interactive rating component and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Select and submit a number rating\n- See the \"Thank you\" card state after submitting a rating\n- See hover and focus states for all interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
-      "createdAt": "2022-03-18T12:13:03.365Z",
-      "description": "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!",
-      "difficulty": 1,
-      "figmaURL": "designs/interactive-rating-component-figma.zip",
-      "gallery": [
-        {
-          "title": "Desktop design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605679/Challenges/dm3s8oqtz0mwcaygqjhy.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605683/Challenges/mow7ca07z3qa0ffbwc2p.jpg",
-          "_id": "623477af8a1c690472e93f87"
-        },
-        {
-          "title": "Active states",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605679/Challenges/nvitmyjwm3b9ki67h79z.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605683/Challenges/nrdvf0264kflzhl8jcac.jpg",
-          "_id": "623477af8a1c690472e93f88"
-        },
-        {
-          "title": "Submitted state",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605797/Challenges/cy0g0zyhkdjpzim0pahz.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605798/Challenges/yt1xu50zkf8czlur8gvd.jpg",
-          "_id": "623478258a1c690472e948c1"
-        },
-        {
-          "title": "Mobile design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605797/Challenges/azuwlqhmt3ty3h0cfnnr.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605798/Challenges/advyzlrcdoijsxrrnfht.jpg",
-          "_id": "623478258a1c690472e948c2"
-        }
-      ],
-      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605583/Challenges/hxx2bhmtmeelt0a98zos.jpg",
-      "ideas": [
-        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
-        "Train your eye for detail by getting your solution as close to the design as you can",
-        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is important for professional developers"
-      ],
-      "languages": ["HTML", "CSS", "JS"],
-      "sketchURL": "designs/interactive-rating-component-sketch.zip",
-      "starterURL": "https://github.com/frontendmentorio/interactive-rating-component/archive/refs/heads/main.zip",
-      "steps": [
-        "Set up the project with version control (e.g. Git)",
-        "Read the `README.md` file and have a look around the project",
-        "Get colors, fonts etc from the `style-guide.md` file",
-        "Set up your project/file architecture however you want",
-        "Start coding!"
-      ],
-      "slug": "interactive-rating-component-koxpeBUmI",
-      "screenshotHeight": 800,
-      "submitted": true,
-      "title": "Interactive rating component",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/advice-generator-react",
+      "liveURL": "https://huyphan-advice-generator.netlify.app/"
     },
     {
       "id": "62580064f223eb5a993d4c37",
@@ -1955,7 +1692,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is important for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "Vue"],
       "sketchURL": "designs/intro-section-with-dropdown-navigation-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/intro-section-with-dropdown-navigation/archive/refs/heads/main.zip",
       "steps": [
@@ -1969,7 +1706,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Intro section with dropdown navigation",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/intro-section-with-dropdown-navigation-vue",
+      "liveURL": "https://huyphan-intro-section-dropdown-nav.netlify.app/"
     },
     {
       "id": "6287a2643ccea740c71c2ae4",
@@ -2005,7 +1744,7 @@
         "Use a JavaScript framework/library to practice building using components",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "Vue"],
       "sketchURL": "designs/expenses-chart-component-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/expenses-chart-component/archive/refs/heads/main.zip",
       "steps": [
@@ -2019,7 +1758,9 @@
       "screenshotHeight": 1024,
       "submitted": true,
       "title": "Expenses chart component",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/expenses-chart-component-vue",
+      "liveURL": "https://huyphan-expenses-chart-vue.netlify.app/"
     },
     {
       "id": "62b57bb338517877b3cde3d6",
@@ -2062,56 +1803,9 @@
       "screenshotHeight": 800,
       "submitted": true,
       "title": "Product preview card component",
-      "type": "free"
-    },
-    {
-      "id": "62ebf18d83876a172e55ded5",
-      "brief": "Your challenge is to build out this interactive card details form and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- Fill in the form and see the card details update in real time\n- Receive error messages when the form is submitted if:\n  - Any input field is empty\n  - The card number, expiry date, or CVC fields are in the wrong format\n- View the optimal layout depending on their device's screen size\n- See hover, active, and focus states for interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
-      "createdAt": "2022-08-04T16:19:25.135Z",
-      "description": "This fun project will be an excellent way to practice DOM manipulation and form validation while also putting your HTML and CSS skills to the test.",
-      "difficulty": 2,
-      "figmaURL": "designs/interactive-card-details-form-figma.zip",
-      "gallery": [
-        {
-          "title": "Desktop design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659630257/Challenges/o5wnlelbwhhjcmbjnq62.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659630257/Challenges/lpjh2nrqlvjzitl4hlhx.jpg",
-          "_id": "62ebf2b183876a172e55f023"
-        },
-        {
-          "title": "Active states",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659630257/Challenges/pdajdev52qxk93tgzssn.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659630257/Challenges/ygesuk3joop9bl8sn3p8.jpg",
-          "_id": "62ebf2b183876a172e55f024"
-        },
-        {
-          "title": "Mobile design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659630289/Challenges/hy1blsajrol3vn471bd7.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659630290/Challenges/dufoxw5d9n0xoolulcb8.jpg",
-          "_id": "62ebf2d183876a172e55f23d"
-        }
-      ],
-      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1659629965/Challenges/u57dcsnhvoalnixjt6kb.jpg",
-      "ideas": [
-        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
-        "Train your eye for detail by getting your solution as close to the design as you can",
-        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
-      ],
-      "languages": ["HTML", "CSS", "JS"],
-      "sketchURL": "designs/interactive-card-details-form-sketch.zip",
-      "starterURL": "https://github.com/frontendmentorio/interactive-card-details-form/archive/refs/heads/main.zip",
-      "steps": [
-        "Set up the project with version control (e.g. Git)",
-        "Read the `README.md` file and have a look around the project",
-        "Get colors, fonts etc from the `style-guide.md` file",
-        "Set up your project/file architecture however you want",
-        "Start coding!"
-      ],
-      "slug": "interactive-card-details-form-XpS8cKZDWw",
-      "screenshotHeight": 900,
-      "submitted": true,
-      "title": "Interactive card details form",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/product-preview-card-component-main",
+      "liveURL": "https://huyphan2210.github.io/product-preview-card-component-main/"
     },
     {
       "id": "632334fce4e1966b12655f06",
@@ -2140,7 +1834,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "Vue"],
       "sketchURL": "designs/notifications-page-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/notifications-page/archive/refs/heads/main.zip",
       "steps": [
@@ -2154,7 +1848,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "Notifications page",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/notifications-page-vue",
+      "liveURL": "https://huy-phan-notifications-page-vue3.netlify.app/"
     },
     {
       "id": "6352b04a773b8f1329608747",
@@ -2197,7 +1893,9 @@
       "screenshotHeight": null,
       "submitted": true,
       "title": "News homepage",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/news-homepage",
+      "liveURL": "https://huyphan2210.github.io/news-homepage/"
     },
     {
       "id": "63efab4a11f8f536f2d40984",
@@ -2240,7 +1938,9 @@
       "screenshotHeight": 1080,
       "submitted": true,
       "title": "Results summary component",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/results-summary-component",
+      "liveURL": "https://huyphan2210.github.io/results-summary-component/"
     },
     {
       "id": "6425b8adaa082d10e4efd7d0",
@@ -2275,7 +1975,7 @@
         "Train your eye for detail by getting your solution as close to the design as you can",
         "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
       ],
-      "languages": ["HTML", "CSS", "JS"],
+      "languages": ["HTML", "CSS", "TS", "Svelte"],
       "sketchURL": "designs/age-calculator-app-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/age-calculator-app/archive/refs/heads/main.zip",
       "steps": [
@@ -2289,62 +1989,9 @@
       "screenshotHeight": 960,
       "submitted": true,
       "title": "Age calculator app",
-      "type": "free"
-    },
-    {
-      "id": "6470a48d66765b4fc3e55d93",
-      "brief": "Your challenge is to build out this newsletter form and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Add their email and submit the form\n- See a success message with their email after successfully submitting the form\n- See form validation messages if:\n  - The field is left empty\n  - The email address is not formatted correctly\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
-      "createdAt": "2023-05-26T12:22:37.812Z",
-      "description": "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
-      "difficulty": 2,
-      "figmaURL": "designs/newsletter-sign-up-with-success-message-figma.zip",
-      "gallery": [
-        {
-          "title": "Desktop design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103837/Challenges/q7yvs5yvgchjhjs2znay.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103838/Challenges/rnhx0ccfuqrdx3udhhr8.jpg",
-          "_id": "6470a4dd66765b4fc3e56791"
-        },
-        {
-          "title": "Error state",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103968/Challenges/yyvcyxhsecranxulr4xr.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103968/Challenges/oyutcn434w63q3vhs38z.jpg",
-          "_id": "6470a55f66765b4fc3e57555"
-        },
-        {
-          "title": "Success state",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103968/Challenges/ocgsmpiblhjgre6rluvh.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103968/Challenges/ar4f8wjb3zi0mrirpcve.jpg",
-          "_id": "6470a55f66765b4fc3e57556"
-        },
-        {
-          "title": "Mobile design",
-          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685104000/Challenges/tsjo19txyztupqmgyp8l.jpg",
-          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685104000/Challenges/s1nccdhto3gigyx7p4c2.jpg",
-          "_id": "6470a57f66765b4fc3e5788c"
-        }
-      ],
-      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1685103757/Challenges/zimchyd6aujs5y4h5wxd.jpg",
-      "ideas": [
-        "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
-        "Train your eye for detail by getting your solution as close to the design as you can",
-        "Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers"
-      ],
-      "languages": ["HTML", "CSS", "JS"],
-      "sketchURL": "designs/newsletter-sign-up-with-success-message-sketch.zip",
-      "starterURL": "https://github.com/frontendmentorio/newsletter-sign-up-with-success-message/archive/refs/heads/main.zip",
-      "steps": [
-        "Set up the project with version control (e.g. Git)",
-        "Read the `README.md` file and have a look around the project",
-        "Get colors, fonts etc from the `style-guide.md` file",
-        "Set up your project/file architecture however you want",
-        "Start coding!"
-      ],
-      "slug": "newsletter-signup-form-with-success-message-3FC1AZbNrv",
-      "screenshotHeight": 1080,
-      "submitted": true,
-      "title": "Newsletter sign-up form with success message",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/age-calculator-svelte",
+      "liveURL": "https://age-calculator-rosy-beta.vercel.app/"
     },
     {
       "id": "6568a0829a87f7fded54b105",
@@ -2388,7 +2035,9 @@
       "screenshotHeight": 900,
       "submitted": true,
       "title": "FAQ accordion",
-      "type": "free"
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/faq-accordion-card",
+      "liveURL": "https://huyphan2210.github.io/faq-accordion-card/"
     },
     {
       "id": "658417922b215dbd272d5d32",
@@ -2430,7 +2079,9 @@
       "screenshotHeight": 960,
       "submitted": true,
       "title": "Blog preview card",
-      "type": "free-plus"
+      "type": "free-plus",
+      "repository": "https://github.com/huyphan2210/blog-preview-card-main",
+      "liveURL": "https://huyphan2210.github.io/blog-preview-card-main/"
     }
   ]
 }

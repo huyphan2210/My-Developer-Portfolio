@@ -5,7 +5,7 @@ import SideBarForProjectPage from "./components/SideBarForProjectPage/SideBarFor
 import ProjectCard from "./components/ProjectCard/ProjectCard";
 
 export type ProjectData = (typeof data)[0];
-const projects: ProjectData[] = data.filter((project) => project.submitted);
+const projects: ProjectData[] = data.filter((project) => project.submitted).sort((a, b) => b.difficulty - a.difficulty)
 
 const Projects: FC = () => {
   return (
