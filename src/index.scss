@@ -5,6 +5,7 @@
 
 :root {
   --bg-color: #011627;
+  --button-bg-color: #1c2b3a;
   --active-tab-color: hsl(205, 89%, 20%);
   --card-bg: #011221;
   --text-color-1: #607b96;
@@ -37,6 +38,13 @@ input,
 button,
 textarea {
   font-family: "Fira Code", sans-serif;
+}
+
+button {
+  border-style: solid;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 ::-webkit-scrollbar {
