@@ -6,6 +6,11 @@ import AboutDesktop from "./components/AboutDesktop/AboutDesktop";
 
 import netcompanyImg from "../../assets/img/company/netcompany.png";
 import tpsImg from "../../assets/img/company/tps.png";
+import pulseImg from "../../assets/img/company/projects/pulse.jpg";
+import brobizzImg from "../../assets/img/company/projects/brobizz.jpg";
+import agoraImg from "../../assets/img/company/projects/agora.jpg";
+import vibeImg from "../../assets/img/company/projects/vibe.fyi.png";
+
 import angularIcon from "../../assets/icons/tech-stack/angular.svg";
 import cssIcon from "../../assets/icons/tech-stack/css.svg";
 import htmlIcon from "../../assets/icons/tech-stack/html.svg";
@@ -37,6 +42,20 @@ const companies: CompanyCardProps[] = [
     companySummary:
       "Netcompany is a Danish IT services company founded in 2000. They specialize in developing and maintaining IT solutions for public and private sector clients. With a focus on employee satisfaction and professional development, Netcompany has expanded across Europe and garnered recognition for their work, particularly in the public sector. They offer a range of services including consulting, software development, and system integration, working with technologies such as Microsoft, Oracle, and SAP platforms.",
     startDate: new Date("04-03-2023"),
+    companyProjects: [
+      {
+        name: "PULSE",
+        description: "",
+        infoURL: "",
+        img: pulseImg,
+      },
+      {
+        name: "BroBizz",
+        description: "",
+        infoURL: "",
+        img: brobizzImg,
+      },
+    ],
   },
   {
     companyName: "TPS Software",
@@ -46,6 +65,20 @@ const companies: CompanyCardProps[] = [
       "TPS Software is a software development company based in Vietnam, offering services in custom software development, mobile app development, and IT consulting. They cater to clients worldwide across diverse industries and possess expertise in technologies such as Java, .NET, Python, and others.",
     startDate: new Date("01-13-2022"),
     endDate: new Date("12-12-2022"),
+    companyProjects: [
+      {
+        name: "VIBE",
+        description: "",
+        infoURL: "",
+        img: vibeImg,
+      },
+      {
+        name: "Agora Co-learning",
+        description: "",
+        infoURL: "",
+        img: agoraImg,
+      },
+    ],
   },
 ];
 
@@ -98,7 +131,6 @@ const About: FC = () => {
   useEffect(() => {
     window.addEventListener("resize", () => setWindowSize(window.innerWidth));
 
-    // Cleanup function to remove the event listener
     return () => {
       window.removeEventListener("resize", () =>
         setWindowSize(window.innerWidth)

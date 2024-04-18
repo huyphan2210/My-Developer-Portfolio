@@ -81,7 +81,14 @@ const AboutMobile: FC<AboutMobileProps> = ({
           <div className="about-page--mobile__profession__career__places">
             {companies.map(
               (
-                { companyName, companyImg, companyURLs, startDate, endDate },
+                {
+                  companyName,
+                  companyImg,
+                  companyURLs,
+                  companyProjects,
+                  startDate,
+                  endDate,
+                },
                 index
               ) => (
                 <CompanyCard
@@ -91,6 +98,7 @@ const AboutMobile: FC<AboutMobileProps> = ({
                   companyURLs={companyURLs}
                   startDate={startDate}
                   endDate={endDate}
+                  companyProjects={companyProjects}
                 />
               )
             )}

@@ -63,6 +63,7 @@ const Career: FC<CareerProps> = ({
               startDate,
               endDate,
               companySummary,
+              companyProjects,
             },
             index
           ) => (
@@ -75,6 +76,7 @@ const Career: FC<CareerProps> = ({
               endDate={endDate}
               companySummary={companySummary}
               isFromDesktop
+              companyProjects={companyProjects}
             />
           )
         )}

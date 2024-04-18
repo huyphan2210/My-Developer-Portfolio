@@ -4,61 +4,87 @@
   opacity: 0;
   transition: 2s;
 
-  &__header {
-    margin-bottom: 1rem;
-    h3 {
-      margin-block: 0;
-      color: var(--text-color-2);
-      font-size: 1rem;
+  &__info {
+    &__header {
+      margin-bottom: 1rem;
+      h3 {
+        margin-block: 0;
+        color: var(--text-color-2);
+        font-size: 1rem;
+      }
+
+      &__date {
+        color: var(--text-color-1);
+        font-size: 0.75rem;
+      }
     }
 
-    &__date {
-      color: var(--text-color-1);
-      font-size: 0.75rem;
+    &__body {
+      img {
+        width: 100%;
+        aspect-ratio: 2;
+        border-radius: 2rem;
+      }
+    }
+
+    &__footer {
+      display: none;
     }
   }
 
-  &__body {
-    img {
-      width: 100%;
-      aspect-ratio: 2;
-      border-radius: 2rem;
-    }
-  }
-
-  &__footer {
+  &__projects {
     display: none;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .company-card {
-    max-width: 360px;
     background-color: var(--card-bg);
     padding: 1rem;
     width: calc(50% - 3rem);
     transition: 0.3s;
     align-self: stretch;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, calc(50% - 0.5rem));
 
-    &__header {
-      &__date {
-        margin-top: 0.5rem;
-        font-size: 1rem;
+    &__info {
+      max-width: 360px;
+      &__header {
+        &__date {
+          margin-top: 0.5rem;
+          font-size: 1rem;
+          display: block;
+        }
+      }
+
+      &__footer {
         display: block;
+        line-height: 1.5;
+        margin-bottom: 0;
       }
     }
 
-    &__footer {
-      display: block;
-      line-height: 1.5;
-      margin-bottom: 0;
+    &__projects {
+      display: grid;
+      place-items: center;
+
+      &__instance {
+        &__header{
+          img {
+            width: 50%;
+            border-radius: 2rem;
+          }
+        }
+      }
     }
 
     &:hover {
       cursor: pointer;
       transform: scale(1.01);
-      // outline: var(--purple) solid 0.5rem;
       background-color: white;
     }
+
+
   }
 }
