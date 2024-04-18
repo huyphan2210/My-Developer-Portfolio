@@ -7,7 +7,7 @@ const useElementInView = (elementRef: RefObject<Element>) => {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.5, // Trigger when at least half of the element is visible
+      threshold: 0.4, // Trigger when at least half of the element is visible
     };
 
     const callback = (entries: IntersectionObserverEntry[]) => {

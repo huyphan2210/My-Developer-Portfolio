@@ -84,8 +84,13 @@ const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
       <div className="project-card__header">
         <img src={project.heroImage} loading="lazy" alt={project.title} />
         <div className="project-card__header__techs">
-          {techs.map((tech) => (
-            <img src={tech?.icon} loading="lazy" alt={tech?.name} />
+          {techs.map((tech, index) => (
+            <img
+              key={index}
+              src={tech?.icon}
+              loading="lazy"
+              alt={tech?.name}
+            />
           ))}
         </div>
       </div>

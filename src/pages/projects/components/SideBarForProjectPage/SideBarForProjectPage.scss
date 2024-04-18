@@ -1,0 +1,53 @@
+.side-bar--project__tech {
+  &__header {
+    padding: 1rem;
+    outline: solid 1px var(--stroke-color);
+  }
+
+  &__body {
+    list-style-type: none;
+    padding-inline: 1rem;
+    margin: 0;
+
+    li {
+      margin-bottom: 1rem;
+      input[type="checkbox"] {
+        display: none;
+
+        &:checked + label {
+          color: white;
+
+          &::before {
+            background-color: var(--green);
+          }
+        }
+      }
+
+      label {
+        color: var(--text-color-1);
+        transition: 0.3s;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        &:hover {
+          cursor: pointer;
+          color: white;
+        }
+
+        &::before {
+          transition: 0.3s;
+          content: "";
+          display: inline-block;
+          width: 1rem;
+          aspect-ratio: 1;
+          border: solid 1px var(--stroke-color);
+        }
+
+        img {
+          width: 1rem;
+        }
+      }
+    }
+  }
+}
