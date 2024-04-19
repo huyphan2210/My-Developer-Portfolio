@@ -45,14 +45,14 @@ const companies: CompanyCardProps[] = [
     companyProjects: [
       {
         name: "PULSE",
-        description: "",
-        infoURL: "",
+        description: "Comprehensive, data-driven platform for efficient IT project management",
+        infoURL: "https://netcompany.com/platforms/pulse/",
         img: pulseImg,
       },
       {
         name: "BroBizz",
-        description: "",
-        infoURL: "",
+        description: "An automatic payment device for tolls and parking facilities",
+        infoURL: "https://brobizz.com/",
         img: brobizzImg,
       },
     ],
@@ -68,14 +68,14 @@ const companies: CompanyCardProps[] = [
     companyProjects: [
       {
         name: "VIBE",
-        description: "",
-        infoURL: "",
+        description: "A gamechanger for anyone with a hard-to-reach workforce",
+        infoURL: "https://www.vibe.fyi/",
         img: vibeImg,
       },
       {
         name: "Agora Co-learning",
-        description: "",
-        infoURL: "",
+        description: "An education centre providing Preschool, Student Care and a wide range of enrichment programmes",
+        infoURL: "https://www.agora-colearning.space/",
         img: agoraImg,
       },
     ],

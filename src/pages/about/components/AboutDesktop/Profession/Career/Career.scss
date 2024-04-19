@@ -8,13 +8,21 @@
   }
 
   &__companies {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: start;
     gap: 2rem;
-    flex-grow: 1;
     transition: 1s;
     opacity: 0;
     padding-block: 1rem;
+  }
+}
+
+
+@media screen and (min-width: 1360px) {
+  .about__content__page--career {
+    &__companies {
+      grid-template-columns: repeat(2, calc(50% - 1rem));
+    }
   }
 }

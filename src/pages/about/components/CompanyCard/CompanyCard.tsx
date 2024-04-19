@@ -46,9 +46,8 @@ const CompanyCard: FC<CompanyCardProps> = ({
       className="company-card"
       style={isInView ? { opacity: 1 } : {}}
       ref={companyCardRef}
-      onClick={() => window.open(companyURLs, "_blank")}
     >
-      <div className="company-card__info">
+      <a href={companyURLs} target="_blank" className="company-card__info">
         <hgroup className="company-card__info__header">
           <h3>
             {isInView ? (
@@ -72,10 +71,16 @@ const CompanyCard: FC<CompanyCardProps> = ({
         {companySummary && (
           <p className="company-card__info__footer">{companySummary}</p>
         )}
-      </div>
+      </a>
       <div className="company-card__projects">
+        <span>Projects I worked with while I was here:</span>
         {companyProjects.map((project, index) => (
-          <div key={index} className="company-card__projects__instance">
+          <a
+            href={project.infoURL}
+            target="_blank"
+            key={index}
+            className="company-card__projects__instance"
+          >
             <div className="company-card__projects__instance__header">
               <img src={project.img} alt={project.name} loading="lazy" />
             </div>
@@ -83,12 +88,7 @@ const CompanyCard: FC<CompanyCardProps> = ({
               <h3>{project.name}</h3>
               <p>{project.description}</p>
             </div>
-            <div className="company-card__projects__instance__footer">
-              <a href={project.infoURL} target="_blank">
-                More Info
-              </a>
-            </div>
-          </div>
+          </a>
         ))}
       </div>
     </article>
