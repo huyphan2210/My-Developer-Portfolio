@@ -1,3 +1,61 @@
-.side-bar--contact {
-  
+.side-bar--contact-me {
+  &__contact {
+    summary {
+      padding: 1rem;
+      outline: solid 1px var(--stroke-color);
+    }
+
+    button {
+      display: flex;
+      width: 100%;
+      font-size: 1rem;
+      background-color: transparent;
+      color: var(--text-color-1);
+      border: none;
+      align-items: center;
+      padding-inline: 1rem;
+      margin-bottom: 1rem;
+      transition: .3s;
+
+      &:hover {
+        cursor: pointer;
+        color: white;
+      }
+
+      img {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  &__find-me {
+    summary {
+      padding: 1rem;
+      outline: solid 1px var(--stroke-color);
+    }
+
+    a {
+      display: flex;
+      width: 100%;
+      font-size: 1rem;
+      background-color: transparent;
+      color: var(--text-color-1);
+      border: none;
+      align-items: center;
+      padding-inline: 1rem;
+      margin-bottom: 1rem;
+      transition: .3s;
+      text-decoration: none;
+
+      &:hover {
+        cursor: pointer;
+        color: white;
+      }
+      
+      img {
+        width: 2rem;
+        margin-right: 1rem;
+      }
+    }
+  }
 }
