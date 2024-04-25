@@ -102,6 +102,7 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
           <TypeWriter text="Contact" speed={speed} />
         </summary>
         <button
+          type="button"
           onClick={() => {
             window.location.href = "mailto:" + myEmail;
           }}
@@ -109,7 +110,7 @@ const SideBarForAboutPage: FC<SideBarForAboutPageProps> = ({ aboutStore }) => {
           <img src={emailIcon} loading="lazy" alt="Email Icon" />
           {isContactOpened && <TypeWriter text={myEmail} speed={speed} />}
         </button>
-        <button>
+        <button type="button">
           <img src={phoneIcon} loading="lazy" alt="Email Icon" />
           {isContactOpened && <TypeWriter text={myPhone} speed={speed} />}
         </button>

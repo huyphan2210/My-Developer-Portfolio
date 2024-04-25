@@ -37,6 +37,7 @@ const SideBarForContactPage: FC = () => {
       >
         <summary>Contact</summary>
         <button
+          type="button"
           onClick={() => {
             window.location.href = "mailto:" + myEmail;
           }}
@@ -44,7 +45,7 @@ const SideBarForContactPage: FC = () => {
           <img src={emailIcon} loading="lazy" alt="Email Icon" />
           {isContactOpened && <TypeWriter text={myEmail} speed={speed} />}
         </button>
-        <button>
+        <button type="button">
           <img src={phoneIcon} loading="lazy" alt="Email Icon" />
           {isContactOpened && <TypeWriter text={myPhone} speed={speed} />}
         </button>
