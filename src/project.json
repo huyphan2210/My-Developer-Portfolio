@@ -2112,7 +2112,7 @@
       ],
       "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652197925/Challenges/vhouwacmyw27vhcvq8zm.jpg",
       "ideas": "1. Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)\n1. Use a JS library/framework like [React](https://reactjs.org/) or [Vue](https://vuejs.org/)\n1. Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers",
-      "languages": ["HTML", "CSS", "TS", "C#", ".NET"],
+      "languages": ["HTML", "CSS", "TS", "C#", ".NET", "React"],
       "published": true,
       "sketchURL": "designs/job-listings-with-filtering-sketch.zip",
       "starterURL": "https://github.com/frontendmentorio/static-job-listings/archive/master.zip",
