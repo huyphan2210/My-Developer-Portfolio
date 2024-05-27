@@ -1423,7 +1423,7 @@
           "_id": "615f0eb40f48541b10546932"
         }
       ],
-      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1633619397/Challenges/fhzpdnabrek50hvhftnl.jpg",
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1715958959/Challenges/nnhmflkuam4gr1dnnddf.jpg",
       "ideas": [
         "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
         "Train your eye for detail by getting your solution as close to the design as you can",
@@ -1873,7 +1873,7 @@
           "_id": "6352b0cc773b8f1329608fcb"
         }
       ],
-      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1666363466/Challenges/abbzt6kmkawmpbj7evxx.jpg",
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1716303125/Challenges/kq2vdzxiqeb3lxcd5vdl.jpg",
       "ideas": [
         "Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)",
         "Train your eye for detail by getting your solution as close to the design as you can",
@@ -2082,6 +2082,46 @@
       "type": "free-plus",
       "repository": "https://github.com/huyphan2210/blog-preview-card-main",
       "liveURL": "https://huyphan2210.github.io/blog-preview-card-main/"
+    },
+    {
+      "id": "5e7156636b8d6e3bf1acda04",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible. \n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go. \n\nWe provide the data in a local `data.json` file, so you can use that to populate the content on the first load if you like.\n\nYour users should be able to: \n\n- Filter job listings based on the categories selected\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n\nDownload the starter code and go through the `README.md` file. This will provide further details about the project. The `style-guide.md` file is where you'll find colors, fonts, etc. \n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2020-03-17T22:59:48.133Z",
+      "description": "In this challenge, you'll be using JavaScript to filter out jobs based on selected categories. We provide a local JSON file to help you practice working with JSON data.",
+      "difficulty": 3,
+      "figmaURL": "designs/job-listings-with-filtering-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652197924/Challenges/thcmrk07xdvnzf8qtay3.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1653574062/Challenges/qlsbtzneygd4bumwadam.jpg",
+          "_id": "5e71580f6b8d6e3bf1acda0c"
+        },
+        {
+          "title": "Active States",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652197962/Challenges/bqezgxngix66p2q0merz.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1653574062/Challenges/ewpgjktgzsoeprh5opko.jpg",
+          "_id": "5e71580f6b8d6e3bf1acda0b"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652197962/Challenges/aoqw09gwvpowuwgsbd72.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652197963/Challenges/cirrypqga0qaysv3ljgm.jpg",
+          "_id": "5e71580f6b8d6e3bf1acda0a"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1652197925/Challenges/vhouwacmyw27vhcvq8zm.jpg",
+      "ideas": "1. Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)\n1. Use a JS library/framework like [React](https://reactjs.org/) or [Vue](https://vuejs.org/)\n1. Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers",
+      "languages": ["HTML", "CSS", "TS", "C#", ".NET"],
+      "published": true,
+      "sketchURL": "designs/job-listings-with-filtering-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/static-job-listings/archive/master.zip",
+      "slug": "job-listings-with-filtering-ivstIPCt",
+      "screenshotHeight": null,
+      "title": "Job listings with filtering",
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/JobsListingReact",
+      "liveURL": "https://jobs-listing-huy-phan.netlify.app/"
     }
   ]
 }

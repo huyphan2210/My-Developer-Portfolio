@@ -13,8 +13,8 @@ import svelteIcon from "../../../../assets/icons/tech-stack/svelte.svg";
 import typescriptIcon from "../../../../assets/icons/tech-stack/typescript.svg";
 import { observer } from "mobx-react";
 import ProjectStore from "../../../../store/ProjectStore";
-// import dotnetIcon from "../../../../assets/icons/tech-stack/dotnet-core.svg";
-// import csharpIcon from "../../../../assets/icons/tech-stack/csharp.svg";
+import dotnetIcon from "../../../../assets/icons/tech-stack/dotnet-core.svg";
+import csharpIcon from "../../../../assets/icons/tech-stack/csharp.svg";
 
 const techStack: TechStack[] = [
   {
@@ -41,18 +41,18 @@ const techStack: TechStack[] = [
     name: "Svelte",
     icon: svelteIcon,
   },
-  // {
-  //   name: "C#",
-  //   icon: csharpIcon,
-  // },
+  {
+    name: "C#",
+    icon: csharpIcon,
+  },
   // {
   //   name: "Node.js",
   //   icon: nodeIcon,
   // },
-  // {
-  //   name: ".NET",
-  //   icon: dotnetIcon,
-  // },
+  {
+    name: ".NET",
+    icon: dotnetIcon,
+  },
 ];
 
 interface SideBarForProjectPageProps {
