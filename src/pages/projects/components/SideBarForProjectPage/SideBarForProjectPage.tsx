@@ -26,6 +26,10 @@ const techStack: TechStack[] = [
     icon: typescriptIcon,
   },
   {
+    name: "C#",
+    icon: csharpIcon,
+  },
+  {
     name: "React",
     icon: reactIcon,
   },
@@ -40,10 +44,6 @@ const techStack: TechStack[] = [
   {
     name: "Svelte",
     icon: svelteIcon,
-  },
-  {
-    name: "C#",
-    icon: csharpIcon,
   },
   // {
   //   name: "Node.js",
@@ -70,7 +70,7 @@ const SideBarForProjectPage: FC<SideBarForProjectPageProps> = ({
     } else {
       projectStore.removeTech(e.currentTarget.name);
     }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
