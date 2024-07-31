@@ -2154,8 +2154,42 @@
       "screenshotHeight": 1024,
       "title": "REST Countries API with color theme switcher",
       "type": "free",
-       "repository": "https://github.com/huyphan2210/Countries",
+      "repository": "https://github.com/huyphan2210/Countries",
       "liveURL": "https://countries-huy-phan.netlify.app/"
+    },
+    {
+      "id": "638a0e6fca0a1d0f452a515e",
+      "brief": "Your challenge is to build out this multi-step form and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to:\n\n- Complete each step of the sequence\n- Go back to a previous step to update their selections\n- See a summary of their selections on the final step and confirm their order\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n- Receive form validation messages if:\n    - A field has been missed\n    - The email address is not formatted correctly\n    - A step is submitted, but no selection has been made\n\nDownload the project and go through the `README.md` file. This will provide further details about the project and help you get set up.\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2022-12-02T14:40:47.505Z",
+      "description": "An excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion.",
+      "difficulty": 4,
+      "figmaURL": "designs/multi-step-form-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1676299213/Challenges/vxqbpnpbamodg5ioplbj.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1676299213/Challenges/tn6hip0khjvu4qrhww7r.jpg",
+          "_id": "638a0eeeca0a1d0f452a58ed"
+        },
+        {
+          "title": "Mobile design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1669992174/Challenges/zhdfkyvsbd8229esxnvt.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1669992579/Challenges/psfsl7oeiqd67y2a6ezb.jpg",
+          "_id": "638a0eeeca0a1d0f452a58ee"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1676299214/Challenges/lpwvfibpdyycvjpukkec.jpg",
+      "ideas": "1. Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)\n1. Train your eye for detail by getting your solution as close to the design as you can\n1. Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers",
+      "languages": ["HTML", "CSS", "TS", "C#", ".NET", "Angular"],
+      "published": true,
+      "sketchURL": "designs/multi-step-form-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/multi-step-form/archive/refs/heads/main.zip",
+      "slug": "multistep-form-YVAnSdqQBJ",
+      "screenshotHeight": 810,
+      "title": "Multi-step form",
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/multi-step_form",
+      "liveURL": "https://multi-step-form-huyphan.netlify.app/"
     }
   ]
 }
