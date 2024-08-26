@@ -2190,6 +2190,40 @@
       "type": "free",
       "repository": "https://github.com/huyphan2210/multi-step_form",
       "liveURL": "https://multi-step-form-huyphan.netlify.app/"
+    },
+    {
+      "id": "5d0b588a9edda32581d29158",
+      "brief": "Your challenge is to build out this landing page and get it looking as close to the design as possible.\n\nYou can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.\n\nYour users should be able to: \n\n- View the optimal layout for the interface depending on their device's screen size\n- See hover and focus states for all interactive elements on the page\n- Receive an error message when the newsletter form is submitted if:\n  - The input field is empty\n  - The email address is not formatted correctly\n\nWant some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the help channel.",
+      "createdAt": "2019-06-20T09:57:30.699Z",
+      "description": "This challenge will really test your layout skills. There are also areas that will require some JavaScript, such as the tabbed features section and the FAQ accordion.",
+      "difficulty": 3,
+      "figmaURL": "designs/bookmark-landing-page-figma.zip",
+      "gallery": [
+        {
+          "title": "Desktop Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1561033463/Challenges/nmfs59ofpjizo6knhpsr.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1561033463/Challenges/czn2dxiirs6ld3lqegmr.jpg",
+          "_id": "5d0b7af69edda32581d2915c"
+        },
+        {
+          "title": "Mobile Design",
+          "preview": "https://res.cloudinary.com/dz209s6jk/image/upload/v1561033463/Challenges/b20voircjdbx6gg1cp06.jpg",
+          "design": "https://res.cloudinary.com/dz209s6jk/image/upload/v1561033463/Challenges/l71agdpp0jqzpudce3f4.jpg",
+          "_id": "5d0b7af69edda32581d2915b"
+        }
+      ],
+      "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/v1561024650/Challenges/hwi1ergmy7tibqa5bvyf.jpg",
+      "ideas": "1. Write your styles using a pre-processor, such as [Sass](https://sass-lang.com), [Less](http://lesscss.org) or [Stylus](http://stylus-lang.com)\n1. Train your eye for detail by getting your solution as close to the design as you can\n1. Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers",
+      "languages": ["HTML", "CSS", "C#", ".NET"],
+      "published": true,
+      "sketchURL": "designs/bookmark-landing-page-sketch.zip",
+      "starterURL": "https://github.com/frontendmentorio/bookmark-landing-page/archive/master.zip",
+      "slug": "bookmark-landing-page-5d0b588a9edda32581d29158",
+      "screenshotHeight": null,
+      "title": "Bookmark landing page",
+      "type": "free",
+      "repository": "https://github.com/huyphan2210/bookmark-landing-page-razor",
+      "liveURL": "https://bookmark-landing-page-12a8279187bd.herokuapp.com/"
     }
   ]
 }
